@@ -62,6 +62,11 @@ namespace Button
         {
             new EnemyTurret(aCoordinate);
         }
+
+        static public EnemyTurret MakeNew()
+        {
+            return new EnemyTurret();
+        }
         #endregion
 
         #region Methods
