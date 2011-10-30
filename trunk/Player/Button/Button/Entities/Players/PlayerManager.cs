@@ -60,22 +60,22 @@ namespace Button
             }
         }
 
-        public void Add(Player aEntity)
+        public override void Add(AbstractEntity aEntity)
         {
-            List.Add(aEntity);
+            List.Add(aEntity as Player);
         }
 
-        public void Remove(Player aEntity)
+        public override void Remove(AbstractEntity aEntity)
         {
-            List.Remove(aEntity);
+            List.Remove(aEntity as Player);
         }
 
-        public void Clear()
+        public override void Clear()
         {
             List.Clear();
         }
 
-        public string Statistic()
+        public override string Statistic()
         {
             int temporaryStatistic = mList.Count;
 

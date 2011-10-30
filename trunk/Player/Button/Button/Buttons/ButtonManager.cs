@@ -21,6 +21,7 @@ namespace Button
         protected InputManager theInputManager = InputManager.Get();
         protected UtilityManager theUtilityManager = UtilityManager.Get();
         protected TileManager theTileManager = TileManager.Get();
+        protected EnemyManager theEnemyManager = EnemyManager.Get();
         protected ButtonManager theButtonManager = ButtonManager.Get();
         protected PlayerManager thePlayerManager = PlayerManager.Get();
         protected ScreenManager theScreenManager = ScreenManager.Get();
@@ -35,8 +36,8 @@ namespace Button
         }
 
 
-        private List<Button> mList = new List<Button>();
-        public List<Button> List
+        private List<GenericButton> mList = new List<GenericButton>();
+        public List<GenericButton> List
         {
             get { return mList; }
         }
@@ -78,14 +79,14 @@ namespace Button
             }
         }
 
-        public void Add(Button aEntity)
+        public void Add(GenericButton aButton)
         {
-            List.Add(aEntity);
+            List.Add(aButton);
         }
 
-        public void Remove(Button aEntity)
+        public void Remove(GenericButton aButton)
         {
-            List.Remove(aEntity);
+            List.Remove(aButton);
         }
 
         public void Clear()

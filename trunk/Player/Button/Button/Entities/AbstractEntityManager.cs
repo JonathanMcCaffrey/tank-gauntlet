@@ -43,7 +43,6 @@ namespace Button
         public virtual void Clear() { }
         public virtual void Generate(Vector2 aCoordinate) { }
         public virtual string Statistic() { return "Hi"; }
-
         #endregion
     }
 }

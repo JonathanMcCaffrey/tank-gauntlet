@@ -28,8 +28,8 @@ namespace Button
         #endregion
 
         #region Data
-        private List<AbstractEntity> mList = new List<AbstractEntity>();
-        public List<AbstractEntity> List
+        private List<Tile> mList = new List<Tile>();
+        public List<Tile> List
         {
             get { return mList; }
         }
@@ -121,12 +121,12 @@ namespace Button
 
         public override void Add(AbstractEntity aEntity)
         {
-            List.Add(aEntity);
+            List.Add(aEntity as Tile);
         }
 
         public override void Remove(AbstractEntity aEntity)
         {
-            List.Remove(aEntity);
+            List.Remove(aEntity as Tile);
         }
 
         public override void Clear()
