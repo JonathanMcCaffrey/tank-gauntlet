@@ -7,7 +7,6 @@ using Microsoft.Xna.Framework.Graphics;
 
 namespace Button
 {
-    /** The abstraction for all screen menus. */
     public class WorldScreen : AbstractGameScreen
     {
         #region Data

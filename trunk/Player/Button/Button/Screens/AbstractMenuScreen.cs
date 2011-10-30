@@ -8,7 +8,6 @@ using Microsoft.Xna.Framework.Input;
 
 namespace Button
 {
-    /** The abstraction for all screen menus. */
     public abstract class AbstractMenuScreen : AbstractGameScreen
     {
         #region Data

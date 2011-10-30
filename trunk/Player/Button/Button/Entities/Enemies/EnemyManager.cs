@@ -14,7 +14,6 @@ using System.Xml;
 
 namespace Button
 {
-    /** Singleton that handles all game files. */ // Most of these are innacurate.
     public class EnemyManager : AbstractEntityManager
     {
         #region Singletons

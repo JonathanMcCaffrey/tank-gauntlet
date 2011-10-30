@@ -11,7 +11,6 @@ using Microsoft.Xna.Framework.Media;
 
 namespace Button
 {
-    /** Singleton that handles all game states.*/
     public class ScreenManager : Microsoft.Xna.Framework.DrawableGameComponent
     {
         #region Data

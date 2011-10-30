@@ -122,6 +122,7 @@
     <Compile Include="AI\Hostile\HostileStateMachine.cs" />
     <Compile Include="Buttons\Content\EnemyButton.cs" />
     <Compile Include="Buttons\Content\TileButton.cs" />
+    <Compile Include="Buttons\GenericButton.cs" />
     <Compile Include="Camera\Camera.cs" />
     <Compile Include="Camera\CameraManager.cs" />
     <Compile Include="Collision\CollisionMachine.cs" />
@@ -133,8 +134,6 @@
     <Compile Include="Entities\Enemies\Enemy.cs" />
     <Compile Include="Entities\Enemies\EnemyManager.cs" />
     <Compile Include="Entities\Enemies\Content\EnemyTurret.cs" />
-    <Compile Include="Entities\Objects\Object.cs" />
-    <Compile Include="Entities\Objects\ObjectManager.cs" />
     <Compile Include="LoadMap.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -159,7 +158,6 @@
     </Compile>
     <Compile Include="Screens\AbstractGameScreen.cs" />
     <Compile Include="Screens\AbstractMenuScreen.cs" />
-    <Compile Include="Buttons\GenericButton.cs" />
     <Compile Include="Buttons\ButtonManager.cs" />
     <Compile Include="Screens\Content\LevelSelect.cs" />
     <Compile Include="Screens\Content\MainMenu.cs" />
@@ -214,6 +212,7 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Entities\Objects\" />
     <Folder Include="Entities\Players\Content\" />
     <Folder Include="Entities\Tiles\Content\" />
   </ItemGroup>

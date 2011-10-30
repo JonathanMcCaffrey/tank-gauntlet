@@ -5,7 +5,6 @@ using Microsoft.Xna.Framework.Input;
 
 namespace Button
 {
-    /** Singleton that handles all game inputs. */
     public class InputManager : Microsoft.Xna.Framework.GameComponent
     {
         #region Fields
@@ -101,7 +100,7 @@ namespace Button
         {
             return mCurrentKeyboardState.IsKeyUp(aKey);
         }
-
+        
         public bool SingleButtonPressInput(Buttons aButton)
         {
             return mCurrentGamePadState.IsButtonDown(aButton) && mLastGamePadState.IsButtonUp(aButton);

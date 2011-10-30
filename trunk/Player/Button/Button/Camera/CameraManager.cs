@@ -5,7 +5,6 @@ using Microsoft.Xna.Framework;
 
 namespace Button
 {
-    /** Singleton that handles all game cameras. */
     public class CameraManager : Microsoft.Xna.Framework.DrawableGameComponent
     {
         #region Data

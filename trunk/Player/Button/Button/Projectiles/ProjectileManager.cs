@@ -9,7 +9,6 @@ using Microsoft.Xna.Framework.Content;
 
 namespace Button
 {
-    /** Singleton that handles all game files. */
     public class ProjectileManager : DrawableGameComponent
     {
         #region Singletons

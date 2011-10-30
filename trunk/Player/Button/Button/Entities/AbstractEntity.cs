@@ -16,7 +16,7 @@ namespace Button
         protected TileManager theTileManager = TileManager.Get();
         protected ButtonManager theButtonManager = ButtonManager.Get();
         protected PlayerManager thePlayerManager = PlayerManager.Get();
-        protected ObjectManager theObjectManager = ObjectManager.Get();
+     //   protected ObjectManager theObjectManager = ObjectManager.Get();
         protected ScreenManager theScreenManager = ScreenManager.Get();
         protected EnemyManager theEnemyManager = EnemyManager.Get();
         #endregion

@@ -7,7 +7,6 @@ using Microsoft.Xna.Framework.Graphics;
 
 namespace Button
 {
-    /** The abstraction for all game screens. */
     public abstract class AbstractGameScreen
     {
         #region Singletons

@@ -13,7 +13,6 @@ using System.Xml;
 
 namespace Button
 {
-    /** Singleton that handles all game files. */
     public class PlayerManager : AbstractEntityManager
     {
         #region Data

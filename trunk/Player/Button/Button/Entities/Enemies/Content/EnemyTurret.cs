@@ -35,8 +35,6 @@ namespace Button
         #endregion
 
         #region Construction
-        /* This is only public for serialization. Do Not Use This Constructor. Only use the Create Button method. */
-        /* A instance of button Should Never Exist outside of the button manager. */
         public EnemyTurret()
         {
         }

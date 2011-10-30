@@ -7,8 +7,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\mcca0442\Desktop\Tank\trunk\Player\Button\Button\bin\x86\Debug\Content\Border.xnb</Output>
-      <Time>2011-10-30T13:53:58.7745322-04:00</Time>
+      <Output>C:\Users\mcca0442\Desktop\asdfas\trunk\Player\Button\Button\bin\x86\Debug\Content\Border.xnb</Output>
+      <Time>2011-10-30T16:08:22.631253-04:00</Time>
     </Item>
     <Item>
       <Source>Background.png</Source>
@@ -16,8 +16,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\mcca0442\Desktop\Tank\trunk\Player\Button\Button\bin\x86\Debug\Content\Background.xnb</Output>
-      <Time>2011-10-30T13:53:58.7825322-04:00</Time>
+      <Output>C:\Users\mcca0442\Desktop\asdfas\trunk\Player\Button\Button\bin\x86\Debug\Content\Background.xnb</Output>
+      <Time>2011-10-30T16:08:22.639253-04:00</Time>
     </Item>
     <Item>
       <Source>Bullet.png</Source>
@@ -25,8 +25,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\mcca0442\Desktop\Tank\trunk\Player\Button\Button\bin\x86\Debug\Content\Bullet.xnb</Output>
-      <Time>2011-10-30T13:53:58.8905322-04:00</Time>
+      <Output>C:\Users\mcca0442\Desktop\asdfas\trunk\Player\Button\Button\bin\x86\Debug\Content\Bullet.xnb</Output>
+      <Time>2011-10-30T16:08:22.684253-04:00</Time>
     </Item>
     <Item>
       <Source>Tank_Base.png</Source>
@@ -34,8 +34,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\mcca0442\Desktop\Tank\trunk\Player\Button\Button\bin\x86\Debug\Content\Tank_Base.xnb</Output>
-      <Time>2011-10-30T13:53:58.8095322-04:00</Time>
+      <Output>C:\Users\mcca0442\Desktop\asdfas\trunk\Player\Button\Button\bin\x86\Debug\Content\Tank_Base.xnb</Output>
+      <Time>2011-10-30T16:08:22.670253-04:00</Time>
     </Item>
     <Item>
       <Source>Tank_Gun.png</Source>
@@ -43,8 +43,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\mcca0442\Desktop\Tank\trunk\Player\Button\Button\bin\x86\Debug\Content\Tank_Gun.xnb</Output>
-      <Time>2011-10-30T13:53:58.7565322-04:00</Time>
+      <Output>C:\Users\mcca0442\Desktop\asdfas\trunk\Player\Button\Button\bin\x86\Debug\Content\Tank_Gun.xnb</Output>
+      <Time>2011-10-30T16:08:22.612253-04:00</Time>
     </Item>
     <Item>
       <Source>Metal.png</Source>
@@ -52,8 +52,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\mcca0442\Desktop\Tank\trunk\Player\Button\Button\bin\x86\Debug\Content\Metal.xnb</Output>
-      <Time>2011-10-30T13:53:58.7415322-04:00</Time>
+      <Output>C:\Users\mcca0442\Desktop\asdfas\trunk\Player\Button\Button\bin\x86\Debug\Content\Metal.xnb</Output>
+      <Time>2011-10-30T16:08:22.597253-04:00</Time>
     </Item>
     <Item>
       <Source>MetalFloor.png</Source>
@@ -61,8 +61,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\mcca0442\Desktop\Tank\trunk\Player\Button\Button\bin\x86\Debug\Content\MetalFloor.xnb</Output>
-      <Time>2011-10-30T13:53:58.7525322-04:00</Time>
+      <Output>C:\Users\mcca0442\Desktop\asdfas\trunk\Player\Button\Button\bin\x86\Debug\Content\MetalFloor.xnb</Output>
+      <Time>2011-10-30T16:08:22.608253-04:00</Time>
     </Item>
     <Item>
       <Source>MetalWall.png</Source>
@@ -70,8 +70,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\mcca0442\Desktop\Tank\trunk\Player\Button\Button\bin\x86\Debug\Content\MetalWall.xnb</Output>
-      <Time>2011-10-30T13:53:58.7975322-04:00</Time>
+      <Output>C:\Users\mcca0442\Desktop\asdfas\trunk\Player\Button\Button\bin\x86\Debug\Content\MetalWall.xnb</Output>
+      <Time>2011-10-30T16:08:22.647253-04:00</Time>
     </Item>
     <Item>
       <Source>Wooden.png</Source>
@@ -79,8 +79,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\mcca0442\Desktop\Tank\trunk\Player\Button\Button\bin\x86\Debug\Content\Wooden.xnb</Output>
-      <Time>2011-10-30T13:53:58.9065322-04:00</Time>
+      <Output>C:\Users\mcca0442\Desktop\asdfas\trunk\Player\Button\Button\bin\x86\Debug\Content\Wooden.xnb</Output>
+      <Time>2011-10-30T16:08:22.695253-04:00</Time>
     </Item>
     <Item>
       <Source>WoodenFloor.png</Source>
@@ -88,8 +88,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\mcca0442\Desktop\Tank\trunk\Player\Button\Button\bin\x86\Debug\Content\WoodenFloor.xnb</Output>
-      <Time>2011-10-30T13:53:58.7225322-04:00</Time>
+      <Output>C:\Users\mcca0442\Desktop\asdfas\trunk\Player\Button\Button\bin\x86\Debug\Content\WoodenFloor.xnb</Output>
+      <Time>2011-10-30T16:08:22.581253-04:00</Time>
     </Item>
     <Item>
       <Source>WoodenWall.png</Source>
@@ -97,8 +97,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\mcca0442\Desktop\Tank\trunk\Player\Button\Button\bin\x86\Debug\Content\WoodenWall.xnb</Output>
-      <Time>2011-10-30T13:53:58.7705322-04:00</Time>
+      <Output>C:\Users\mcca0442\Desktop\asdfas\trunk\Player\Button\Button\bin\x86\Debug\Content\WoodenWall.xnb</Output>
+      <Time>2011-10-30T16:08:22.627253-04:00</Time>
     </Item>
     <Item>
       <Source>X.png</Source>
@@ -106,8 +106,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\mcca0442\Desktop\Tank\trunk\Player\Button\Button\bin\x86\Debug\Content\X.xnb</Output>
-      <Time>2011-10-30T13:53:58.7595322-04:00</Time>
+      <Output>C:\Users\mcca0442\Desktop\asdfas\trunk\Player\Button\Button\bin\x86\Debug\Content\X.xnb</Output>
+      <Time>2011-10-30T16:08:22.616253-04:00</Time>
     </Item>
     <Item>
       <Source>Y.png</Source>
@@ -115,8 +115,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\mcca0442\Desktop\Tank\trunk\Player\Button\Button\bin\x86\Debug\Content\Y.xnb</Output>
-      <Time>2011-10-30T13:53:58.7635322-04:00</Time>
+      <Output>C:\Users\mcca0442\Desktop\asdfas\trunk\Player\Button\Button\bin\x86\Debug\Content\Y.xnb</Output>
+      <Time>2011-10-30T16:08:22.620253-04:00</Time>
     </Item>
     <Item>
       <Source>IconOne.png</Source>
@@ -124,8 +124,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\mcca0442\Desktop\Tank\trunk\Player\Button\Button\bin\x86\Debug\Content\IconOne.xnb</Output>
-      <Time>2011-10-30T13:53:58.9015322-04:00</Time>
+      <Output>C:\Users\mcca0442\Desktop\asdfas\trunk\Player\Button\Button\bin\x86\Debug\Content\IconOne.xnb</Output>
+      <Time>2011-10-30T16:08:22.691253-04:00</Time>
     </Item>
     <Item>
       <Source>GameBackground.png</Source>
@@ -133,8 +133,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\mcca0442\Desktop\Tank\trunk\Player\Button\Button\bin\x86\Debug\Content\GameBackground.xnb</Output>
-      <Time>2011-10-30T13:53:58.7675322-04:00</Time>
+      <Output>C:\Users\mcca0442\Desktop\asdfas\trunk\Player\Button\Button\bin\x86\Debug\Content\GameBackground.xnb</Output>
+      <Time>2011-10-30T16:08:22.624253-04:00</Time>
     </Item>
     <Item>
       <Source>StartGame.png</Source>
@@ -142,8 +142,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\mcca0442\Desktop\Tank\trunk\Player\Button\Button\bin\x86\Debug\Content\StartGame.xnb</Output>
-      <Time>2011-10-30T13:53:58.8795322-04:00</Time>
+      <Output>C:\Users\mcca0442\Desktop\asdfas\trunk\Player\Button\Button\bin\x86\Debug\Content\StartGame.xnb</Output>
+      <Time>2011-10-30T16:08:22.678253-04:00</Time>
     </Item>
     <Item>
       <Source>TitleImage.png</Source>
@@ -151,8 +151,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\mcca0442\Desktop\Tank\trunk\Player\Button\Button\bin\x86\Debug\Content\TitleImage.xnb</Output>
-      <Time>2011-10-30T13:53:58.8015322-04:00</Time>
+      <Output>C:\Users\mcca0442\Desktop\asdfas\trunk\Player\Button\Button\bin\x86\Debug\Content\TitleImage.xnb</Output>
+      <Time>2011-10-30T16:08:22.662253-04:00</Time>
     </Item>
     <Item>
       <Source>Website.png</Source>
@@ -160,8 +160,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\mcca0442\Desktop\Tank\trunk\Player\Button\Button\bin\x86\Debug\Content\Website.xnb</Output>
-      <Time>2011-10-30T13:53:58.7375322-04:00</Time>
+      <Output>C:\Users\mcca0442\Desktop\asdfas\trunk\Player\Button\Button\bin\x86\Debug\Content\Website.xnb</Output>
+      <Time>2011-10-30T16:08:22.593253-04:00</Time>
     </Item>
     <Item>
       <Source>UI_LevelSelect.png</Source>
@@ -169,8 +169,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\mcca0442\Desktop\Tank\trunk\Player\Button\Button\bin\x86\Debug\Content\UI_LevelSelect.xnb</Output>
-      <Time>2011-10-30T13:53:58.7485322-04:00</Time>
+      <Output>C:\Users\mcca0442\Desktop\asdfas\trunk\Player\Button\Button\bin\x86\Debug\Content\UI_LevelSelect.xnb</Output>
+      <Time>2011-10-30T16:08:22.605253-04:00</Time>
     </Item>
     <Item>
       <Source>UI_StartGame.png</Source>
@@ -178,8 +178,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\mcca0442\Desktop\Tank\trunk\Player\Button\Button\bin\x86\Debug\Content\UI_StartGame.xnb</Output>
-      <Time>2011-10-30T13:53:58.8055322-04:00</Time>
+      <Output>C:\Users\mcca0442\Desktop\asdfas\trunk\Player\Button\Button\bin\x86\Debug\Content\UI_StartGame.xnb</Output>
+      <Time>2011-10-30T16:08:22.666253-04:00</Time>
     </Item>
     <Item>
       <Source>UI_Title.png</Source>
@@ -187,8 +187,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\mcca0442\Desktop\Tank\trunk\Player\Button\Button\bin\x86\Debug\Content\UI_Title.xnb</Output>
-      <Time>2011-10-30T13:53:58.7785322-04:00</Time>
+      <Output>C:\Users\mcca0442\Desktop\asdfas\trunk\Player\Button\Button\bin\x86\Debug\Content\UI_Title.xnb</Output>
+      <Time>2011-10-30T16:08:22.635253-04:00</Time>
     </Item>
     <Item>
       <Source>Tank.png</Source>
@@ -196,8 +196,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\mcca0442\Desktop\Tank\trunk\Player\Button\Button\bin\x86\Debug\Content\Tank.xnb</Output>
-      <Time>2011-10-30T13:53:58.7255322-04:00</Time>
+      <Output>C:\Users\mcca0442\Desktop\asdfas\trunk\Player\Button\Button\bin\x86\Debug\Content\Tank.xnb</Output>
+      <Time>2011-10-30T16:08:22.585253-04:00</Time>
     </Item>
     <Item>
       <Source>Turret_Base.png</Source>
@@ -205,8 +205,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\mcca0442\Desktop\Tank\trunk\Player\Button\Button\bin\x86\Debug\Content\Turret_Base.xnb</Output>
-      <Time>2011-10-30T13:53:58.7855322-04:00</Time>
+      <Output>C:\Users\mcca0442\Desktop\asdfas\trunk\Player\Button\Button\bin\x86\Debug\Content\Turret_Base.xnb</Output>
+      <Time>2011-10-30T16:08:22.643253-04:00</Time>
     </Item>
     <Item>
       <Source>Turret_Gun.png</Source>
@@ -214,8 +214,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\mcca0442\Desktop\Tank\trunk\Player\Button\Button\bin\x86\Debug\Content\Turret_Gun.xnb</Output>
-      <Time>2011-10-30T13:53:58.7295322-04:00</Time>
+      <Output>C:\Users\mcca0442\Desktop\asdfas\trunk\Player\Button\Button\bin\x86\Debug\Content\Turret_Gun.xnb</Output>
+      <Time>2011-10-30T16:08:22.589253-04:00</Time>
     </Item>
     <Item>
       <Source>Title.spritefont</Source>
@@ -223,8 +223,8 @@
       <Importer>FontDescriptionImporter</Importer>
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\mcca0442\Desktop\Tank\trunk\Player\Button\Button\bin\x86\Debug\Content\Title.xnb</Output>
-      <Time>2011-10-30T13:53:58.8955322-04:00</Time>
+      <Output>C:\Users\mcca0442\Desktop\asdfas\trunk\Player\Button\Button\bin\x86\Debug\Content\Title.xnb</Output>
+      <Time>2011-10-30T16:08:22.687253-04:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
@@ -232,10 +232,10 @@
       <TargetProfile>HiDef</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>C:\Users\mcca0442\Desktop\Tank\trunk\Player\Button\ButtonContent\</RootDirectory>
-      <LoggerRootDirectory>C:\Users\mcca0442\Desktop\Tank\trunk\Player\Button\Button\</LoggerRootDirectory>
-      <IntermediateDirectory>C:\Users\mcca0442\Desktop\Tank\trunk\Player\Button\ButtonContent\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>C:\Users\mcca0442\Desktop\Tank\trunk\Player\Button\Button\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>C:\Users\mcca0442\Desktop\asdfas\trunk\Player\Button\ButtonContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\mcca0442\Desktop\asdfas\trunk\Player\Button\Button\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\mcca0442\Desktop\asdfas\trunk\Player\Button\ButtonContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\mcca0442\Desktop\asdfas\trunk\Player\Button\Button\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>

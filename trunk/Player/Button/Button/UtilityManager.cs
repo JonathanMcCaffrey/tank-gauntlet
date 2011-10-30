@@ -6,7 +6,6 @@ namespace Button
     public class UtilityManager : Microsoft.Xna.Framework.GameComponent
     {
         #region Construction
-        /** Singleton that handles all game utilites. */
         private UtilityManager(Game aGame) : base(aGame) { }
         static UtilityManager Instance;
         static public UtilityManager Get(Game aGame)
@@ -116,19 +115,19 @@ namespace Button
             return temporaryVector;
         }
 
-        /*       public Vector3 GetFinalTranslation(Vector3 aTranslation, Vector3 aLoop, Vector3 aTile, Vector3 aDimension, bool ismCentered)
-               {
-                   Vector3 temporaryVector = Vector3.Zero;
+        public Vector3 GetFinalTranslation(Vector3 aTranslation, Vector3 aLoop, Vector3 aTile, Vector3 aDimension, bool ismCentered)
+        {
+            Vector3 temporaryVector = Vector3.Zero;
 
-                   temporaryVector = new Vector3(aTranslation.X + aLoop.X * aDimension.X, aTranslation.Y + aLoop.Y * aDimension.Y, aTranslation.Z + aLoop.Z * aDimension.Z);
+            temporaryVector = new Vector3(aTranslation.X + aLoop.X * aDimension.X, aTranslation.Y + aLoop.Y * aDimension.Y, aTranslation.Z + aLoop.Z * aDimension.Z);
 
-                   if (ismCentered)
-                   {
-                       temporaryVector = new Vector3((temporaryVector.X - (aTile.X * aDimension.X) / 2), 0, (temporaryVector.Z - (aTile.Z * aDimension.Z) / 2));
-                   }
+            if (ismCentered)
+            {
+                temporaryVector = new Vector3((temporaryVector.X - (aTile.X * aDimension.X) / 2), 0, (temporaryVector.Z - (aTile.Z * aDimension.Z) / 2));
+            }
 
-                   return temporaryVector;
-               }*/
+            return temporaryVector;
+        }
 
         public Vector3 GetTranslation(Vector3 aTranslation, Vector3 aTile, Vector3 aDimension, bool ismCentered)
         {
