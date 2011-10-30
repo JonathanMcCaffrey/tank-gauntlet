@@ -16,14 +16,6 @@ namespace Button
     /** Singleton that handles all game files. */
     public class AbstractEntityManager : DrawableGameComponent
     {
-        #region Data
-        protected List<AbstractEntity> mList = new List<AbstractEntity>();
-        public virtual List<AbstractEntity> List
-        {
-            get { return mList; }
-        }
-        #endregion
-
         #region Construction
         protected AbstractEntityManager(Game aGame)
             : base(aGame) { }
@@ -44,43 +36,13 @@ namespace Button
         #endregion
 
         #region Methods
-        public override void Update(GameTime aGameTime)
-        {
-            for (int i = 0; i < mList.Count; i++)
-            {
-                List[i].Update();
-            }
-        }
-
-        public override void Draw(GameTime aGameTime)
-        {
-            for (int loop = 0; loop < List.Count; loop++)
-            {
-                List[loop].Draw();
-            }
-        }
-
-        public void Add(AbstractEntity aEntity)
-        {
-            List.Add(aEntity);
-        }
-
-        public void Remove(AbstractEntity aEntity)
-        {
-            List.Remove(aEntity);
-        }
-
-        public void Clear()
-        {
-            List.Clear();
-        }
-
-        public string Statistic()
-        {
-            int temporaryStatistic = mList.Count;
-
-            return "Total: " + temporaryStatistic.ToString();
-        }
+        public override void Update(GameTime aGameTime) { }
+        public override void Draw(GameTime aGameTime) { }
+        public virtual void Add(AbstractEntity aEntity) { }
+        public virtual void Remove(AbstractEntity aEntity) { }
+        public virtual void Clear() { }
+        public virtual void Generate(Vector2 aCoordinate) { }
+        public virtual string Statistic() { return "Hi"; }
 
         #endregion
     }

@@ -27,13 +27,7 @@ namespace Button
         #endregion
 
         #region Data
-        private AbstractEntity mEntity;
-        public AbstractEntity Entity
-        {
-            get { return mEntity; }
-            set { mEntity = value; }
-        }
-        private AbstractEntityManager mEntityManager;
+        private AbstractEntityManager mEntityManager = null;
         public AbstractEntityManager EntityManager
         {
             get { return mEntityManager; }
@@ -108,17 +102,15 @@ namespace Button
 
         public void SetTile(AbstractEntity aEntity)
         {
-            mEntity = aEntity;
+
         }
 
-        public void CreateEntity(Vector2 aWorldPosition)
+        public void GenerateEntity(Vector2 aWorldPosition)
         {
-            if (mEntity == null)
+            if (mEntityManager != null)
             {
-                mEntity = new Tile(aWorldPosition);
+                mEntityManager.Generate(aWorldPosition);
             }
-
-            mEntity.Manager.Add(mEntity);
         }
         #endregion
     }

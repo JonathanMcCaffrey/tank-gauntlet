@@ -301,21 +301,15 @@ namespace Button
 
         protected bool SelectIcon()
         {
-            if (theInputManager.KeyHeldDown((Keys)HotKey))
+            if (theInputManager.KeyHeldDown((Keys)HotKey) || (IsIconSelected && theInputManager.mouseLeftReleased))
             {
                 theTileManager.FilePathToGraphic = FilePathToGraphic;
                 theTileManager.IsCollidable = IsCollidable;
-                return true;
-            }
-            if (IsIconSelected && theInputManager.mouseLeftReleased)
-            {
-                theTileManager.FilePathToGraphic = FilePathToGraphic;
-                theTileManager.IsCollidable = IsCollidable;
-                return true;
-            }
-            if (IsIconSelected && theInputManager.mouseLeftDrag)
-            {
+
                 Color = Color.LightGray;
+
+                theButtonManager.EntityManager = theTileManager;
+                return true;
             }
             if (IsIconSelected && theInputManager.mouseRightDrag)
             {

@@ -119,7 +119,8 @@ namespace Button
 
            //     Tile.CreateTile(theInputManager.mousePosition + thePlayerManager.List[0].WorldPosition);
 
-                theButtonManager.CreateEntity(mousePosition);
+           //     theButtonManager.CreateEntity(mousePosition);
+                theButtonManager.GenerateEntity(theInputManager.mousePosition + thePlayerManager.List[0].WorldPosition);
             }
 
             if (theInputManager.mouseLeftDrag)

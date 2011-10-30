@@ -28,8 +28,8 @@ namespace Button
         #endregion
 
         #region Data
-        private List<Tile> mList = new List<Tile>();
-        public List<Tile> List
+        private List<AbstractEntity> mList = new List<AbstractEntity>();
+        public List<AbstractEntity> List
         {
             get { return mList; }
         }
@@ -119,19 +119,26 @@ namespace Button
             }
         }
 
-        public void Add(Tile aEntity)
+        public override void Add(AbstractEntity aEntity)
         {
             List.Add(aEntity);
         }
 
-        public void Remove(Tile aEntity)
+        public override void Remove(AbstractEntity aEntity)
         {
             List.Remove(aEntity);
         }
 
-        public void Clear()
+        public override void Clear()
         {
             List.Clear();
+        }
+
+        public override void Generate(Vector2 aCoordinate)
+        {
+            Tile newTile = new Tile(aCoordinate);
+            newTile.FilePathToGraphic = FilePathToGraphic;
+            newTile.IsCollidable = IsCollidable;
         }
 
         public void Save(string aFilePath)

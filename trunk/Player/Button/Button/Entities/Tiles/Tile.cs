@@ -37,8 +37,8 @@ namespace Button
         private void Initialize()
         {
             mManager = theTileManager;
-            mFilePathToGraphic = "Tank_Base";
-            mName = "player";
+            mFilePathToGraphic = theTileManager.FilePathToGraphic;
+            mName = "tile";
 
             CollideWithTile();
         }
