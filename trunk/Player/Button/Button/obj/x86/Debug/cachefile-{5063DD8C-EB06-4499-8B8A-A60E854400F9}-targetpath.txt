@@ -20,6 +20,6 @@ Content\UI_LevelSelect.xnb
 Content\UI_StartGame.xnb
 Content\UI_Title.xnb
 Content\Tank.xnb
-Content\Title.xnb
 Content\Turret_Base.xnb
 Content\Turret_Gun.xnb
+Content\Title.xnb

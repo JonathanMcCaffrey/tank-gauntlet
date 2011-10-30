@@ -185,9 +185,9 @@ namespace Button
             mScreenPosition.X += Velocity.X;
             if (CollideWithTile() || CollideWithPlayer())
             {
-             /*   mWorldPosition.X = positionPostWorldCollision.X;
+                mWorldPosition.X = positionPostWorldCollision.X;
                 mScreenPosition.X = positionPostScreenCollision.X;
-                mOldPosition = mWorldPosition;*/
+                mOldPosition = mWorldPosition;
             }
 
             mCollisionMachine.Update();
@@ -196,9 +196,9 @@ namespace Button
             mScreenPosition.Y += Velocity.Y;
             if (CollideWithTile() || CollideWithPlayer())
             {
-              /*  mWorldPosition.Y = positionPostWorldCollision.Y;
+                mWorldPosition.Y = positionPostWorldCollision.Y;
                 mScreenPosition.Y = positionPostScreenCollision.Y;
-                mOldPosition = mWorldPosition;*/
+                mOldPosition = mWorldPosition;
             }
 
             mCollisionMachine.Update();

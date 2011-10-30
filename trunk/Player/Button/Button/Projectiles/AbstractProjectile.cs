@@ -41,7 +41,7 @@ namespace Button
         protected string mName;
 
         const float BORDER_LENGTH = 4.0f;
-        protected string mFilePathToGraphic = "TurretBase";
+        protected string mFilePathToGraphic = "Bullet";
         public Texture2D Graphic
         {
             get { return theFileManager.LoadTexture2D(FilePathToGraphic); }
@@ -214,17 +214,17 @@ namespace Button
             mOldPosition = mWorldPosition;
 
             float j = (float)Math.Sqrt((WorldPosition.X - StartinPosition.X) * (WorldPosition.X - StartinPosition.X) + (WorldPosition.Y - StartinPosition.Y) * (WorldPosition.Y - StartinPosition.Y));
-/*
+
             if (j > MaxDistance)
             {
                 theProjectileManager.Remove(this);
-            }*/
+            }
 
-         //   WorldPosition += Velocity;
+            WorldPosition += Velocity;
 
             mCollisionMachine.Update();
 
- //           Collision();
+            Collision();
 
             x++;
         }
@@ -271,7 +271,7 @@ namespace Button
         {
             if (IsOnScreen)
             {
-                theFileManager.SpriteBatch.Draw(theFileManager.LoadTexture2D("Turret_Base"), ScreenPosition, SourceRectangle, Color, Rotation, Origin, 2, SpriteEffects, LayerDepth);
+                theFileManager.SpriteBatch.Draw(Graphic, ScreenPosition, SourceRectangle, Color, Rotation, Origin, Scale, SpriteEffects, LayerDepth);
             }
         }
         #endregion

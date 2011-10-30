@@ -67,17 +67,21 @@ namespace Button
         #region Methods
         public override void Update()
         {
-          //  base.Update();
+            if (IsOnScreen)
+            {
+                Velocity = Vector2.Zero;
 
-            Velocity = Vector2.Zero;
-
-            mHostileStateMachine.Update();
+                mHostileStateMachine.Update();
+            }
         }
 
         public override void Draw()
         {
-            theFileManager.SpriteBatch.Draw(Graphic, ScreenPosition, SourceRectangle, Color, GunDirection, Origin, Scale, SpriteEffects, LayerDepth);
-            theFileManager.SpriteBatch.Draw(TurretGun, ScreenPosition, SourceRectangle, Color, (Rotation + MathHelper.PiOver4) + MathHelper.Pi, Origin, Scale, SpriteEffects, LayerDepth);
+            if (IsOnScreen)
+            {
+                theFileManager.SpriteBatch.Draw(Graphic, ScreenPosition, SourceRectangle, Color, GunDirection, Origin, Scale, SpriteEffects, LayerDepth);
+                theFileManager.SpriteBatch.Draw(TurretGun, ScreenPosition, SourceRectangle, Color, (Rotation + MathHelper.PiOver4) + MathHelper.Pi, Origin, Scale, SpriteEffects, LayerDepth);
+            }
         }
 
         private void CollideWithEnemy()

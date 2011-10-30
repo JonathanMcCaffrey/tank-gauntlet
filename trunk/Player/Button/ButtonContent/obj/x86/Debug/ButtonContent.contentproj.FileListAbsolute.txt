@@ -8,3 +8,4 @@ K:\Fuse\Button\Button\ButtonContent\obj\x86\Debug\ResolveAssemblyReference.cache
 C:\Users\Jonathan McCaffrey\Desktop\Player\Button\ButtonContent\obj\x86\Debug\ResolveAssemblyReference.cache
 C:\Users\mcca0442\Desktop\Player\Button\ButtonContent\obj\x86\Debug\ResolveAssemblyReference.cache
 Z:\Player\Button\ButtonContent\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Jonathan McCaffrey\Desktop\TankGauntlet\trunk\Player\Button\ButtonContent\obj\x86\Debug\ResolveAssemblyReference.cache

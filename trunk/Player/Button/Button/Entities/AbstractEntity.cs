@@ -128,8 +128,8 @@ namespace Button
             {
                 bool tempBoolean = false;
 
-                if (ScreenPosition.Y > 0 && ScreenPosition.X < 1024 &&
-                    ScreenPosition.Y > 0 && ScreenPosition.Y < 1024)
+                if (ScreenPosition.X + Graphic.Width > 0 && ScreenPosition.X < 1024 - Graphic.Width &&
+                    ScreenPosition.Y + Graphic.Height > 0 && ScreenPosition.Y < 1024 - Graphic.Height)
                 {
                     tempBoolean = true;
                 }
