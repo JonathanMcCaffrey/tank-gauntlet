@@ -36,11 +36,9 @@ namespace Button
 
         private Enemy(Vector2 aCoordinate)
         {
-        //    FilePathToGraphic = theEnemyManager.FilePathToGraphic;
-
-            FilePathToGraphic = "Tank";
-            //  Function = aFunction;  // Added functionality from Enemy manager!
-         //   IsCollidable = theEnemyManager.IsCollidable;
+            FilePathToGraphic = theEnemyManager.FilePathToGraphic;
+            IsCollidable = theEnemyManager.IsCollidable;
+            IsCollidable = true;
 
             mWorldPosition = aCoordinate;
 
@@ -60,18 +58,22 @@ namespace Button
         #region Methods
         public override void Update()
         {
-            base.Update();
+            if (IsOnScreen)
+            {
+                base.Update();
 
-        //    mHostileStateMachine.Update();
+                mHostileStateMachine.Update();
 
-            mWorldPosition += Velocity;
-
-           // DeleteEnemy();
+                mWorldPosition += Velocity;
+            }
         }
 
         public override void Draw()
         {
-            theFileManager.SpriteBatch.Draw(Graphic, ScreenPosition, SourceRectangle, Color, Rotation, Origin, Scale, SpriteEffects, LayerDepth);
+            if (IsOnScreen)
+            {
+                theFileManager.SpriteBatch.Draw(Graphic, ScreenPosition, SourceRectangle, Color, Rotation, Origin, Scale, SpriteEffects, LayerDepth);
+            }
         }
 
         private void CollideWithEnemy()

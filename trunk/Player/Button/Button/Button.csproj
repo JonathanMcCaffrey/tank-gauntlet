@@ -134,6 +134,7 @@
     <Compile Include="Entities\Enemies\Enemy.cs" />
     <Compile Include="Entities\Enemies\EnemyManager.cs" />
     <Compile Include="Entities\Enemies\Content\EnemyTurret.cs" />
+    <Compile Include="Entities\Tiles\Content\FloorMetal.cs" />
     <Compile Include="LoadMap.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -214,7 +215,6 @@
   <ItemGroup>
     <Folder Include="Entities\Objects\" />
     <Folder Include="Entities\Players\Content\" />
-    <Folder Include="Entities\Tiles\Content\" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="LoadMap.resx">
