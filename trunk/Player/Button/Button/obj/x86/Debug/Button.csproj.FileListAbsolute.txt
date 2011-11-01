@@ -460,3 +460,5 @@ C:\Users\mcca0442\Desktop\asdfas\trunk\Player\Button\Button\bin\x86\Debug\Conten
 C:\Users\mcca0442\Desktop\asdfas\trunk\Player\Button\Button\bin\x86\Debug\Content\Title.xnb
 C:\Users\mcca0442\Desktop\asdfas\trunk\Player\Button\Button\bin\x86\Debug\Button.exe
 C:\Users\mcca0442\Desktop\asdfas\trunk\Player\Button\Button\bin\x86\Debug\Button.pdb
+C:\Users\mcca0442\Desktop\Player\Button\Button\bin\x86\Debug\Content\Turret_Base.xnb
+C:\Users\mcca0442\Desktop\Player\Button\Button\bin\x86\Debug\Content\Turret_Gun.xnb

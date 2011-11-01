@@ -27,6 +27,13 @@ namespace Button
                 return mWorldPosition;
             }
         }
+
+        bool mHasGun = false;
+        Texture2D Gun
+        {
+            get { return theFileManager.LoadTexture2D("Turret_Gun"); }
+        }
+
         #endregion
 
         #region Construction
@@ -72,7 +79,8 @@ namespace Button
         {
             if (IsOnScreen)
             {
-                theFileManager.SpriteBatch.Draw(Graphic, ScreenPosition, SourceRectangle, Color, Rotation, Origin, Scale, SpriteEffects, LayerDepth);
+                theFileManager.SpriteBatch.Draw(Graphic, ScreenPosition, SourceRectangle, Color, GunDirection, Origin, Scale, SpriteEffects, LayerDepth);
+                theFileManager.SpriteBatch.Draw(Gun, ScreenPosition, SourceRectangle, Color, (Rotation + MathHelper.PiOver4) + MathHelper.Pi, Origin, Scale, SpriteEffects, LayerDepth);
             }
         }
 
