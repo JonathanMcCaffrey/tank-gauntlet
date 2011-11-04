@@ -16,7 +16,7 @@ namespace Button
         protected TileManager theTileManager = TileManager.Get();
         protected ButtonManager theButtonManager = ButtonManager.Get();
         protected PlayerManager thePlayerManager = PlayerManager.Get();
-     //   protected ObjectManager theObjectManager = ObjectManager.Get();
+        //   protected ObjectManager theObjectManager = ObjectManager.Get();
         protected ScreenManager theScreenManager = ScreenManager.Get();
         protected EnemyManager theEnemyManager = EnemyManager.Get();
         #endregion
@@ -37,15 +37,7 @@ namespace Button
         }
         public string FilePathToGraphic
         {
-            get
-            {
-                if (mFilePathToGraphic == null)
-                {
-                    mFilePathToGraphic = theTileManager.FilePathToGraphic;
-                }
-
-                return mFilePathToGraphic;
-            }
+            get { return mFilePathToGraphic; }
             set { mFilePathToGraphic = value; }
         }
 
@@ -122,8 +114,8 @@ namespace Button
             }
         }
 
-		public virtual bool IsOnScreen
-		{
+        public virtual bool IsOnScreen
+        {
             get
             {
                 bool tempBoolean = false;
@@ -136,7 +128,7 @@ namespace Button
 
                 return tempBoolean;
             }
-		}
+        }
 
         protected float mGunDirection = 0;
         public float GunDirection
@@ -253,9 +245,6 @@ namespace Button
 
         protected AbstractEntity(Vector2 aCoordinate)
         {
-            FilePathToGraphic = theTileManager.FilePathToGraphic;
-            IsCollidable = theTileManager.IsCollidable;
-
             mWorldPosition = aCoordinate;
 
             mManager.Add(this);
@@ -279,6 +268,8 @@ namespace Button
         }
 
         public virtual void Damage() { }
+        public virtual void Create(Vector2 aCoordinate) { }
+
         #endregion
     }
 }

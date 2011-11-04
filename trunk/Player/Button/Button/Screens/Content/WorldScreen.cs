@@ -18,8 +18,6 @@ namespace Button
         {
             mBackgroundTexture = theFileManager.LoadTexture2D("GameBackground");
 
-            theEnemyManager.Clear();
-            EnemyTurret.CreateEnemy(Vector2.Zero);
          //   Enemy.CreateEnemy(Vector2.Zero);
         }
 

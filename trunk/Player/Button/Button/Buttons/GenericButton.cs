@@ -24,28 +24,17 @@ namespace Button
         #region Data
         protected const float BORDER_LENGTH = 4.0f;
 
-        protected AbstractEntityManager mEntityManager;
+        protected AbstractEntity mEntity;
 
         protected string mFilePathToBorder = "Border";
         public Texture2D Border
         {
             get { return theFileManager.LoadTexture2D(mFilePathToBorder); }
         }
-        public string FilePathToBorder
-        {
-            get { return mFilePathToBorder; }
-            set { mFilePathToBorder = value; }
-        }
 
-        protected string mFilePathToGraphic = "Rock";
         public Texture2D Graphic
         {
-            get { return theFileManager.LoadTexture2D(FilePathToGraphic); }
-        }
-        public string FilePathToGraphic
-        {
-            get { return mFilePathToGraphic; }
-            set { mFilePathToGraphic = value; }
+            get { return mEntity.Graphic; }
         }
 
         protected char mHotKey = ' ';
@@ -55,11 +44,9 @@ namespace Button
             set { mHotKey = value; }
         }
 
-        protected bool isCollidable = true;
         public bool IsCollidable
         {
-            get { return isCollidable; }
-            set { isCollidable = value; }
+            get { return mEntity.IsCollidable; }
         }
 
 
@@ -198,40 +185,6 @@ namespace Button
         }
         #endregion
 
-        #region Construction
-        public GenericButton()
-        {
-        }
-
-        protected GenericButton(string aFilePathToGraphic, bool aIsCollidable)
-        {
-            mFilePathToGraphic = aFilePathToGraphic;
-            isCollidable = aIsCollidable;
-
-            theButtonManager.Add(this);
-        }
-
-        protected GenericButton(string aFilePathToGraphic, bool aIsCollidable, Keys aHotKey)
-        {
-            mFilePathToGraphic = aFilePathToGraphic;
-            isCollidable = aIsCollidable;
-            mHotKey = ((char)((int)aHotKey));
-
-            theButtonManager.Add(this);
-        }
-
-        static public void CreateButton(string aFilePathToGraphic, bool aIsCollidable)
-        {
-            new GenericButton(aFilePathToGraphic, aIsCollidable);
-
-        }
-
-        static public void CreateButton(string aFilePathToGraphic, bool aIsCollidable, Keys aHotKey)
-        {
-            new GenericButton(aFilePathToGraphic, aIsCollidable, aHotKey);
-        }
-        #endregion
-
         #region Methods
         bool mLockSelect = false;
         public void Update()
@@ -297,12 +250,9 @@ namespace Button
         {
             if (theInputManager.KeyHeldDown((Keys)HotKey) || (IsIconSelected && theInputManager.mouseLeftReleased))
             {
-                theTileManager.FilePathToGraphic = FilePathToGraphic;
-                theTileManager.IsCollidable = IsCollidable;
+                theButtonManager.Entity = mEntity;
 
                 Color = Color.LightGray;
-
-                theButtonManager.EntityManager = mEntityManager;
                 return true;
             }
 

@@ -33,24 +33,6 @@ namespace Button
             get { return mList; }
         }
 
-        private string mFilePathToGraphic = "Wooden";      
-        public Texture2D Graphic
-        {
-            get { return theFileManager.LoadTexture2D(mFilePathToGraphic); }
-        }
-        public string FilePathToGraphic
-        {
-            get { return mFilePathToGraphic; }
-            set { mFilePathToGraphic = value; }
-        }
-
-        private bool isCollidable = true;
-        public bool IsCollidable
-        {
-            get { return isCollidable; }
-            set { isCollidable = value; }
-        }
-
         SaveMap saveFile = new SaveMap();
         LoadMap loadFile = new LoadMap();
 
@@ -136,8 +118,6 @@ namespace Button
         public override void Generate(Vector2 aCoordinate)
         {
             Tile newTile = new Tile(aCoordinate);
-            newTile.FilePathToGraphic = FilePathToGraphic;
-            newTile.IsCollidable = IsCollidable;
         }
 
         public void Save(string aFilePath)

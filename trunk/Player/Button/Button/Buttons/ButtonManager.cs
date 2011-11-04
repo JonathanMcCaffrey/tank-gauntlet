@@ -27,6 +27,13 @@ namespace Button
         #endregion
 
         #region Data
+        private AbstractEntity mEntity = null;
+        public AbstractEntity Entity
+        {
+            get { return  mEntity; }
+            set { mEntity = value; }
+        }
+
         private AbstractEntityManager mEntityManager = null;
         public AbstractEntityManager EntityManager
         {
@@ -34,12 +41,13 @@ namespace Button
             set { mEntityManager = value; }
         }
 
-
         private List<GenericButton> mList = new List<GenericButton>();
         public List<GenericButton> List
         {
             get { return mList; }
         }
+
+        public bool mIsVisible = true;
         #endregion
 
         #region Construction
@@ -64,17 +72,23 @@ namespace Button
         #region Methods
         public override void Update(GameTime aGameTime)
         {
-            for (int i = 0; i < mList.Count; i++)
+            if (mIsVisible)
             {
-                List[i].Update();
+                for (int i = 0; i < mList.Count; i++)
+                {
+                    List[i].Update();
+                }
             }
         }
 
         public override void Draw(GameTime aGameTime)
         {
-            for (int loop = 0; loop < List.Count; loop++)
+            if (mIsVisible)
             {
-                List[loop].Draw();
+                for (int loop = 0; loop < List.Count; loop++)
+                {
+                    List[loop].Draw();
+                }
             }
         }
 
@@ -107,9 +121,9 @@ namespace Button
 
         public void GenerateEntity(Vector2 aWorldPosition)
         {
-            if (mEntityManager != null)
+            if (mEntity != null)
             {
-                mEntityManager.Generate(aWorldPosition);
+                mEntity.Create(aWorldPosition);
             }
         }
         #endregion

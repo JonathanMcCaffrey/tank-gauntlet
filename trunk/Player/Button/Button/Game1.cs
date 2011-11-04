@@ -81,12 +81,15 @@ namespace Button
 
             Player.CreatePlayer("test", new Vector2(mScreenDimensions.X / 2.0f, mScreenDimensions.Y / 2.0f), Vector2.Zero);
 
-            TileButton.Create("Wooden", true, Keys.E);
-            TileButton.Create("Metal", true, Keys.R);
-            TileButton.Create("WoodenFloor", false, Keys.T);
-            TileButton.Create("MetalFloor", false, Keys.Y);
-            TileButton.Create("WoodenWall", true, Keys.Q);
-            TileButton.Create("MetalWall", true, Keys.W);
+            TileButton.Create(new FloorCopper(), Keys.E);
+            TileButton.Create(new FloorMetal(), Keys.R);
+            TileButton.Create(new HardWallCopper(), Keys.T);
+            TileButton.Create(new HardWallMetal(), Keys.Y);
+            TileButton.Create(new WallMetal(), Keys.Q);
+            TileButton.Create(new CopperWall(), Keys.W);
+
+            EnemyButton.Create(new EnemyTurret(), Keys.F);
+         //   EnemyButton.Create("Turret_Gun", Keys.F);
 
             theTileManager.Load("Level_1.xml");
 

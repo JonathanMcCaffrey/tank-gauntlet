@@ -25,26 +25,26 @@ namespace Button
         #endregion
 
         #region Methods
+
+        int x = 0;
         public override void Update()
         {
             Vector2 velocity = -mEnemy.WorldPosition + (mPlayer.WorldPosition + mPlayer.ScreenPosition);
             velocity.Normalize();
 
-            mEnemy.Velocity = velocity;
+            mEnemy.Velocity = Vector2.Zero;
 
             mEnemy.Rotation = (float)Math.Atan2(velocity.X, -velocity.Y);
 
-            EnemyShell.CreateProjectile(new Vector2(velocity.X, velocity.Y), mEnemy.WorldPosition, mEnemy);
+            
 
-            velocity = -mEnemy.WorldPosition + (mPlayer.WorldPosition + mPlayer.ScreenPosition) + new Vector2(50, 50);
-            velocity.Normalize();
+           
+            x++;
 
-            EnemyShell.CreateProjectile(new Vector2(velocity.X, velocity.Y), mEnemy.WorldPosition, mEnemy);
-
-            velocity = -mEnemy.WorldPosition + (mPlayer.WorldPosition + mPlayer.ScreenPosition) + new Vector2(-50, -50);
-            velocity.Normalize();
-
-            EnemyShell.CreateProjectile(new Vector2(velocity.X, velocity.Y), mEnemy.WorldPosition, mEnemy);
+            if (x % 16 == 0)
+            {
+                EnemyShell.CreateProjectile(new Vector2(velocity.X, velocity.Y), mEnemy.WorldPosition, mEnemy);
+            }
 
 
             /*

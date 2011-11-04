@@ -17,9 +17,6 @@ namespace Button
 
         public Tile(Vector2 aCoordinate)
         {
-            FilePathToGraphic = theTileManager.FilePathToGraphic;
-            IsCollidable = theTileManager.IsCollidable;
-
             mWorldPosition = aCoordinate;
 
             theTileManager.Add(this);
@@ -27,15 +24,9 @@ namespace Button
             Initialize();
         }
 
-        static public void CreateTile(Vector2 aCoordinate)
-        {
-            new Tile(aCoordinate);    
-        }
-
         private void Initialize()
         {
             mManager = theTileManager;
-            mFilePathToGraphic = theTileManager.FilePathToGraphic;
             mName = "tile";
 
             CollideWithTile();
@@ -47,7 +38,7 @@ namespace Button
         {
             base.Update();
 
-           // DeleteTile();
+            // DeleteTile();
         }
 
         public override void Draw()

@@ -58,7 +58,7 @@ namespace Button
             CollideWithEnemy();
         }
 
-        static public void CreateEnemy(Vector2 aCoordinate)
+        public override void Create(Vector2 aCoordinate)
         {
             new EnemyTurret(aCoordinate);
         }

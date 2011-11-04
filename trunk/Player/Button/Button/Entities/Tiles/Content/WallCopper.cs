@@ -6,9 +6,15 @@ using Microsoft.Xna.Framework;
 
 namespace Button
 {
-    public class CopperMetal : Tile
+    public class CopperWall : Tile
     {
-        public static void Create(Vector2 aCoordinate)
+        public CopperWall()
+        {
+            IsCollidable = false;
+            FilePathToGraphic = "Wooden";
+        }
+
+        public override void Create(Vector2 aCoordinate)
         {
             Tile newTile = new Tile(aCoordinate);
             newTile.FilePathToGraphic = "Wooden";

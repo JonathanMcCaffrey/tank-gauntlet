@@ -8,29 +8,22 @@ namespace Button
 {
     public class EnemyButton : GenericButton
     {
-         #region Construction
+        #region Construction
         public EnemyButton()
         {
         }
 
-        protected EnemyButton(string aFilePathToGraphic, bool aIsCollidable, Keys aHotKey)
+        protected EnemyButton(AbstractEntity aEntity, Keys aHotKey)
         {
-            mEntityManager = theTileManager;
-            mFilePathToGraphic = aFilePathToGraphic;
-            isCollidable = aIsCollidable;
+            mEntity = aEntity;
             mHotKey = ((char)((int)aHotKey));
 
             theButtonManager.Add(this);
         }
 
-        static public void Create(string aFilePathToGraphic, bool aIsCollidable)
+        static public void Create(AbstractEntity aEntity, Keys aHotKey)
         {
-            new EnemyButton(aFilePathToGraphic, aIsCollidable, Keys.Escape);
-        }
-
-        static public void Create(string aFilePathToGraphic, bool aIsCollidable, Keys aHotKey)
-        {
-            new EnemyButton(aFilePathToGraphic, aIsCollidable, aHotKey);
+            new EnemyButton(aEntity, aHotKey);
         }
         #endregion
     }

@@ -13,24 +13,17 @@ namespace Button
         {
         }
 
-        protected TileButton(string aFilePathToGraphic, bool aIsCollidable, Keys aHotKey)
+        protected TileButton(AbstractEntity aEntity, Keys aHotKey)
         {
-            mEntityManager = theTileManager;
-            mFilePathToGraphic = aFilePathToGraphic;
-            isCollidable = aIsCollidable;
+            mEntity = aEntity;
             mHotKey = ((char)((int)aHotKey));
 
             theButtonManager.Add(this);
         }
 
-        static public void Create(string aFilePathToGraphic, bool aIsCollidable)
+        static public void Create(AbstractEntity aEntity, Keys aHotKey)
         {
-            new TileButton(aFilePathToGraphic, aIsCollidable, Keys.Escape);
-        }
-
-        static public void Create(string aFilePathToGraphic, bool aIsCollidable, Keys aHotKey)
-        {
-            new TileButton(aFilePathToGraphic, aIsCollidable, aHotKey);
+            new TileButton(aEntity, aHotKey);
         }
         #endregion
     }

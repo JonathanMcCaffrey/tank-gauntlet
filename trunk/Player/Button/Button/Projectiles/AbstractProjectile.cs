@@ -48,15 +48,7 @@ namespace Button
         }
         public string FilePathToGraphic
         {
-            get
-            {
-                if (mFilePathToGraphic == null)
-                {
-                    mFilePathToGraphic = theTileManager.FilePathToGraphic;
-                }
-
-                return mFilePathToGraphic;
-            }
+            get            {                return mFilePathToGraphic;            }
             set { mFilePathToGraphic = value; }
         }
 
@@ -174,9 +166,6 @@ namespace Button
 
         protected AbstractProjectile(Vector2 aCoordinate)
         {
-            FilePathToGraphic = theTileManager.FilePathToGraphic;
-            IsCollidable = theTileManager.IsCollidable;
-
             mWorldPosition = aCoordinate;
 
             mCollisionMachine = new ProjectileCollision(this);

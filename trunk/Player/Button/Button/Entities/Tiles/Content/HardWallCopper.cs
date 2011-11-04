@@ -8,7 +8,13 @@ namespace Button
 {
     public class HardWallCopper : Tile
     {
-        public static void Create(Vector2 aCoordinate)
+        public HardWallCopper()
+        {
+            IsCollidable = false;
+            FilePathToGraphic = "WoodenWall";
+        }
+
+        public override void Create(Vector2 aCoordinate)
         {
             Tile newTile = new Tile(aCoordinate);
             newTile.FilePathToGraphic = "WoodenWall";

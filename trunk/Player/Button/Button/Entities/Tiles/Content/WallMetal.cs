@@ -8,7 +8,13 @@ namespace Button
 {
     public class WallMetal : Tile
     {
-        public static void Create(Vector2 aCoordinate)
+        public WallMetal()
+        {
+            IsCollidable = false;
+            FilePathToGraphic = "Metal";
+        }
+
+        public override void Create(Vector2 aCoordinate)
         {
             Tile newTile = new Tile(aCoordinate);
             newTile.FilePathToGraphic = "Metal";
