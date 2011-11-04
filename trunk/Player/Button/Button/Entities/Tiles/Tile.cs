@@ -49,7 +49,7 @@ namespace Button
             }
         }
 
-        private void CollideWithTile()
+        protected void CollideWithTile()
         {
             for (int loop = 0; loop < theTileManager.List.Count; loop++)
             {

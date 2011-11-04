@@ -270,6 +270,8 @@ namespace Button
         public virtual void Damage() { }
         public virtual void Create(Vector2 aCoordinate) { }
 
+
+
         #endregion
     }
 }

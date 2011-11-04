@@ -25,13 +25,7 @@ namespace Button
             set { mHostileStateMachine = value; }
         }
 
-        public override Vector2 WorldPosition
-        {
-            get
-            {
-                return mWorldPosition;
-            }
-        }
+      
         #endregion
 
         #region Construction
@@ -56,6 +50,7 @@ namespace Button
             theEnemyManager.Add(this);
 
             CollideWithEnemy();
+            CollideWithTile();
         }
 
         public override void Create(Vector2 aCoordinate)
@@ -86,19 +81,6 @@ namespace Button
             {
                 theFileManager.SpriteBatch.Draw(Graphic, ScreenPosition, SourceRectangle, Color, GunDirection, Origin, Scale, SpriteEffects, LayerDepth);
                 theFileManager.SpriteBatch.Draw(TurretGun, ScreenPosition, SourceRectangle, Color, (Rotation + MathHelper.PiOver4) + MathHelper.Pi, Origin, Scale, SpriteEffects, LayerDepth);
-            }
-        }
-
-        private void CollideWithEnemy()
-        {
-            for (int loop = 0; loop < theEnemyManager.List.Count; loop++)
-            {
-                if (theEnemyManager.List[loop] == this) continue;
-
-                if (ScreenPosition == theEnemyManager.List[loop].ScreenPosition)
-                {
-                    theEnemyManager.Remove(theEnemyManager.List[loop]);
-                }
             }
         }
 

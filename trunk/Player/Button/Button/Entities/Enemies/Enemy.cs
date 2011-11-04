@@ -20,14 +20,6 @@ namespace Button
             set { mHostileStateMachine = value; }
         }
 
-        public override Vector2 WorldPosition
-        {
-            get
-            {
-                return mWorldPosition;
-            }
-        }
-
         bool mHasGun = false;
         Texture2D Gun
         {
@@ -53,7 +45,10 @@ namespace Button
 
             theEnemyManager.Add(this);
 
+            mManager = theEnemyManager;
+
             CollideWithEnemy();
+            CollideWithTile();
         }
 
         static public void CreateEnemy(Vector2 aCoordinate)
@@ -84,7 +79,7 @@ namespace Button
             }
         }
 
-        private void CollideWithEnemy()
+        protected void CollideWithEnemy()
         {
             for (int loop = 0; loop < theEnemyManager.List.Count; loop++)
             {
@@ -96,6 +91,21 @@ namespace Button
                 }
             }
         }
+
+        protected void CollideWithTile()
+        {
+            for (int loop = 0; loop < theTileManager.List.Count; loop++)
+            {
+                if (ScreenPosition == theTileManager.List[loop].ScreenPosition)
+                {
+                    if (theTileManager.List[loop].IsCollidable)
+                    {
+                        theEnemyManager.Remove(this);
+                    }
+                }
+            }
+        }
+
 
         private void DeleteEnemy()
         {
