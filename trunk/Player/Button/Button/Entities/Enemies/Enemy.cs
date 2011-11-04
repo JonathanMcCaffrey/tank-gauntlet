@@ -106,7 +106,6 @@ namespace Button
             }
         }
 
-
         private void DeleteEnemy()
         {
             if (theInputManager.mouseLeftDrag)

@@ -32,6 +32,8 @@ namespace Button
             Vector2 velocity = -mEnemy.WorldPosition + (mPlayer.WorldPosition + mPlayer.ScreenPosition);
             velocity.Normalize();
 
+            velocity /= 3;
+
             mEnemy.Velocity = Vector2.Zero;
 
             mEnemy.Rotation = (float)Math.Atan2(velocity.X, -velocity.Y);
