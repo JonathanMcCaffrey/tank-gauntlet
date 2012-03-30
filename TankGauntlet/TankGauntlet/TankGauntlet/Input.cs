@@ -23,10 +23,7 @@ namespace TankGauntlet
 
         public static void Update()
         {
-            if (TouchPanel.IsGestureAvailable)
-            {
-                m_Gesture = TouchPanel.ReadGesture();
-            }
+            m_Gesture = TouchPanel.IsGestureAvailable ?  TouchPanel.ReadGesture() :  new GestureSample();
         }
     }
 }

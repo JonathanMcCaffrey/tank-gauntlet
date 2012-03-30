@@ -39,6 +39,12 @@ namespace TankGauntlet
             m_SpriteBatch = new SpriteBatch(GraphicsDevice);
             m_SplashScreen = Content.Load<Texture2D>("Screen/SplashScreen");
 
+            Manager.ActorList.Add(new BallActor(Content, new Vector2(100, 250), BallType.Yellow));
+            Manager.ActorList.Add(new BallActor(Content, new Vector2(200, 250), BallType.Green));
+            Manager.ActorList.Add(new BallActor(Content, new Vector2(300, 250), BallType.Blue));
+            Manager.ActorList.Add(new BallActor(Content, new Vector2(400, 250), BallType.Red));
+            Manager.ActorList.Add(new BallActor(Content, new Vector2(500, 250), BallType.Bomb));
+
             base.Initialize();
         }
 
@@ -48,7 +54,7 @@ namespace TankGauntlet
 
             if (a_GameTime.TotalGameTime.TotalMilliseconds % 500 == 0)
             {
-                Manager.ActorList.Add(new BaseActor(Content));
+                Manager.ActorList.Add(new TileActor(Content, Content.Load<Texture2D>("Sprite/Ball_Bomb"), new Vector2(250,250), true));
             }
 
             if (m_IsGameStarted == false)

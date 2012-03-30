@@ -7,7 +7,7 @@ namespace TankGauntlet
 {
     public class Enemy
     {
-        BombActor m_BombActor;
+        BaseActor m_BaseActor;
         BaseState m_BaseState;
     }
 }
