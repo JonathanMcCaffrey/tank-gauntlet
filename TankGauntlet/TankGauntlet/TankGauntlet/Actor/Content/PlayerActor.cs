@@ -12,6 +12,7 @@ namespace TankGauntlet
     public class PlayerActor : BaseActor
     {
         BaseWeapon m_Weapon;
+        PlayerCollision m_PlayerCollision;
 
         public PlayerActor(string a_FilePathToMode, Vector2 a_Position)
             : base()
@@ -19,6 +20,7 @@ namespace TankGauntlet
             m_FilePathToModel = a_FilePathToMode;
             m_Position = a_Position;
 
+            m_PlayerCollision = new PlayerCollision(this);
             m_Weapon = new BaseWeapon(File.ContentManager.Load<Texture2D>("Sprite/Tank_Gun"), this);
             WeaponManager.List.Add(m_Weapon);
 
@@ -67,6 +69,8 @@ namespace TankGauntlet
                     }
                 }
             }
+
+            m_PlayerCollision.Update(a_GameTime);
 
         }
 

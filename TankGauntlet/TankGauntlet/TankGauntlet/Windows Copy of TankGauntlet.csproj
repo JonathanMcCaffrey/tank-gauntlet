@@ -85,11 +85,12 @@
     <Compile Include="Actor\Content\LockOnActor.cs" />
     <Compile Include="Actor\Content\PlayerActor.cs" />
     <Compile Include="Actor\Content\TileActor.cs" />
-    <Compile Include="Actor\TileData.cs" />
     <Compile Include="Camera.cs" />
     <Compile Include="Collision\BaseCollision.cs" />
     <Compile Include="Collision\CollisionManager.cs" />
-    <Compile Include="Collision\Content\BombCollision.cs" />
+    <Compile Include="Collision\Content\BallCollision.cs" />
+    <Compile Include="Collision\Content\PlayerCollision.cs" />
+    <Compile Include="Collision\Content\ProjectileCollision.cs" />
     <Compile Include="Emitter\BaseEmitter.cs" />
     <Compile Include="Emitter\EmitterManager.cs" />
     <Compile Include="Emitter\Particle.cs" />
@@ -98,11 +99,9 @@
     <Compile Include="Projectile\ProjectileManager.cs" />
     <Compile Include="Score\BaseScore.cs" />
     <Compile Include="Score\ScoreManager.cs" />
-    <Compile Include="State\BaseState.cs" />
     <Compile Include="Input.cs" />
     <Compile Include="Actor\ActorManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="State\Content\BallState.cs" />
     <Compile Include="Weapon\BaseWeapon.cs" />
     <Compile Include="Weapon\WeaponManager.cs" />
     <Compile Include="Program.cs" />

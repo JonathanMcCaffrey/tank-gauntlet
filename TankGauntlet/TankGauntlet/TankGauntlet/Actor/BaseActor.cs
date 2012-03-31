@@ -33,6 +33,12 @@ namespace TankGauntlet
             get { return m_Position; }
             set { m_Position = value; }
         }
+        protected Vector2 m_OldPosition;
+        public virtual Vector2 OldPosition
+        {
+            get { return m_OldPosition; }
+            set { m_OldPosition = value; }
+        }
 
         protected Vector2 m_Origin;
         public virtual Vector2 Origin

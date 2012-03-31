@@ -7,13 +7,20 @@ namespace TankGauntlet
 {
     public class BaseProjectile
     {
-        protected static Rectangle ScreenDimensions = new Rectangle(0, 0, 800, 480);
+        protected Rectangle ScreenDimensions = new Rectangle(0, 0, 800, 480);
+        protected ProjectileCollision m_ProjectileCollision;
 
         #region Data
         protected Texture2D m_Texture2D;
         public virtual Texture2D Texture2D
         {
             get { return m_Texture2D; }
+        }
+
+        private BaseActor m_Parent;
+        public BaseActor Parent
+        {
+            get { return m_Parent; }
         }
 
         protected float m_Speed;
@@ -82,9 +89,10 @@ namespace TankGauntlet
         }
         #endregion
 
-        public BaseProjectile(Texture2D a_Texture2D, Vector2 a_Position, float a_Direction)
+        public BaseProjectile(Texture2D a_Texture2D, BaseActor a_Parent,  Vector2 a_Position, float a_Direction)
         {
             m_Texture2D = a_Texture2D;
+            m_Parent = a_Parent;
             m_Position = a_Position;
             m_Direction = a_Direction - MathHelper.PiOver2;
             m_Speed = 10.0f;
@@ -95,6 +103,7 @@ namespace TankGauntlet
             m_LayerDepth = 1.0f;
             m_SpriteEffects = SpriteEffects.None;
 
+            m_ProjectileCollision = new ProjectileCollision(this, m_Parent); 
             CollisionManager.ProjectileList.Add(this);
 
             Initialize();
@@ -116,6 +125,8 @@ namespace TankGauntlet
                 CollisionManager.ProjectileList.Remove(this);
                 ProjectileManager.List.Remove(this);
             }
+
+            m_ProjectileCollision.Update(a_GameTime);
         }
 
         public virtual void Draw(SpriteBatch a_SpriteBatch)

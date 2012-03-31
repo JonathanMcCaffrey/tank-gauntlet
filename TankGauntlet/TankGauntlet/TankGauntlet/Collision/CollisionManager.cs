@@ -16,7 +16,7 @@ namespace TankGauntlet
 
         public static void Update(GameTime a_GameTime)
         {
-            for (int projectileLoop = 0; projectileLoop < ProjectileList.Count; projectileLoop++)
+         /*   for (int projectileLoop = 0; projectileLoop < ProjectileList.Count; projectileLoop++)
             {
                 for (int actorLoop = 0; actorLoop < ActorList.Count; actorLoop++)
                 {
@@ -34,7 +34,7 @@ namespace TankGauntlet
                         return;
                     }
                 }
-            }
+            }*/
 
 
         }

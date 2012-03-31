@@ -20,3 +20,5 @@ Content\Font\Debug.xnb
 Content\Font\Score.xnb
 Content\Font\ScoreMain.xnb
 Content\Level\1.xnb
+Content\Sprite\Tile_RockFloor.xnb
+Content\Sprite\Tile_RockWall.xnb

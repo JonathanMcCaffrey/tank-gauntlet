@@ -43,7 +43,7 @@ namespace TankGauntlet
                         Vector2 direction = Input.CurrentTouchCollection[0].Position - Parent.Position;
                         m_Rotation = (float)Math.Atan2(direction.X, -direction.Y);
 
-                        ProjectileManager.List.Add(new BaseProjectile(File.ContentManager.Load<Texture2D>("Sprite/Projectile_Bullet"), m_Parent.Position, m_Rotation));
+                        ProjectileManager.List.Add(new BaseProjectile(File.ContentManager.Load<Texture2D>("Sprite/Projectile_Bullet"), m_Parent, m_Parent.Position, m_Rotation));
           
                 }
             }

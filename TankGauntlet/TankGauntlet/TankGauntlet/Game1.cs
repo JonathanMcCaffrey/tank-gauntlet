@@ -55,11 +55,11 @@ namespace TankGauntlet
             }
            
 
-            ActorMananger.List.Add(new BallActor(new Vector2(100, 250), BallType.Yellow));
+         /*   ActorMananger.List.Add(new BallActor(new Vector2(100, 250), BallType.Yellow));
             ActorMananger.List.Add(new BallActor(new Vector2(200, 250), BallType.Green));
             ActorMananger.List.Add(new BallActor(new Vector2(300, 250), BallType.Blue));
             ActorMananger.List.Add(new BallActor(new Vector2(400, 250), BallType.Red));
-            ActorMananger.List.Add(new BallActor(new Vector2(500, 250), BallType.Bomb));
+            ActorMananger.List.Add(new BallActor(new Vector2(500, 250), BallType.Bomb));*/
             ActorMananger.List.Add(new PlayerActor("Sprite/Tank_Base", new Vector2(300, 300)));
             
             base.Initialize();
@@ -76,7 +76,7 @@ namespace TankGauntlet
                 time += a_GameTime.ElapsedGameTime.Milliseconds / 1000.0f;
             }
 
-              if (time > 4 && m_IsGameStarted)
+            /*  if (time > 4 && m_IsGameStarted)
               {
                   ActorMananger.List.Add(new BallActor(new Vector2(100, 250), BallType.Yellow));
                   ActorMananger.List.Add(new BallActor( new Vector2(200, 250), BallType.Green));
@@ -85,7 +85,7 @@ namespace TankGauntlet
                   ActorMananger.List.Add(new BallActor( new Vector2(500, 250), BallType.Bomb));
 
                   time = 0;
-              }
+              }*/
 
             Input.Update();
 

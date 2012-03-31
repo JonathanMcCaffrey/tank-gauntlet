@@ -54,6 +54,11 @@ namespace TankGauntlet
             m_Position = a_Position;
             m_IsCollidable = a_IsCollidable;
 
+            if (m_IsCollidable)
+            {
+                CollisionManager.ActorList.Add(this);
+            }
+
             Initialize();
         }
 
