@@ -45,6 +45,7 @@ namespace TankGauntlet
 
             CollisionManager.ContentManager = Content;
             ScoreManager.SpriteFont = Content.Load<SpriteFont>("Font/ScoreMain");
+            EmitterManager.Sprite = Content.Load<Texture2D>("Pixel");
 
             ActorMananger.List.Add(new BallActor(Content, new Vector2(100, 250), BallType.Yellow));
             ActorMananger.List.Add(new BallActor(Content, new Vector2(200, 250), BallType.Green));
@@ -88,6 +89,7 @@ namespace TankGauntlet
             {
                 ActorMananger.Update(a_GameTime);
                 ProjectileManager.Update(a_GameTime);
+                EmitterManager.Update(a_GameTime);
                 WeaponManager.Update(a_GameTime);
                 CollisionManager.Update(a_GameTime);
                 ScoreManager.Update(a_GameTime);
@@ -111,6 +113,7 @@ namespace TankGauntlet
             {
                 ActorMananger.Draw(m_SpriteBatch);
                 ProjectileManager.Draw(m_SpriteBatch);
+                EmitterManager.Draw(m_SpriteBatch);
                 WeaponManager.Draw(m_SpriteBatch);
                 ScoreManager.Draw(m_SpriteBatch);
             }

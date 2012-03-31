@@ -9,9 +9,10 @@ Content\Sprite\Ball_Blue.xnb
 Content\Sprite\Ball_Yellow.xnb
 Content\Sprite\Tank_Base.xnb
 Content\Sprite\Tank_Gun.xnb
-Content\Font\Debug.xnb
 Content\Sprite\Projectile_Bullet.xnb
-Content\Font\Score.xnb
-Content\Font\ScoreMain.xnb
 Content\Sprite\LockOn_Bullet.xnb
 Content\Sprite\LockOn_GoTo.xnb
+Content\Pixel.xnb
+Content\Font\Debug.xnb
+Content\Font\Score.xnb
+Content\Font\ScoreMain.xnb

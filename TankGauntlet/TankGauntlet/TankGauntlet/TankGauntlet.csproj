@@ -75,6 +75,7 @@
     <Compile Include="Collision\Content\BombCollision.cs" />
     <Compile Include="Emitter\BaseEmitter.cs" />
     <Compile Include="Emitter\EmitterManager.cs" />
+    <Compile Include="Emitter\Particle.cs" />
     <Compile Include="Projectile\BaseProjectile.cs" />
     <Compile Include="Projectile\ProjectileManager.cs" />
     <Compile Include="Score\BaseScore.cs" />
