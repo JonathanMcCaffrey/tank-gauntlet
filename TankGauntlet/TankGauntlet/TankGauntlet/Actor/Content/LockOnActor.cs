@@ -15,33 +15,33 @@ namespace TankGauntlet
         {
             get
             {
-                if (m_Position.X % m_SourceRectangle.Width < 32)
+                if (m_Position.X % SourceRectangle.Width < 32)
                 {
-                    if (m_Position.X % m_SourceRectangle.Width != 0)
+                    if (m_Position.X % SourceRectangle.Width != 0)
                     {
-                        m_Position.X -= m_Position.X % m_SourceRectangle.Width;
+                        m_Position.X -= m_Position.X % SourceRectangle.Width;
                     }
                 }
                 else
                 {
-                    if (m_Position.X % m_SourceRectangle.Width != 0)
+                    if (m_Position.X % SourceRectangle.Width != 0)
                     {
-                        m_Position.X += m_SourceRectangle.Width - (m_Position.X % m_SourceRectangle.Width);
+                        m_Position.X += SourceRectangle.Width - (m_Position.X % SourceRectangle.Width);
                     }
                 }
 
-                if (m_Position.Y % m_SourceRectangle.Width < 32)
+                if (m_Position.Y % SourceRectangle.Width < 32)
                 {
-                    if (m_Position.Y % m_SourceRectangle.Height != 0)
+                    if (m_Position.Y % SourceRectangle.Height != 0)
                     {
-                        m_Position.Y -= m_Position.Y % m_SourceRectangle.Height;
+                        m_Position.Y -= m_Position.Y % SourceRectangle.Height;
                     }
                 }
                 else
                 {
-                    if (m_Position.Y % m_SourceRectangle.Height != 0)
+                    if (m_Position.Y % SourceRectangle.Height != 0)
                     {
-                        m_Position.Y += m_SourceRectangle.Height - (m_Position.Y % m_SourceRectangle.Height);
+                        m_Position.Y += SourceRectangle.Height - (m_Position.Y % SourceRectangle.Height);
                     }
                 }
 
@@ -51,10 +51,10 @@ namespace TankGauntlet
         }
         #endregion
 
-        public LockOnActor(ContentManager a_ContentManager, Texture2D a_Texture2D, Vector2 a_Position)
-            : base(a_ContentManager)
+        public LockOnActor(string a_FilePathToModel, Vector2 a_Position)
+            : base()
         {
-            m_Texture2D = a_Texture2D;
+            m_FilePathToModel = a_FilePathToModel;
             m_Position = a_Position;
 
             Initialize();

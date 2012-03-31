@@ -13,8 +13,6 @@ namespace TankGauntlet
         public static BaseActor Player;
         public static List<BaseActor> ActorList = new List<BaseActor>();
         public static List<BaseProjectile> ProjectileList = new List<BaseProjectile>();
-        public static ContentManager ContentManager;
-
 
         public static void Update(GameTime a_GameTime)
         {
@@ -24,7 +22,7 @@ namespace TankGauntlet
                 {
                     if (ProjectileList[projectileLoop].CollisionRectangle.Intersects(ActorList[actorLoop].CollisionRectangle))
                     {
-                        ScoreManager.List.Add(new BaseScore(ContentManager, ProjectileList[projectileLoop].Position, ContentManager.Load<SpriteFont>("Font/Score"), 10, Color.Green));
+                        ScoreManager.List.Add(new BaseScore(ProjectileList[projectileLoop].Position, File.ContentManager.Load<SpriteFont>("Font/Score"), 10, Color.Green));
                         EmitterManager.List.Add(new BaseEmitter(Color.Red, ActorList[actorLoop].Position));
 
                         ProjectileManager.List.Remove(ProjectileList[projectileLoop]);

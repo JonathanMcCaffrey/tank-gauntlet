@@ -1,0 +1,1289 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Generic="System.Collections.Generic">
+  <Asset Type="Generic:List[Data.BaseActor]">
+    <Item Type="Data.TileActor">
+      <FilePathToModel>Sprite/Tile_CopperFloor</FilePathToModel>
+      <IsCollidable>false</IsCollidable>
+      <Position>128 128</Position>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToModel>Sprite/Tile_CopperFloor</FilePathToModel>
+      <IsCollidable>false</IsCollidable>
+      <Position>192 192</Position>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToModel>Sprite/Tile_CopperFloor</FilePathToModel>
+      <IsCollidable>false</IsCollidable>
+      <Position>192 128</Position>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToModel>Sprite/Tile_CopperFloor</FilePathToModel>
+      <IsCollidable>false</IsCollidable>
+      <Position>832 256</Position>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToModel>Sprite/Tile_CopperFloor</FilePathToModel>
+      <IsCollidable>false</IsCollidable>
+      <Position>832 320</Position>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToModel>Sprite/Tile_CopperFloor</FilePathToModel>
+      <IsCollidable>false</IsCollidable>
+      <Position>64 320</Position>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToModel>Sprite/Tile_CopperFloor</FilePathToModel>
+      <IsCollidable>false</IsCollidable>
+      <Position>64 256</Position>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToModel>Sprite/Tile_CopperFloor</FilePathToModel>
+      <IsCollidable>false</IsCollidable>
+      <Position>128 256</Position>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToModel>Sprite/Tile_CopperFloor</FilePathToModel>
+      <IsCollidable>false</IsCollidable>
+      <Position>256 256</Position>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToModel>Sprite/Tile_CopperFloor</FilePathToModel>
+      <IsCollidable>false</IsCollidable>
+      <Position>192 256</Position>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToModel>Sprite/Tile_CopperFloor</FilePathToModel>
+      <IsCollidable>false</IsCollidable>
+      <Position>320 256</Position>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToModel>Sprite/Tile_CopperFloor</FilePathToModel>
+      <IsCollidable>false</IsCollidable>
+      <Position>384 192</Position>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToModel>Sprite/Tile_CopperFloor</FilePathToModel>
+      <IsCollidable>false</IsCollidable>
+      <Position>320 192</Position>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToModel>Sprite/Tile_CopperFloor</FilePathToModel>
+      <IsCollidable>false</IsCollidable>
+      <Position>256 192</Position>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToModel>Sprite/Tile_CopperFloor</FilePathToModel>
+      <IsCollidable>false</IsCollidable>
+      <Position>256 128</Position>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToModel>Sprite/Tile_CopperFloor</FilePathToModel>
+      <IsCollidable>false</IsCollidable>
+      <Position>320 128</Position>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToModel>Sprite/Tile_CopperFloor</FilePathToModel>
+      <IsCollidable>false</IsCollidable>
+      <Position>384 128</Position>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToModel>Sprite/Tile_CopperFloor</FilePathToModel>
+      <IsCollidable>false</IsCollidable>
+      <Position>448 128</Position>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToModel>Sprite/Tile_CopperFloor</FilePathToModel>
+      <IsCollidable>false</IsCollidable>
+      <Position>448 192</Position>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToModel>Sprite/Tile_CopperFloor</FilePathToModel>
+      <IsCollidable>false</IsCollidable>
+      <Position>512 192</Position>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToModel>Sprite/Tile_CopperFloor</FilePathToModel>
+      <IsCollidable>false</IsCollidable>
+      <Position>576 192</Position>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToModel>Sprite/Tile_CopperFloor</FilePathToModel>
+      <IsCollidable>false</IsCollidable>
+      <Position>640 192</Position>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToModel>Sprite/Tile_CopperFloor</FilePathToModel>
+      <IsCollidable>false</IsCollidable>
+      <Position>704 192</Position>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToModel>Sprite/Tile_CopperFloor</FilePathToModel>
+      <IsCollidable>false</IsCollidable>
+      <Position>704 256</Position>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToModel>Sprite/Tile_CopperFloor</FilePathToModel>
+      <IsCollidable>false</IsCollidable>
+      <Position>512 256</Position>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToModel>Sprite/Tile_CopperFloor</FilePathToModel>
+      <IsCollidable>false</IsCollidable>
+      <Position>448 256</Position>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToModel>Sprite/Tile_CopperFloor</FilePathToModel>
+      <IsCollidable>false</IsCollidable>
+      <Position>384 256</Position>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToModel>Sprite/Tile_CopperFloor</FilePathToModel>
+      <IsCollidable>false</IsCollidable>
+      <Position>576 256</Position>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToModel>Sprite/Tile_CopperFloor</FilePathToModel>
+      <IsCollidable>false</IsCollidable>
+      <Position>640 256</Position>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToModel>Sprite/Tile_CopperFloor</FilePathToModel>
+      <IsCollidable>false</IsCollidable>
+      <Position>640 320</Position>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToModel>Sprite/Tile_CopperFloor</FilePathToModel>
+      <IsCollidable>false</IsCollidable>
+      <Position>576 320</Position>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToModel>Sprite/Tile_CopperFloor</FilePathToModel>
+      <IsCollidable>false</IsCollidable>
+      <Position>320 320</Position>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToModel>Sprite/Tile_CopperFloor</FilePathToModel>
+      <IsCollidable>false</IsCollidable>
+      <Position>256 320</Position>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToModel>Sprite/Tile_CopperFloor</FilePathToModel>
+      <IsCollidable>false</IsCollidable>
+      <Position>192 320</Position>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToModel>Sprite/Tile_CopperFloor</FilePathToModel>
+      <IsCollidable>false</IsCollidable>
+      <Position>128 320</Position>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToModel>Sprite/Tile_Copper</FilePathToModel>
+      <IsCollidable>true</IsCollidable>
+      <Position>64 384</Position>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToModel>Sprite/Tile_Copper</FilePathToModel>
+      <IsCollidable>true</IsCollidable>
+      <Position>128 384</Position>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToModel>Sprite/Tile_Copper</FilePathToModel>
+      <IsCollidable>true</IsCollidable>
+      <Position>256 384</Position>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToModel>Sprite/Tile_Copper</FilePathToModel>
+      <IsCollidable>true</IsCollidable>
+      <Position>320 384</Position>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToModel>Sprite/Tile_Copper</FilePathToModel>
+      <IsCollidable>true</IsCollidable>
+      <Position>384 448</Position>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToModel>Sprite/Tile_Copper</FilePathToModel>
+      <IsCollidable>true</IsCollidable>
+      <Position>384 384</Position>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToModel>Sprite/Tile_Copper</FilePathToModel>
+      <IsCollidable>true</IsCollidable>
+      <Position>512 448</Position>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToModel>Sprite/Tile_Copper</FilePathToModel>
+      <IsCollidable>true</IsCollidable>
+      <Position>576 448</Position>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToModel>Sprite/Tile_Copper</FilePathToModel>
+      <IsCollidable>true</IsCollidable>
+      <Position>576 384</Position>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToModel>Sprite/Tile_Copper</FilePathToModel>
+      <IsCollidable>true</IsCollidable>
+      <Position>640 384</Position>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToModel>Sprite/Tile_Copper</FilePathToModel>
+      <IsCollidable>true</IsCollidable>
+      <Position>640 448</Position>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToModel>Sprite/Tile_Copper</FilePathToModel>
+      <IsCollidable>true</IsCollidable>
+      <Position>704 448</Position>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToModel>Sprite/Tile_Copper</FilePathToModel>
+      <IsCollidable>true</IsCollidable>
+      <Position>704 384</Position>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToModel>Sprite/Tile_Copper</FilePathToModel>
+      <IsCollidable>true</IsCollidable>
+      <Position>704 320</Position>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToModel>Sprite/Tile_Copper</FilePathToModel>
+      <IsCollidable>true</IsCollidable>
+      <Position>768 320</Position>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToModel>Sprite/Tile_Copper</FilePathToModel>
+      <IsCollidable>true</IsCollidable>
+      <Position>768 256</Position>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToModel>Sprite/Tile_Copper</FilePathToModel>
+      <IsCollidable>true</IsCollidable>
+      <Position>768 192</Position>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToModel>Sprite/Tile_Copper</FilePathToModel>
+      <IsCollidable>true</IsCollidable>
+      <Position>768 128</Position>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToModel>Sprite/Tile_Copper</FilePathToModel>
+      <IsCollidable>true</IsCollidable>
+      <Position>704 128</Position>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToModel>Sprite/Tile_Copper</FilePathToModel>
+      <IsCollidable>true</IsCollidable>
+      <Position>640 128</Position>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToModel>Sprite/Tile_Copper</FilePathToModel>
+      <IsCollidable>true</IsCollidable>
+      <Position>576 128</Position>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToModel>Sprite/Tile_Copper</FilePathToModel>
+      <IsCollidable>true</IsCollidable>
+      <Position>512 128</Position>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToModel>Sprite/Tile_Copper</FilePathToModel>
+      <IsCollidable>true</IsCollidable>
+      <Position>512 64</Position>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToModel>Sprite/Tile_Copper</FilePathToModel>
+      <IsCollidable>true</IsCollidable>
+      <Position>448 64</Position>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToModel>Sprite/Tile_Copper</FilePathToModel>
+      <IsCollidable>true</IsCollidable>
+      <Position>384 64</Position>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToModel>Sprite/Tile_Copper</FilePathToModel>
+      <IsCollidable>true</IsCollidable>
+      <Position>320 64</Position>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToModel>Sprite/Tile_Copper</FilePathToModel>
+      <IsCollidable>true</IsCollidable>
+      <Position>256 64</Position>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToModel>Sprite/Tile_Copper</FilePathToModel>
+      <IsCollidable>true</IsCollidable>
+      <Position>192 64</Position>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToModel>Sprite/Tile_Copper</FilePathToModel>
+      <IsCollidable>true</IsCollidable>
+      <Position>128 64</Position>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToModel>Sprite/Tile_Copper</FilePathToModel>
+      <IsCollidable>true</IsCollidable>
+      <Position>64 64</Position>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToModel>Sprite/Tile_Copper</FilePathToModel>
+      <IsCollidable>true</IsCollidable>
+      <Position>64 128</Position>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToModel>Sprite/Tile_Copper</FilePathToModel>
+      <IsCollidable>true</IsCollidable>
+      <Position>128 192</Position>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToModel>Sprite/Tile_Copper</FilePathToModel>
+      <IsCollidable>true</IsCollidable>
+      <Position>64 192</Position>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToModel>Sprite/Tile_Copper</FilePathToModel>
+      <IsCollidable>true</IsCollidable>
+      <Position>0 192</Position>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToModel>Sprite/Tile_Copper</FilePathToModel>
+      <IsCollidable>true</IsCollidable>
+      <Position>0 256</Position>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToModel>Sprite/Tile_Copper</FilePathToModel>
+      <IsCollidable>true</IsCollidable>
+      <Position>0 320</Position>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToModel>Sprite/Tile_Copper</FilePathToModel>
+      <IsCollidable>true</IsCollidable>
+      <Position>0 384</Position>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToModel>Sprite/Tile_CopperWall</FilePathToModel>
+      <IsCollidable>true</IsCollidable>
+      <Position>192 384</Position>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToModel>Sprite/Tile_CopperWall</FilePathToModel>
+      <IsCollidable>true</IsCollidable>
+      <Position>192 448</Position>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToModel>Sprite/Tile_CopperWall</FilePathToModel>
+      <IsCollidable>true</IsCollidable>
+      <Position>256 448</Position>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToModel>Sprite/Tile_CopperWall</FilePathToModel>
+      <IsCollidable>true</IsCollidable>
+      <Position>320 448</Position>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToModel>Sprite/Tile_MetalFloor</FilePathToModel>
+      <IsCollidable>false</IsCollidable>
+      <Position>384 320</Position>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToModel>Sprite/Tile_MetalFloor</FilePathToModel>
+      <IsCollidable>false</IsCollidable>
+      <Position>448 320</Position>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToModel>Sprite/Tile_MetalFloor</FilePathToModel>
+      <IsCollidable>false</IsCollidable>
+      <Position>512 320</Position>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToModel>Sprite/Tile_Metal</FilePathToModel>
+      <IsCollidable>true</IsCollidable>
+      <Position>448 448</Position>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToModel>Sprite/Tile_Metal</FilePathToModel>
+      <IsCollidable>true</IsCollidable>
+      <Position>448 384</Position>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToModel>Sprite/Tile_Metal</FilePathToModel>
+      <IsCollidable>true</IsCollidable>
+      <Position>512 384</Position>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToModel>Sprite/Tile_CopperWall</FilePathToModel>
+      <IsCollidable>true</IsCollidable>
+      <Position>576 64</Position>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToModel>Sprite/Tile_CopperWall</FilePathToModel>
+      <IsCollidable>true</IsCollidable>
+      <Position>640 64</Position>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToModel>Sprite/Tile_CopperWall</FilePathToModel>
+      <IsCollidable>true</IsCollidable>
+      <Position>704 64</Position>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToModel>Sprite/Tile_CopperWall</FilePathToModel>
+      <IsCollidable>true</IsCollidable>
+      <Position>768 64</Position>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToModel>Sprite/Tile_CopperWall</FilePathToModel>
+      <IsCollidable>true</IsCollidable>
+      <Position>768 0</Position>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToModel>Sprite/Tile_CopperWall</FilePathToModel>
+      <IsCollidable>true</IsCollidable>
+      <Position>704 0</Position>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToModel>Sprite/Tile_CopperWall</FilePathToModel>
+      <IsCollidable>true</IsCollidable>
+      <Position>640 0</Position>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToModel>Sprite/Tile_CopperWall</FilePathToModel>
+      <IsCollidable>true</IsCollidable>
+      <Position>576 0</Position>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToModel>Sprite/Tile_CopperWall</FilePathToModel>
+      <IsCollidable>true</IsCollidable>
+      <Position>512 0</Position>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToModel>Sprite/Tile_CopperWall</FilePathToModel>
+      <IsCollidable>true</IsCollidable>
+      <Position>448 0</Position>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToModel>Sprite/Tile_CopperWall</FilePathToModel>
+      <IsCollidable>true</IsCollidable>
+      <Position>384 0</Position>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToModel>Sprite/Tile_CopperWall</FilePathToModel>
+      <IsCollidable>true</IsCollidable>
+      <Position>320 0</Position>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToModel>Sprite/Tile_CopperWall</FilePathToModel>
+      <IsCollidable>true</IsCollidable>
+      <Position>256 0</Position>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToModel>Sprite/Tile_CopperWall</FilePathToModel>
+      <IsCollidable>true</IsCollidable>
+      <Position>192 0</Position>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToModel>Sprite/Tile_CopperWall</FilePathToModel>
+      <IsCollidable>true</IsCollidable>
+      <Position>128 0</Position>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToModel>Sprite/Tile_CopperWall</FilePathToModel>
+      <IsCollidable>true</IsCollidable>
+      <Position>64 0</Position>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToModel>Sprite/Tile_CopperWall</FilePathToModel>
+      <IsCollidable>true</IsCollidable>
+      <Position>0 0</Position>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToModel>Sprite/Tile_CopperWall</FilePathToModel>
+      <IsCollidable>true</IsCollidable>
+      <Position>0 64</Position>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToModel>Sprite/Tile_CopperWall</FilePathToModel>
+      <IsCollidable>true</IsCollidable>
+      <Position>0 128</Position>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToModel>Sprite/Tile_CopperWall</FilePathToModel>
+      <IsCollidable>true</IsCollidable>
+      <Position>768 384</Position>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToModel>Sprite/Tile_CopperWall</FilePathToModel>
+      <IsCollidable>true</IsCollidable>
+      <Position>768 448</Position>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToModel>Sprite/Tile_CopperWall</FilePathToModel>
+      <IsCollidable>true</IsCollidable>
+      <Position>768 512</Position>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToModel>Sprite/Tile_CopperWall</FilePathToModel>
+      <IsCollidable>true</IsCollidable>
+      <Position>128 448</Position>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToModel>Sprite/Tile_CopperWall</FilePathToModel>
+      <IsCollidable>true</IsCollidable>
+      <Position>64 448</Position>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToModel>Sprite/Tile_CopperWall</FilePathToModel>
+      <IsCollidable>true</IsCollidable>
+      <Position>0 448</Position>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+  </Asset>
+</XnaContent>

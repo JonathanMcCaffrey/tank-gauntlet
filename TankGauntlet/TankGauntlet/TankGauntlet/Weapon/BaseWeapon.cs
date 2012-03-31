@@ -11,8 +11,6 @@ namespace TankGauntlet
 {
     public class BaseWeapon
     {
-        protected ContentManager m_ContentManager;
-
         private float m_Rotation = 0;
 
         private Texture2D m_Texture2D;
@@ -26,9 +24,8 @@ namespace TankGauntlet
             get { return m_Parent; }
         }
 
-        public BaseWeapon(ContentManager a_ContentManager, Texture2D a_Texture2D, BaseActor a_BaseActor)
+        public BaseWeapon(Texture2D a_Texture2D, BaseActor a_BaseActor)
         {
-            m_ContentManager = a_ContentManager;
             m_Texture2D = a_Texture2D;
             m_Parent = a_BaseActor;
         }
@@ -41,12 +38,12 @@ namespace TankGauntlet
             {
                 if (Input.OldTouchCollection[0].State == TouchLocationState.Released && Input.CurrentTouchCollection[0].State == TouchLocationState.Pressed)
                 {
-                        ActorMananger.List.Add(new LockOnActor(m_ContentManager, m_ContentManager.Load<Texture2D>("Sprite/LockOn_Bullet"), Input.CurrentTouchCollection[0].Position));
+                    ActorMananger.List.Add(new LockOnActor("Sprite/LockOn_Bullet", Input.CurrentTouchCollection[0].Position));
 
                         Vector2 direction = Input.CurrentTouchCollection[0].Position - Parent.Position;
                         m_Rotation = (float)Math.Atan2(direction.X, -direction.Y);
 
-                        ProjectileManager.List.Add(new BaseProjectile(m_ContentManager, m_ContentManager.Load<Texture2D>("Sprite/Projectile_Bullet"), m_Parent.Position, m_Rotation));
+                        ProjectileManager.List.Add(new BaseProjectile(File.ContentManager.Load<Texture2D>("Sprite/Projectile_Bullet"), m_Parent.Position, m_Rotation));
           
                 }
             }

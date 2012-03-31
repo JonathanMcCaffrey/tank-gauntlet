@@ -70,6 +70,7 @@
     <Compile Include="Actor\Content\LockOnActor.cs" />
     <Compile Include="Actor\Content\PlayerActor.cs" />
     <Compile Include="Actor\Content\TileActor.cs" />
+    <Compile Include="Actor\TileData.cs" />
     <Compile Include="Camera.cs" />
     <Compile Include="Collision\BaseCollision.cs" />
     <Compile Include="Collision\CollisionManager.cs" />
@@ -77,6 +78,7 @@
     <Compile Include="Emitter\BaseEmitter.cs" />
     <Compile Include="Emitter\EmitterManager.cs" />
     <Compile Include="Emitter\Particle.cs" />
+    <Compile Include="File.cs" />
     <Compile Include="Projectile\BaseProjectile.cs" />
     <Compile Include="Projectile\ProjectileManager.cs" />
     <Compile Include="Score\BaseScore.cs" />
@@ -88,6 +90,7 @@
     <Compile Include="State\Content\BallState.cs" />
     <Compile Include="Weapon\BaseWeapon.cs" />
     <Compile Include="Weapon\WeaponManager.cs" />
+    <None Include="app.config" />
     <None Include="Properties\AppManifest.xml">
       <XnaPlatformSpecific>true</XnaPlatformSpecific>
     </None>
@@ -107,6 +110,10 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\Data\Data.csproj">
+      <Project>{298625D6-6D7B-413C-BDB5-0875E2A9072C}</Project>
+      <Name>Data</Name>
+    </ProjectReference>
     <ProjectReference Include="..\TankGauntletContent\TankGauntletContent.contentproj">
       <Name>TankGauntletContent</Name>
       <XnaReferenceType>Content</XnaReferenceType>

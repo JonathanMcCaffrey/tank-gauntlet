@@ -13,13 +13,13 @@ namespace TankGauntlet
     {
         BaseWeapon m_Weapon;
 
-        public PlayerActor(ContentManager a_ContentManager, Vector2 a_Position)
-            : base(a_ContentManager)
+        public PlayerActor(string a_FilePathToMode, Vector2 a_Position)
+            : base()
         {
-            m_Texture2D = a_ContentManager.Load<Texture2D>("Sprite/Tank_Base");
+            m_FilePathToModel = a_FilePathToMode;
             m_Position = a_Position;
 
-            m_Weapon = new BaseWeapon(a_ContentManager, a_ContentManager.Load<Texture2D>("Sprite/Tank_Gun"), this);
+            m_Weapon = new BaseWeapon(File.ContentManager.Load<Texture2D>("Sprite/Tank_Gun"), this);
             WeaponManager.List.Add(m_Weapon);
 
             Initialize();
@@ -54,7 +54,7 @@ namespace TankGauntlet
 
                     if (velocity.X != 0 || velocity.Y != 0)
                     {
-                        m_Rotation = (float)Math.Atan2(velocity.X, -velocity.Y);
+                        Rotation = (float)Math.Atan2(velocity.X, -velocity.Y);
                     }
 
 
@@ -62,7 +62,7 @@ namespace TankGauntlet
                     {
                         if (Input.OldTouchCollection[0].State == TouchLocationState.Moved && Input.CurrentTouchCollection[0].State == TouchLocationState.Moved)
                         {
-                            ActorMananger.List.Add(new LockOnActor(m_ContentManager, m_ContentManager.Load<Texture2D>("Sprite/LockOn_GoTo"), Input.CurrentTouchCollection[0].Position));
+                            ActorMananger.List.Add(new LockOnActor("Sprite/LockOn_GoTo", Input.CurrentTouchCollection[0].Position));
                         }
                     }
                 }

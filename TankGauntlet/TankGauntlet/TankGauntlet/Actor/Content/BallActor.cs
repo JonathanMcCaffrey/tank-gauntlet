@@ -22,8 +22,8 @@ namespace TankGauntlet
         protected BallType m_BallType;
         protected BallState m_BaseState;
 
-        public BallActor(ContentManager a_ContentManager, Vector2 a_Position, BallType a_BallType)
-            : base(a_ContentManager)
+        public BallActor(Vector2 a_Position, BallType a_BallType)
+            : base()
         {
             m_Position = a_Position;
             m_IsCollidable = true;
@@ -33,28 +33,28 @@ namespace TankGauntlet
             switch (m_BallType)
             {
                 case BallType.Bomb:
-                    m_Texture2D = a_ContentManager.Load<Texture2D>("Sprite/Ball_Bomb");
+                    m_FilePathToModel = "Sprite/Ball_Bomb";
                     break;
 
                 case BallType.Red:
-                    m_Texture2D = a_ContentManager.Load<Texture2D>("Sprite/Ball_Red");
+                    m_FilePathToModel = "Sprite/Ball_Red";
                     break;
 
                 case BallType.Green:
-                    m_Texture2D = a_ContentManager.Load<Texture2D>("Sprite/Ball_Green");
+                   m_FilePathToModel = "Sprite/Ball_Green";
                     break;
 
                 case BallType.Blue:
-                    m_Texture2D = a_ContentManager.Load<Texture2D>("Sprite/Ball_Blue");
+                   m_FilePathToModel = "Sprite/Ball_Blue";
                     break;
 
                 case BallType.Yellow:
-                    m_Texture2D = a_ContentManager.Load<Texture2D>("Sprite/Ball_Yellow");
+                    m_FilePathToModel = "Sprite/Ball_Yellow";
                     break;
             }
             #endregion
 
-            m_BaseState = new BallState(this, a_ContentManager);
+            m_BaseState = new BallState(this);
 
             CollisionManager.ActorList.Add(this);
 

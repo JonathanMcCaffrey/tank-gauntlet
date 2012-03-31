@@ -11,8 +11,6 @@ namespace TankGauntlet
 {
     public class BaseScore
     {
-        protected ContentManager m_ContentManager;
-
         protected Vector2 m_Position;
         protected SpriteFont m_SpriteFont;
         protected int m_Amount;
@@ -27,9 +25,8 @@ namespace TankGauntlet
         protected String m_Text;
        
 
-        public BaseScore(ContentManager a_ContentManager, Vector2 a_Position, SpriteFont a_SpriteFont, int a_Amount, Color a_Color)
+        public BaseScore( Vector2 a_Position, SpriteFont a_SpriteFont, int a_Amount, Color a_Color)
         {
-            m_ContentManager = a_ContentManager;
             m_Position = a_Position;
             m_SpriteFont = a_SpriteFont;
             m_Amount = a_Amount;

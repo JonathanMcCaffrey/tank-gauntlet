@@ -19,7 +19,6 @@ namespace TankGauntlet
         protected float m_Speed;
         protected float m_MaxSpeed = 10;
         protected float m_Direction;
-        protected ContentManager m_ContentManager;
 
         protected SpriteFont m_DebugFont;
 
@@ -83,14 +82,13 @@ namespace TankGauntlet
         }
         #endregion
 
-        public BaseProjectile(ContentManager a_ContentManager, Texture2D a_Texture2D, Vector2 a_Position, float a_Direction)
+        public BaseProjectile(Texture2D a_Texture2D, Vector2 a_Position, float a_Direction)
         {
             m_Texture2D = a_Texture2D;
             m_Position = a_Position;
             m_Direction = a_Direction - MathHelper.PiOver2;
             m_Speed = 10.0f;
 
-            m_ContentManager = a_ContentManager;
             m_Color = Color.White;
             m_Rotation = 0;
             m_Scale = 1.0f;

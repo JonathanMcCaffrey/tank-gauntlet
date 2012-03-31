@@ -18,8 +18,6 @@ namespace TankGauntlet
         protected float m_MaxSpeed = 10;
         protected float m_Direction;
 
-        protected ContentManager m_ContentManager;
-
         protected SpriteFont m_DebugFont;
 
         public Vector2 Velocity
@@ -28,14 +26,13 @@ namespace TankGauntlet
         }
 
         static protected int seed = 0;
-        public BaseState(BaseActor a_Actor, ContentManager a_ContentManager)
+        public BaseState(BaseActor a_Actor)
         {
             m_Parent = a_Actor;
             m_Speed = 0;
             m_Direction = 0;
 
-            m_ContentManager = a_ContentManager;
-            m_DebugFont = m_ContentManager.Load<SpriteFont>("Font/Debug");
+            m_DebugFont = File.ContentManager.Load<SpriteFont>("Font/Debug");
         }
 
         public virtual void Update(GameTime a_GameTime)

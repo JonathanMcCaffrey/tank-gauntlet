@@ -10,8 +10,8 @@ namespace TankGauntlet
 {
     public class BallState : BaseState
     {
-        public BallState(BaseActor a_Actor, ContentManager a_ContentManager)
-            : base(a_Actor, a_ContentManager)
+        public BallState(BaseActor a_Actor)
+            : base(a_Actor)
         {
             m_Parent = a_Actor;
             m_Speed = 30.0f;
