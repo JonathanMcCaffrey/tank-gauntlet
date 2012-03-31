@@ -7,9 +7,14 @@ using Microsoft.Xna.Framework.Graphics;
 
 namespace TankGauntlet
 {
-    public static class ProjectileManager
+    public class ScoreManager
     {
-        public static List<BaseProjectile> List = new List<BaseProjectile>();
+        public static List<BaseScore> List = new List<BaseScore>();
+
+        public static float Score = 0;
+
+        public static SpriteFont SpriteFont;
+        private static Vector2 Position = new Vector2(630, 20);
 
         public static void Update(GameTime a_GameTime)
         {
@@ -25,6 +30,8 @@ namespace TankGauntlet
             {
                 List[loop].Draw(a_SpriteBatch);
             }
+
+            a_SpriteBatch.DrawString(SpriteFont, "Score: " + Score.ToString(), Position, Color.Green);
         }
     }
 }

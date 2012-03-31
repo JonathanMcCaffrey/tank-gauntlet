@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -7,9 +7,9 @@ using Microsoft.Xna.Framework.Graphics;
 
 namespace TankGauntlet
 {
-    public static class ProjectileManager
+    public static class WeaponManager
     {
-        public static List<BaseProjectile> List = new List<BaseProjectile>();
+        public static List<BaseWeapon> List = new List<BaseWeapon>();
 
         public static void Update(GameTime a_GameTime)
         {

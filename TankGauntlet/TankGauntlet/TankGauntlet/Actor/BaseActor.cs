@@ -88,7 +88,7 @@ namespace TankGauntlet
             m_SpriteEffects = SpriteEffects.None;
         }
 
-        protected void Initialize()
+        protected virtual void Initialize()
         {
             m_Origin = new Vector2(m_Texture2D.Width / 2.0f, m_Texture2D.Height / 2.0f);
             m_SourceRectangle = new Rectangle(0, 0, m_Texture2D.Width, m_Texture2D.Height);
@@ -96,10 +96,10 @@ namespace TankGauntlet
 
         public virtual void Update(GameTime a_GameTime)
         {
-            if (CollisionRectangle.Contains(new Point((int)Input.Gesture.Position.X, (int)Input.Gesture.Position.Y)))
+           /* if (CollisionRectangle.Contains(new Point((int)Input.Gesture.Position.X, (int)Input.Gesture.Position.Y)))
             {
                 Manager.ActorList.Remove(this);
-            }
+            }*/
         }
 
         public virtual void Draw(SpriteBatch a_SpriteBatch)

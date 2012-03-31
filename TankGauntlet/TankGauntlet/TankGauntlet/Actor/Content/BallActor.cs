@@ -20,9 +20,7 @@ namespace TankGauntlet
     public class BallActor : BaseActor
     {
         protected BallType m_BallType;
-
         protected BallState m_BaseState;
-
 
         public BallActor(ContentManager a_ContentManager, Vector2 a_Position, BallType a_BallType)
             : base(a_ContentManager)
@@ -57,6 +55,8 @@ namespace TankGauntlet
             #endregion
 
             m_BaseState = new BallState(this, a_ContentManager);
+
+            CollisionManager.ActorList.Add(this);
 
             Initialize();
         }

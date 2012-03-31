@@ -13,7 +13,7 @@ namespace TankGauntlet
         public BallState(BaseActor a_Actor, ContentManager a_ContentManager)
             : base(a_Actor, a_ContentManager)
         {
-            m_Actor = a_Actor;
+            m_Parent = a_Actor;
             m_Speed = 30.0f;
             m_Direction = MathHelper.ToRadians((float)(new Random(seed++).NextDouble() * 360));
         }
@@ -21,7 +21,7 @@ namespace TankGauntlet
         public override void Update(GameTime a_GameTime)
         {
             float elapsed = a_GameTime.ElapsedGameTime.Milliseconds / 100.0f;
-            Vector2 projectedLocation = m_Actor.Position + (Velocity * elapsed);
+            Vector2 projectedLocation = m_Parent.Position + (Velocity * elapsed);
 
             if (m_Direction > MathHelper.ToRadians(360))
             {
@@ -30,7 +30,7 @@ namespace TankGauntlet
 
             if (projectedLocation.X >= 0 && projectedLocation.Y >= 0 && projectedLocation.X <= 800 && projectedLocation.Y <= 480)
             {
-                m_Actor.Position = projectedLocation;
+                m_Parent.Position = projectedLocation;
             }
             else
             {

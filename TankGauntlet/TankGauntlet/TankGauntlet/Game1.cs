@@ -18,6 +18,7 @@ namespace TankGauntlet
         SpriteBatch m_SpriteBatch;
 
         Texture2D m_SplashScreen;
+        BasicEffect m_Effect;
 
         bool m_IsGameStarted;
 
@@ -36,26 +37,45 @@ namespace TankGauntlet
 
             m_IsGameStarted = false;
 
+            m_Effect = new BasicEffect(GraphicsDevice);
+            m_Effect.EnableDefaultLighting();
+
             m_SpriteBatch = new SpriteBatch(GraphicsDevice);
             m_SplashScreen = Content.Load<Texture2D>("Screen/SplashScreen");
 
-            Manager.ActorList.Add(new BallActor(Content, new Vector2(100, 250), BallType.Yellow));
-            Manager.ActorList.Add(new BallActor(Content, new Vector2(200, 250), BallType.Green));
-            Manager.ActorList.Add(new BallActor(Content, new Vector2(300, 250), BallType.Blue));
-            Manager.ActorList.Add(new BallActor(Content, new Vector2(400, 250), BallType.Red));
-            Manager.ActorList.Add(new BallActor(Content, new Vector2(500, 250), BallType.Bomb));
+            CollisionManager.ContentManager = Content;
+            ScoreManager.SpriteFont = Content.Load<SpriteFont>("Font/ScoreMain");
+
+            ActorMananger.List.Add(new BallActor(Content, new Vector2(100, 250), BallType.Yellow));
+            ActorMananger.List.Add(new BallActor(Content, new Vector2(200, 250), BallType.Green));
+            ActorMananger.List.Add(new BallActor(Content, new Vector2(300, 250), BallType.Blue));
+            ActorMananger.List.Add(new BallActor(Content, new Vector2(400, 250), BallType.Red));
+            ActorMananger.List.Add(new BallActor(Content, new Vector2(500, 250), BallType.Bomb));
+            ActorMananger.List.Add(new PlayerActor(Content, new Vector2(300, 300)));
 
             base.Initialize();
         }
 
+        float time = 0;
         protected override void Update(GameTime a_GameTime)
         {
-            Input.Update();
-
-            if (a_GameTime.TotalGameTime.TotalMilliseconds % 500 == 0)
+            if (m_IsGameStarted)
             {
-                Manager.ActorList.Add(new TileActor(Content, Content.Load<Texture2D>("Sprite/Ball_Bomb"), new Vector2(250,250), true));
+                time += a_GameTime.ElapsedGameTime.Milliseconds / 1000.0f;
             }
+
+            if (time > 4 && m_IsGameStarted)
+            {
+                ActorMananger.List.Add(new BallActor(Content, new Vector2(100, 250), BallType.Yellow));
+                ActorMananger.List.Add(new BallActor(Content, new Vector2(200, 250), BallType.Green));
+                ActorMananger.List.Add(new BallActor(Content, new Vector2(300, 250), BallType.Blue));
+                ActorMananger.List.Add(new BallActor(Content, new Vector2(400, 250), BallType.Red));
+                ActorMananger.List.Add(new BallActor(Content, new Vector2(500, 250), BallType.Bomb));
+
+                time = 0;
+            }
+
+            Input.Update();
 
             if (m_IsGameStarted == false)
             {
@@ -66,7 +86,11 @@ namespace TankGauntlet
             }
             else
             {
-                Manager.Update(a_GameTime);
+                ActorMananger.Update(a_GameTime);
+                ProjectileManager.Update(a_GameTime);
+                WeaponManager.Update(a_GameTime);
+                CollisionManager.Update(a_GameTime);
+                ScoreManager.Update(a_GameTime);
             }
 
             base.Update(a_GameTime);
@@ -76,7 +100,8 @@ namespace TankGauntlet
         {
             GraphicsDevice.Clear(Color.Black);
 
-            m_SpriteBatch.Begin();
+            m_SpriteBatch.Begin(SpriteSortMode.Immediate, BlendState.AlphaBlend, null, null, null, null, Matrix.CreateTranslation(0,0,0));
+//            m_SpriteBatch.Begin(SpriteSortMode.Texture, BlendState.AlphaBlend, SamplerState.PointWrap, DepthStencilState.None, RasterizerState.CullNone, null, Matrix.CreateTranslation(0, 0, 0));
 
             if (m_IsGameStarted != true)
             {
@@ -84,7 +109,10 @@ namespace TankGauntlet
             }
             else
             {
-                Manager.Draw(m_SpriteBatch);
+                ActorMananger.Draw(m_SpriteBatch);
+                ProjectileManager.Draw(m_SpriteBatch);
+                WeaponManager.Draw(m_SpriteBatch);
+                ScoreManager.Draw(m_SpriteBatch);
             }
 
             m_SpriteBatch.End();

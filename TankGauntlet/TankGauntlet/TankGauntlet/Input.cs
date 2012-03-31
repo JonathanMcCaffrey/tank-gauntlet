@@ -9,9 +9,12 @@ namespace TankGauntlet
 {
     public static class Input
     {
+        public static TouchCollection CurrentTouchCollection = new TouchCollection();
+        public static TouchCollection OldTouchCollection = new TouchCollection();
+
         public static void Initiailize()
         {
-            TouchPanel.EnabledGestures = GestureType.Tap;
+            TouchPanel.EnabledGestures = GestureType.Tap | GestureType.FreeDrag | GestureType.DragComplete;
         }
 
 
@@ -23,7 +26,14 @@ namespace TankGauntlet
 
         public static void Update()
         {
-            m_Gesture = TouchPanel.IsGestureAvailable ?  TouchPanel.ReadGesture() :  new GestureSample();
+            m_Gesture = TouchPanel.IsGestureAvailable ? TouchPanel.ReadGesture() : new GestureSample();
+
+            if (CurrentTouchCollection.Count > 0)
+            {
+                OldTouchCollection = CurrentTouchCollection;
+            }
+
+            CurrentTouchCollection = TouchPanel.GetState();
         }
     }
 }

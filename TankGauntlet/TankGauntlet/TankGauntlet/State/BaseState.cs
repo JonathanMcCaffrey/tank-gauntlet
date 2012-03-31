@@ -12,7 +12,7 @@ namespace TankGauntlet
     {
         protected static Rectangle ScreenDimensions = new Rectangle(0, 0, 800, 480);
 
-        protected BaseActor m_Actor;
+        protected BaseActor m_Parent;
 
         protected float m_Speed;
         protected float m_MaxSpeed = 10;
@@ -30,7 +30,7 @@ namespace TankGauntlet
         static protected int seed = 0;
         public BaseState(BaseActor a_Actor, ContentManager a_ContentManager)
         {
-            m_Actor = a_Actor;
+            m_Parent = a_Actor;
             m_Speed = 0;
             m_Direction = 0;
 
@@ -46,10 +46,10 @@ namespace TankGauntlet
 
         public virtual void Draw(SpriteBatch a_SpriteBatch)
         {
-            a_SpriteBatch.DrawString(m_DebugFont,
+          /*  a_SpriteBatch.DrawString(m_DebugFont,
                 "Direction:" + MathHelper.ToDegrees(m_Direction).ToString() + "\nm_Speed:" + m_Speed.ToString(),
-                m_Actor.Position,
-                Color.White);
+                m_Parent.Position,
+                Color.White);*/
         }
 
     }

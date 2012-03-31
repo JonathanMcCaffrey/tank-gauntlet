@@ -7,5 +7,6 @@ namespace TankGauntlet
 {
     public class BaseCollision
     {
+
     }
 }
