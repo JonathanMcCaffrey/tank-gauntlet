@@ -25,15 +25,13 @@ namespace TankGauntlet
                     if (ProjectileList[projectileLoop].CollisionRectangle.Intersects(ActorList[actorLoop].CollisionRectangle))
                     {
                         ScoreManager.List.Add(new BaseScore(ContentManager, ProjectileList[projectileLoop].Position, ContentManager.Load<SpriteFont>("Font/Score"), 10, Color.Green));
-                        EmitterManager.List.Add(new BaseEmitter(Color.Red, ProjectileList[projectileLoop].Position));
+                        EmitterManager.List.Add(new BaseEmitter(Color.Red, ActorList[actorLoop].Position));
 
                         ProjectileManager.List.Remove(ProjectileList[projectileLoop]);
                         ActorMananger.List.Remove(ActorList[actorLoop]);
 
                         ProjectileList.Remove(ProjectileList[projectileLoop]);
                         ActorList.Remove(ActorList[actorLoop]);
-
-                     
 
                         return;
                     }

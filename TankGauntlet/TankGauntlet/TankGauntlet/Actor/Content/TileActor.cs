@@ -1,7 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
@@ -59,6 +55,11 @@ namespace TankGauntlet
             m_IsCollidable = a_IsCollidable;
 
             Initialize();
+        }
+
+        public TileActor Clone()
+        {
+            return new TileActor(m_ContentManager, m_Texture2D, m_Position, m_IsCollidable);
         }
     }
 }

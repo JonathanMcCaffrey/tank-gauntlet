@@ -70,6 +70,7 @@
     <Compile Include="Actor\Content\LockOnActor.cs" />
     <Compile Include="Actor\Content\PlayerActor.cs" />
     <Compile Include="Actor\Content\TileActor.cs" />
+    <Compile Include="Camera.cs" />
     <Compile Include="Collision\BaseCollision.cs" />
     <Compile Include="Collision\CollisionManager.cs" />
     <Compile Include="Collision\Content\BombCollision.cs" />

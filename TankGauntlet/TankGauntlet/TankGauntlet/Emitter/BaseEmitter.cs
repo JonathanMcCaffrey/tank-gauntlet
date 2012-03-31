@@ -32,7 +32,7 @@ namespace TankGauntlet
             m_Position = a_Position;
             m_RotationMin = MathHelper.ToRadians(0);
             m_RotationMax = MathHelper.ToRadians(360);
-            m_Amount = 30;
+            m_Amount = 90;
             m_LifeMin = 10.8f;
             m_LifeMax = 20.6f;
             m_Tint = a_Tint;

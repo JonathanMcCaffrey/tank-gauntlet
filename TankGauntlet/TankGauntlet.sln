@@ -3,22 +3,52 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TankGauntlet", "TankGauntlet\TankGauntlet\TankGauntlet.csproj", "{D97673B4-06B1-4AD6-AFF9-97240DEB05C6}"
 EndProject
-Project("{96E2B04D-8817-42C6-938A-82C39BA4D311}") = "TankGauntletContent", "TankGauntlet\TankGauntletContent\TankGauntletContent.contentproj", "{AE6AA3DC-09F9-4D55-A3D4-6F5322B7C0F4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TankGauntletContent", "TankGauntlet\TankGauntletContent\TankGauntletContent.contentproj", "{AE6AA3DC-09F9-4D55-A3D4-6F5322B7C0F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Windows Copy of TankGauntlet", "TankGauntlet\TankGauntlet\Windows Copy of TankGauntlet.csproj", "{694B090E-34EF-4395-BA10-559F350A9044}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Mixed Platforms = Debug|Mixed Platforms
 		Debug|Windows Phone = Debug|Windows Phone
+		Debug|x86 = Debug|x86
+		Release|Mixed Platforms = Release|Mixed Platforms
 		Release|Windows Phone = Release|Windows Phone
+		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D97673B4-06B1-4AD6-AFF9-97240DEB05C6}.Debug|Mixed Platforms.ActiveCfg = Debug|Windows Phone
+		{D97673B4-06B1-4AD6-AFF9-97240DEB05C6}.Debug|Mixed Platforms.Build.0 = Debug|Windows Phone
+		{D97673B4-06B1-4AD6-AFF9-97240DEB05C6}.Debug|Mixed Platforms.Deploy.0 = Debug|Windows Phone
 		{D97673B4-06B1-4AD6-AFF9-97240DEB05C6}.Debug|Windows Phone.ActiveCfg = Debug|Windows Phone
 		{D97673B4-06B1-4AD6-AFF9-97240DEB05C6}.Debug|Windows Phone.Build.0 = Debug|Windows Phone
 		{D97673B4-06B1-4AD6-AFF9-97240DEB05C6}.Debug|Windows Phone.Deploy.0 = Debug|Windows Phone
+		{D97673B4-06B1-4AD6-AFF9-97240DEB05C6}.Debug|x86.ActiveCfg = Debug|Windows Phone
+		{D97673B4-06B1-4AD6-AFF9-97240DEB05C6}.Debug|x86.Build.0 = Debug|Windows Phone
+		{D97673B4-06B1-4AD6-AFF9-97240DEB05C6}.Release|Mixed Platforms.ActiveCfg = Release|Windows Phone
+		{D97673B4-06B1-4AD6-AFF9-97240DEB05C6}.Release|Mixed Platforms.Build.0 = Release|Windows Phone
+		{D97673B4-06B1-4AD6-AFF9-97240DEB05C6}.Release|Mixed Platforms.Deploy.0 = Release|Windows Phone
 		{D97673B4-06B1-4AD6-AFF9-97240DEB05C6}.Release|Windows Phone.ActiveCfg = Release|Windows Phone
 		{D97673B4-06B1-4AD6-AFF9-97240DEB05C6}.Release|Windows Phone.Build.0 = Release|Windows Phone
 		{D97673B4-06B1-4AD6-AFF9-97240DEB05C6}.Release|Windows Phone.Deploy.0 = Release|Windows Phone
+		{D97673B4-06B1-4AD6-AFF9-97240DEB05C6}.Release|x86.ActiveCfg = Release|Windows Phone
+		{D97673B4-06B1-4AD6-AFF9-97240DEB05C6}.Release|x86.Build.0 = Release|Windows Phone
+		{AE6AA3DC-09F9-4D55-A3D4-6F5322B7C0F4}.Debug|Mixed Platforms.ActiveCfg = Debug|Windows Phone
 		{AE6AA3DC-09F9-4D55-A3D4-6F5322B7C0F4}.Debug|Windows Phone.ActiveCfg = Debug|Windows Phone
+		{AE6AA3DC-09F9-4D55-A3D4-6F5322B7C0F4}.Debug|x86.ActiveCfg = Debug|Windows Phone
+		{AE6AA3DC-09F9-4D55-A3D4-6F5322B7C0F4}.Release|Mixed Platforms.ActiveCfg = Release|Windows Phone
 		{AE6AA3DC-09F9-4D55-A3D4-6F5322B7C0F4}.Release|Windows Phone.ActiveCfg = Release|Windows Phone
+		{AE6AA3DC-09F9-4D55-A3D4-6F5322B7C0F4}.Release|x86.ActiveCfg = Release|Windows Phone
+		{694B090E-34EF-4395-BA10-559F350A9044}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{694B090E-34EF-4395-BA10-559F350A9044}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{694B090E-34EF-4395-BA10-559F350A9044}.Debug|Windows Phone.ActiveCfg = Debug|x86
+		{694B090E-34EF-4395-BA10-559F350A9044}.Debug|x86.ActiveCfg = Debug|x86
+		{694B090E-34EF-4395-BA10-559F350A9044}.Debug|x86.Build.0 = Debug|x86
+		{694B090E-34EF-4395-BA10-559F350A9044}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{694B090E-34EF-4395-BA10-559F350A9044}.Release|Mixed Platforms.Build.0 = Release|x86
+		{694B090E-34EF-4395-BA10-559F350A9044}.Release|Windows Phone.ActiveCfg = Release|x86
+		{694B090E-34EF-4395-BA10-559F350A9044}.Release|x86.ActiveCfg = Release|x86
+		{694B090E-34EF-4395-BA10-559F350A9044}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

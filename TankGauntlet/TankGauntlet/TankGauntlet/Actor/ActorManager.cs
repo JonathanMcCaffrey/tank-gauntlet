@@ -23,5 +23,18 @@ namespace TankGauntlet
                 List[loop].Draw(a_SpriteBatch);
             }
         }
+
+        public static void SafeAdd(BaseActor a_BaseActor)
+        {
+            for (int loop = 0; loop < List.Count; loop++)
+            {
+                if (List[loop].Position == a_BaseActor.Position)
+                {
+                    List.Remove(List[loop]);
+                }
+            }
+
+            List.Add(a_BaseActor);
+        }
     }
 }
