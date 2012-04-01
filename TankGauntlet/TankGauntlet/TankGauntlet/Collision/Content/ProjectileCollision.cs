@@ -12,7 +12,7 @@ namespace TankGauntlet
         BaseProjectile m_Projectile;
         BaseActor m_Parent;
 
-        public ProjectileCollision(BaseProjectile a_Projectile,BaseActor a_Parent)
+        public ProjectileCollision(BaseProjectile a_Projectile, BaseActor a_Parent)
         {
             m_Projectile = a_Projectile;
             m_Parent = a_Parent;
@@ -35,7 +35,7 @@ namespace TankGauntlet
                 m_CheckPositionOld = m_CheckPositionCurrent;
                 if (CheckCollision())
                 {
-                   
+
                 }
             }
         }
@@ -53,13 +53,43 @@ namespace TankGauntlet
                 {
                     if (m_ActorList[loop] != m_Parent)
                     {
-                        EmitterManager.List.Add(new BaseEmitter(Color.Red, m_ActorList[loop].Position));
-                        
-                        CollisionManager.ActorList.Remove(m_ActorList[loop]);
+                        if (m_ActorList[loop].IsDestructable)
+                        {
+                            if (m_Parent is PlayerActor)
+                            {
+                                if (m_ActorList[loop] is BallActor)
+                                {
+                                    ScoreManager.List.Add(new BaseScore(m_ActorList[loop].Position, 10, Color.Green));
+                                }
+                            }
+
+                            EmitterManager.List.Add(new BaseEmitter(Color.Red, m_ActorList[loop].Position));
+                            EmitterManager.List.Add(new BaseEmitter(Color.Red, m_Projectile.Position));
+
+                            CollisionManager.ActorList.Remove(m_ActorList[loop]);
+
+
+                            if (m_ActorList[loop] is TileActor)
+                            {
+                                ScoreManager.List.Add(new BaseScore(m_ActorList[loop].Position, 25, Color.Green));
+                                m_ActorList[loop].FilePathToTexture = "Sprite/Tile_RockFloor";
+                                m_ActorList[loop].IsCollidable = false;
+                                m_ActorList[loop].IsDestructable = false;
+                            }
+                            else
+                            {
+                                ActorManager.List.Remove(m_ActorList[loop]);
+                            }
+
+                            m_ActorList.Remove(m_ActorList[loop]);
+                        }
+                        else
+                        {
+                            EmitterManager.List.Add(new BaseEmitter(Color.Orange, m_Projectile.Position));
+                        }
+
                         CollisionManager.ProjectileList.Remove(m_Projectile);
                         ProjectileManager.List.Remove(m_Projectile);
-                        ActorMananger.List.Remove(m_ActorList[loop]);
-                        m_ActorList.Remove(m_ActorList[loop]);
 
                         return true;
                     }

@@ -31,7 +31,7 @@ namespace TankGauntlet
                 List[loop].Draw(a_SpriteBatch);
             }
 
-            a_SpriteBatch.DrawString(SpriteFont, "Score: " + Score.ToString(), Position, Color.Green);
+            a_SpriteBatch.DrawString(SpriteFont, "Score: " + Score.ToString(), Position - Camera.Position, Color.Green);
         }
     }
 }

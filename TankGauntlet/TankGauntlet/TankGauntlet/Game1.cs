@@ -5,7 +5,13 @@ using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework.Input.Touch;
-//using Microsoft.Xna.Framework.Content.Pipeline.Serialization.Intermediate;
+using Microsoft.Xna.Framework.Audio;
+using Microsoft.Xna.Framework.Media;
+
+#if WINDOWS
+using Microsoft.Xna.Framework.Content.Pipeline.Serialization.Intermediate;
+using System.Windows.Forms;
+#endif
 
 namespace TankGauntlet
 {
@@ -19,8 +25,13 @@ namespace TankGauntlet
 
         bool m_IsGameStarted;
 
+        public static int Level = 1;
+
+        public static Game1 Game;
         public Game1()
         {
+            Game = this;
+
             m_GraphicsDeviceManager = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
 
@@ -45,143 +56,294 @@ namespace TankGauntlet
             File.ContentManager = Content;
             ScoreManager.SpriteFont = Content.Load<SpriteFont>("Font/ScoreMain");
             EmitterManager.Sprite = Content.Load<Texture2D>("Pixel");
+            Audio.Song = Content.Load<Song>("Audio/Song");
 
-
+#if !WINDOWS
             List<Data.BaseActor> tempList = Content.Load<List<Data.BaseActor>>("Level/1");
 
-            for(int loop = 0; loop < tempList.Count; loop++)
-            {
-                 ActorMananger.List.Add(new TileActor(tempList[loop].FilePathToModel, tempList[loop].Position, tempList[loop].IsCollidable));
-            }
-           
+            Vector2 playerPosition = Vector2.Zero;
 
-         /*   ActorMananger.List.Add(new BallActor(new Vector2(100, 250), BallType.Yellow));
-            ActorMananger.List.Add(new BallActor(new Vector2(200, 250), BallType.Green));
-            ActorMananger.List.Add(new BallActor(new Vector2(300, 250), BallType.Blue));
-            ActorMananger.List.Add(new BallActor(new Vector2(400, 250), BallType.Red));
-            ActorMananger.List.Add(new BallActor(new Vector2(500, 250), BallType.Bomb));*/
-            ActorMananger.List.Add(new PlayerActor("Sprite/Tank_Base", new Vector2(300, 300)));
-            
+            for (int loop = 0; loop < tempList.Count; loop++)
+            {
+                if (tempList[loop] is Data.TileActor)
+                {
+                    ActorManager.List.Add(new TileActor(tempList[loop].FilePathToTexture, tempList[loop].Position, tempList[loop].IsCollidable, tempList[loop].IsDestructable));
+                }
+
+                if (tempList[loop] is Data.BallActor)
+                {
+                    Data.BallActor temp = (Data.BallActor)tempList[loop];
+                    ActorManager.List.Add(new BallActor(temp.Position, (int)temp.BallType));
+                }
+
+                if (tempList[loop] is Data.AreaActor)
+                {
+                    Data.AreaActor temp = (Data.AreaActor)tempList[loop];
+                    ActorManager.List.Add(new AreaActor(temp.Position, (int)temp.AreaType));
+
+                    if (temp.AreaType == Data.AreaType.Start)
+                    {
+                        playerPosition = temp.Position;
+                    }
+                }
+            }
+            PlayerActor player = new PlayerActor("Sprite/Tank_Base", playerPosition);
+            ActorManager.List.Add(player);
+            File.Player = player;
+#endif
+
+
             base.Initialize();
         }
 
-        float time = 0;
+        public static void NextLevel()
+        {
+            try
+            {
+                List<Data.BaseActor> tempList = Game.Content.Load<List<Data.BaseActor>>("Level/" + (++Game1.Level).ToString());
 
-        TileActor selectedTile;
-        int tileType = 0;
+                ActorManager.List.Clear();
+                CollisionManager.ActorList.Clear();
+                CollisionManager.ProjectileList.Clear();
+
+                Vector2 playerPosition = Vector2.Zero;
+
+
+
+                for (int loop = 0; loop < tempList.Count; loop++)
+                {
+                    if (tempList[loop] is Data.TileActor)
+                    {
+                        ActorManager.List.Add(new TileActor(tempList[loop].FilePathToTexture, tempList[loop].Position, tempList[loop].IsCollidable, tempList[loop].IsDestructable));
+                    }
+
+                    if (tempList[loop] is Data.BallActor)
+                    {
+                        Data.BallActor temp = (Data.BallActor)tempList[loop];
+                        ActorManager.List.Add(new BallActor(temp.Position, (int)temp.BallType));
+                    }
+
+                    if (tempList[loop] is Data.AreaActor)
+                    {
+                        Data.AreaActor temp = (Data.AreaActor)tempList[loop];
+                        ActorManager.List.Add(new AreaActor(temp.Position, (int)temp.AreaType));
+
+                        if (temp.AreaType == Data.AreaType.Start)
+                        {
+                            playerPosition = temp.Position;
+                            Camera.Position = temp.Position;
+                        }
+                    }
+                }
+
+                ActorManager.List.Add(File.Player);
+                File.Player.Position = playerPosition;
+                File.Player.OldPosition = playerPosition;
+            }
+            catch
+            {
+                Game1.Game.m_IsGameStarted = false;
+            }
+        }
+
+#if WINDOWS
+        BaseActor selectedTile;
+#endif
+
         protected override void Update(GameTime a_GameTime)
         {
-            if (m_IsGameStarted)
-            {
-                time += a_GameTime.ElapsedGameTime.Milliseconds / 1000.0f;
-            }
-
-            /*  if (time > 4 && m_IsGameStarted)
-              {
-                  ActorMananger.List.Add(new BallActor(new Vector2(100, 250), BallType.Yellow));
-                  ActorMananger.List.Add(new BallActor( new Vector2(200, 250), BallType.Green));
-                  ActorMananger.List.Add(new BallActor(new Vector2(300, 250), BallType.Blue));
-                  ActorMananger.List.Add(new BallActor( new Vector2(400, 250), BallType.Red));
-                  ActorMananger.List.Add(new BallActor( new Vector2(500, 250), BallType.Bomb));
-
-                  time = 0;
-              }*/
-
             Input.Update();
 
             if (m_IsGameStarted == false)
             {
                 if (Input.Gesture.GestureType == GestureType.Tap)
                 {
+                    MediaPlayer.Play(Audio.Song);
+                    MediaPlayer.IsRepeating = true;
+                    MediaPlayer.Volume = 0.2f;
+
                     m_IsGameStarted = true;
                 }
 
-                if (Input.SingleKeyPressInput(Keys.Space))
+                if (Input.SingleKeyPressInput(Microsoft.Xna.Framework.Input.Keys.Space))
                 {
                     m_IsGameStarted = true;
                 }
             }
             else
             {
-                ActorMananger.Update(a_GameTime);
+                ActorManager.Update(a_GameTime);
                 ProjectileManager.Update(a_GameTime);
                 EmitterManager.Update(a_GameTime);
                 WeaponManager.Update(a_GameTime);
                 CollisionManager.Update(a_GameTime);
                 ScoreManager.Update(a_GameTime);
 
-             /*   switch (tileType)
+#if WINDOWS
+                if (Input.MulitKeyPressInput(Microsoft.Xna.Framework.Input.Keys.Q))
                 {
-                    case 0:
-                        selectedTile = new TileActor("Sprite/Tile_CopperFloor", Input.MousePosition - Camera.Position, false);
-                        break;
-                    case 1:
-                        selectedTile = new TileActor("Sprite/Tile_Copper", Input.MousePosition - Camera.Position, true);
-                        break;
-                    case 2:
-                        selectedTile = new TileActor("Sprite/Tile_CopperWall", Input.MousePosition - Camera.Position, true);
-                        break;
-                    case 3:
-                        selectedTile = new TileActor("Sprite/Tile_MetalFloor", Input.MousePosition - Camera.Position, false);
-                        break;
-                    case 4:
-                        selectedTile = new TileActor("Sprite/Tile_Metal", Input.MousePosition - Camera.Position, true);
-                        break;
-                    case 5:
-                        selectedTile = new TileActor("Sprite/Tile_MetalWall", Input.MousePosition - Camera.Position, true);
-                        break;
+                    selectedTile = new TileActor("Sprite/Tile_CopperFloor", Input.MousePosition - Camera.Position, false, false);
+                }
+                if (Input.MulitKeyPressInput(Microsoft.Xna.Framework.Input.Keys.W))
+                {
+                    selectedTile = new TileActor("Sprite/Tile_Copper", Input.MousePosition - Camera.Position, true, false);
                 }
 
-                   if (Input.MouseLeftDrag)
-                   {
-                       ActorMananger.SafeAdd(selectedTile.Clone());
-                   }
-                if (Input.MouseWheel != 0)
+                if (Input.SingleKeyPressInput(Microsoft.Xna.Framework.Input.Keys.E))
                 {
-                    tileType += (Input.MouseWheel > 0) ? 1 : -1;
+                    selectedTile = new TileActor("Sprite/Tile_CopperWall", Input.MousePosition - Camera.Position, true, false);
                 }
-                if (tileType > 6)
+                if (Input.SingleKeyPressInput(Microsoft.Xna.Framework.Input.Keys.A))
                 {
-                    tileType = 0;
+                    selectedTile = new TileActor("Sprite/Tile_MetalFloor", Input.MousePosition - Camera.Position, false, false);
+                }
+                if (Input.SingleKeyPressInput(Microsoft.Xna.Framework.Input.Keys.S))
+                {
+                    selectedTile = new TileActor("Sprite/Tile_Metal", Input.MousePosition - Camera.Position, true, false);
+                }
+                if (Input.SingleKeyPressInput(Microsoft.Xna.Framework.Input.Keys.D))
+                {
+                    selectedTile = new TileActor("Sprite/Tile_MetalWall", Input.MousePosition - Camera.Position, true, false);
+                }
+                if (Input.SingleKeyPressInput(Microsoft.Xna.Framework.Input.Keys.R))
+                {
+                    selectedTile = new TileActor("Sprite/Tile_RockWall", Input.MousePosition - Camera.Position, true, true);
+                }
+                if (Input.SingleKeyPressInput(Microsoft.Xna.Framework.Input.Keys.T))
+                {
+                    selectedTile = new AreaActor(Input.MousePosition - Camera.Position, (int)AreaType.Start);
+                }
+                if (Input.SingleKeyPressInput(Microsoft.Xna.Framework.Input.Keys.G))
+                {
+                    selectedTile = new AreaActor(Input.MousePosition - Camera.Position, (int)AreaType.Finish);
+                }
+                if (Input.SingleKeyPressInput(Microsoft.Xna.Framework.Input.Keys.F))
+                {
+                    selectedTile = new BallActor(Input.MousePosition - Camera.Position, (int)BallType.Bomb);
+                }
+
+                if (selectedTile != null)
+                {
+                    selectedTile.Position = Input.MousePosition - Camera.Position;
+                }
+
+                if (selectedTile is TileActor && Input.MouseLeftDrag)
+                {
+                    ActorManager.SafeAdd(((TileActor)selectedTile).Clone());
                 }
 
 
-                if (Input.SingleKeyPressInput(Keys.F2))
+                if (selectedTile is BallActor && Input.MouseLeftPressed)
                 {
-                    List<BaseActor> List = ActorMananger.List;
+                    ActorManager.SafeAdd(((BallActor)selectedTile).Clone());
+                }
+
+                if (selectedTile is AreaActor && Input.MouseLeftPressed)
+                {
+                    ActorManager.SafeAdd(((AreaActor)selectedTile).Clone());
+                }
+
+
+                if (Input.SingleKeyPressInput(Microsoft.Xna.Framework.Input.Keys.F2))
+                {
+                    SaveFileDialog save = new SaveFileDialog();
+                    save.Filter = "ASCII file (*.xml)|*.xml";
+                    save.ShowDialog();
+
+                    string path = save.FileName;
+                    if (path == string.Empty) { return; }
+
+                    List<Data.BaseActor> List = new List<Data.BaseActor>();
+                    for (int loop = 0; loop < ActorManager.List.Count; loop++)
+                    {
+                        if (ActorManager.List[loop] is TileActor)
+                        {
+                            TileActor data = (TileActor)ActorManager.List[loop];
+                            Data.TileActor temp = new Data.TileActor(data.FilePathToTexture, data.Position, data.IsCollidable, data.IsDestructable);
+                            List.Add(temp);
+                        }
+
+                        if (ActorManager.List[loop] is BallActor)
+                        {
+                            BallActor data = (BallActor)ActorManager.List[loop];
+                            Data.BallActor temp = new Data.BallActor(data.Position, (int)data.BallType);
+                            List.Add(temp);
+                        }
+
+                        if (ActorManager.List[loop] is AreaActor)
+                        {
+                            AreaActor data = (AreaActor)ActorManager.List[loop];
+                            Data.AreaActor temp = new Data.AreaActor(data.Position, (int)data.AreaType);
+                            List.Add(temp);
+                        }
+                    }
 
                     XmlWriterSettings xmlWriterSettings = new XmlWriterSettings();
                     xmlWriterSettings.Indent = true;
 
-                    XmlWriter xmlWriter = XmlWriter.Create("Test.xml", xmlWriterSettings);
+                    XmlWriter xmlWriter = XmlWriter.Create(path, xmlWriterSettings);
                     IntermediateSerializer.Serialize(xmlWriter, List, null);
                     xmlWriter.Close();
-                }*/
+                }
+
+                if (Input.SingleKeyPressInput(Microsoft.Xna.Framework.Input.Keys.F3))
+                {
+                    OpenFileDialog open = new OpenFileDialog();
+                    open.Filter = "ASCII file (*.xml)|*.xml";
+                    open.ShowDialog();
+
+                    string path = open.FileName;
+                    if (path == string.Empty) { return; }
+
+                    XmlReaderSettings xmlReaderSettings = new XmlReaderSettings();
+
+                    XmlReader xmlReader = XmlReader.Create(path, xmlReaderSettings);
+                    List<Data.BaseActor> tempList = IntermediateSerializer.Deserialize<List<Data.BaseActor>>(xmlReader, null);
+                    xmlReader.Close();
+
+                    for (int loop = 0; loop < tempList.Count; loop++)
+                    {
+                        if (tempList[loop] is Data.TileActor)
+                        {
+                            ActorManager.List.Add(new TileActor(tempList[loop].FilePathToTexture, tempList[loop].Position, tempList[loop].IsCollidable, tempList[loop].IsDestructable));
+                        }
+
+                        if (tempList[loop] is Data.BallActor)
+                        {
+                            Data.BallActor temp = (Data.BallActor)tempList[loop];
+                            ActorManager.List.Add(new BallActor(temp.Position, (int)temp.BallType));
+                        }
+
+                        if (tempList[loop] is Data.AreaActor)
+                        {
+                            Data.AreaActor temp = (Data.AreaActor)tempList[loop];
+                            ActorManager.List.Add(new AreaActor(temp.Position, (int)temp.AreaType));
+                        }
+                    }
+                }
+#endif
             }
 
-         /*   float speed = 5;
+#if WINDOWS
+            float speed = 5;
 
-            if (Input.MulitKeyPressInput(Keys.W))
+            if (Input.MulitKeyPressInput(Microsoft.Xna.Framework.Input.Keys.Down))
             {
                 Camera.Position += new Vector2(0, -speed);
             }
-            if (Input.MulitKeyPressInput(Keys.S))
+            if (Input.MulitKeyPressInput(Microsoft.Xna.Framework.Input.Keys.Up))
             {
                 Camera.Position += new Vector2(0, speed);
             }
-            if (Input.MulitKeyPressInput(Keys.A))
+            if (Input.MulitKeyPressInput(Microsoft.Xna.Framework.Input.Keys.Right))
             {
                 Camera.Position += new Vector2(-speed, 0);
             }
-            if (Input.MulitKeyPressInput(Keys.D))
+            if (Input.MulitKeyPressInput(Microsoft.Xna.Framework.Input.Keys.Left))
             {
                 Camera.Position += new Vector2(speed, 0);
             }
-
-            if (Input.MouseLeftPressed)
-            {
-
-            }*/
+#endif
 
             base.Update(a_GameTime);
         }
@@ -194,20 +356,21 @@ namespace TankGauntlet
 
             if (m_IsGameStarted != true)
             {
-                m_SpriteBatch.Draw(m_SplashScreen, Vector2.Zero, Color.White);
+                m_SpriteBatch.Draw(m_SplashScreen, Vector2.Zero - Camera.Position, Color.White);
             }
             else
             {
-                ActorMananger.Draw(m_SpriteBatch);
+                ActorManager.Draw(m_SpriteBatch);
                 ProjectileManager.Draw(m_SpriteBatch);
                 EmitterManager.Draw(m_SpriteBatch);
                 WeaponManager.Draw(m_SpriteBatch);
                 ScoreManager.Draw(m_SpriteBatch);
-
-               /* if (selectedTile != null)
+#if WINDOWS
+                if (selectedTile != null)
                 {
-                    m_SpriteBatch.Draw(Content.Load<Texture2D>(selectedTile.FilePathToModel), Input.MousePosition - Camera.Position, selectedTile.SourceRectangle, Color.White, selectedTile.Rotation, selectedTile.Origin, selectedTile.Scale, selectedTile.SpriteEffects, selectedTile.LayerDepth);
-                }*/
+                    m_SpriteBatch.Draw(Content.Load<Texture2D>(selectedTile.FilePathToTexture), Input.MousePosition - Camera.Position, selectedTile.SourceRectangle, Color.White, selectedTile.Rotation, selectedTile.Origin, selectedTile.Scale, selectedTile.SpriteEffects, selectedTile.LayerDepth);
+                }
+#endif
             }
 
             m_SpriteBatch.End();

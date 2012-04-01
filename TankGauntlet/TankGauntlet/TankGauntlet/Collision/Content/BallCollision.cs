@@ -32,7 +32,7 @@ namespace TankGauntlet
                 m_CheckPositionOld = m_CheckPositionCurrent;
                 if (CheckCollision())
                 {
-                    m_Actor.Direction += MathHelper.ToRadians(180);
+                    m_Actor.m_Direction += MathHelper.ToRadians(180);
                 }
             }
         }

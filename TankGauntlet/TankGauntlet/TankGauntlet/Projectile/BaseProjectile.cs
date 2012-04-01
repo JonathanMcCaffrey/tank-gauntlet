@@ -120,12 +120,6 @@ namespace TankGauntlet
             float elapsed = a_GameTime.ElapsedGameTime.Milliseconds / 100.0f;
             m_Position += Velocity;
 
-            if (!(m_Position.X >= 0 && m_Position.Y >= 0 && m_Position.X <= 800 && m_Position.Y <= 480))
-            {
-                CollisionManager.ProjectileList.Remove(this);
-                ProjectileManager.List.Remove(this);
-            }
-
             m_ProjectileCollision.Update(a_GameTime);
         }
 

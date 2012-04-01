@@ -16,6 +16,9 @@ namespace TankGauntlet
             m_Actor = a_Actor;
             m_Actor.OldPosition = m_Actor.Position;
 
+            m_CheckMaxDisplacement = 25;
+            m_UpdateMaxDisplacement = 25;
+
             UpdateCollision();
         }
 
@@ -56,6 +59,16 @@ namespace TankGauntlet
                 {
                     if (m_ActorList[loop] != m_Actor)
                     {
+                        if (m_ActorList[loop] is TileActor)
+                        {
+                            EmitterManager.List.Add(new BaseEmitter(Color.Yellow, m_Actor.Position));
+                        }
+
+                        if (m_ActorList[loop] is AreaActor)
+                        {
+                            Game1.NextLevel();
+                        }
+
                         return true;
                     }
                 }

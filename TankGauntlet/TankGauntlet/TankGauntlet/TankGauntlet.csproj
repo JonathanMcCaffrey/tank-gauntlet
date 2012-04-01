@@ -67,6 +67,7 @@
   <ItemGroup>
     <Compile Include="Actor\BaseActor.cs" />
     <Compile Include="Actor\Content\BallActor.cs" />
+    <Compile Include="Actor\Content\AreaActor.cs" />
     <Compile Include="Actor\Content\LockOnActor.cs" />
     <Compile Include="Actor\Content\PlayerActor.cs" />
     <Compile Include="Actor\Content\TileActor.cs" />
@@ -87,6 +88,7 @@
     <Compile Include="Input.cs" />
     <Compile Include="Actor\ActorManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Audio.cs" />
     <Compile Include="Weapon\BaseWeapon.cs" />
     <Compile Include="Weapon\WeaponManager.cs" />
     <None Include="app.config" />

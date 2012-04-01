@@ -26,7 +26,7 @@ namespace TankGauntlet
 
         protected Vector2 m_UpdatePositionOld = Vector2.Zero;
         protected Vector2 m_UpdatePositionCurrent = Vector2.Zero;
-        protected float m_UpdateMaxDisplacement = 100;
+        protected float m_UpdateMaxDisplacement = 25;
         protected float UpdateDisplacement
         {
             get { return Displacement(m_UpdatePositionOld, m_UpdatePositionCurrent); }
@@ -46,6 +46,8 @@ namespace TankGauntlet
 
         protected virtual void UpdateCollision()
         {
+            m_ActorList.Clear();
+
             for (int loop = 0; loop < CollisionManager.ActorList.Count; loop++)
             {
                 if (Displacement(m_UpdatePositionCurrent, CollisionManager.ActorList[loop].Position) < m_Range)
@@ -53,6 +55,8 @@ namespace TankGauntlet
                     m_ActorList.Add(CollisionManager.ActorList[loop]);
                 }
             }
+
+            m_ProjectileList.Clear();
 
             for (int loop = 0; loop < CollisionManager.ProjectileList.Count; loop++)
             {

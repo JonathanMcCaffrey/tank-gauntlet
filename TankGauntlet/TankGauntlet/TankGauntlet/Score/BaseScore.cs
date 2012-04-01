@@ -25,10 +25,10 @@ namespace TankGauntlet
         protected String m_Text;
        
 
-        public BaseScore( Vector2 a_Position, SpriteFont a_SpriteFont, int a_Amount, Color a_Color)
+        public BaseScore( Vector2 a_Position, int a_Amount, Color a_Color)
         {
             m_Position = a_Position;
-            m_SpriteFont = a_SpriteFont;
+            m_SpriteFont = File.ContentManager.Load<SpriteFont>("Font/Score"); ;
             m_Amount = a_Amount;
             m_Color = a_Color;
 

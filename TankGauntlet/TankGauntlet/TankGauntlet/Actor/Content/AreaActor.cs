@@ -4,8 +4,21 @@ using Microsoft.Xna.Framework.Graphics;
 
 namespace TankGauntlet
 {
-    public class TileActor : BaseActor
+    public enum AreaType
     {
+        Start,
+        Finish
+    }
+
+    public class AreaActor : BaseActor
+    {
+        private AreaType m_AreaType;
+        public AreaType AreaType
+        {
+            get { return m_AreaType; }
+            set { m_AreaType = value; }
+        }
+
         #region Properties
         public override Vector2 Position
         {
@@ -47,23 +60,29 @@ namespace TankGauntlet
         }
         #endregion
 
-        public TileActor(string a_FilePathToModel, Vector2 a_Position, bool a_IsCollidable, bool a_IsDestructable)
+        public AreaActor(Vector2 a_Position, int a_AreaType)
             : base()
         {
-            m_FilePathToTexture = a_FilePathToModel;
-            m_Position = a_Position;
-            m_IsCollidable = a_IsCollidable;
-            m_IsDestructable = a_IsDestructable;
+            m_AreaType = (AreaType)a_AreaType;
 
-            if (m_IsCollidable)
+            if (m_AreaType == AreaType.Start)
             {
+                m_FilePathToTexture = "Sprite/Area_Start";
+            }
+            if (m_AreaType == AreaType.Finish)
+            {
+                m_FilePathToTexture = "Sprite/Area_Finish";
                 CollisionManager.ActorList.Add(this);
             }
+            m_Position = a_Position;
+
+            m_SourceRectangle = new Rectangle(0, 0, 192, 192);
+            m_Origin = new Vector2(96, 96);
         }
 
-        public TileActor Clone()
+        public AreaActor Clone()
         {
-            return new TileActor(m_FilePathToTexture, m_Position, m_IsCollidable, m_IsDestructable);
+            return new AreaActor(m_Position, (int)m_AreaType);
         }
     }
 }

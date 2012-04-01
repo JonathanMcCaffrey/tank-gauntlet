@@ -87,6 +87,8 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AreaActor.cs" />
+    <Compile Include="BallActor.cs" />
     <Compile Include="BaseActor.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TileActor.cs" />

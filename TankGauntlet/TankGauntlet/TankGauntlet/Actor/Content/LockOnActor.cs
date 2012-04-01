@@ -54,10 +54,8 @@ namespace TankGauntlet
         public LockOnActor(string a_FilePathToModel, Vector2 a_Position)
             : base()
         {
-            m_FilePathToModel = a_FilePathToModel;
+            m_FilePathToTexture = a_FilePathToModel;
             m_Position = a_Position;
-
-            Initialize();
         }
 
         float timer = 0;
@@ -65,7 +63,6 @@ namespace TankGauntlet
         public override void Update(GameTime a_GameTime)
         {
             float elapsed = a_GameTime.ElapsedGameTime.Milliseconds / 100.0f;
-            float speed = 4.0f;
             timer += elapsed;
 
             float temp = (maxTime - timer) / maxTime;
@@ -74,7 +71,7 @@ namespace TankGauntlet
 
             if (timer > maxTime)
             {
-                ActorMananger.List.Remove(this);
+                ActorManager.List.Remove(this);
             }
         }
     }

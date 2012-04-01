@@ -25,8 +25,7 @@ namespace TankGauntlet
         {
             get
             {
-                Vector2 tempVelocity = new Vector2((float)Math.Sin(m_Rotation), (float)Math.Cos(m_Rotation));
-                return tempVelocity;
+                return new Vector2((float)Math.Sin(m_Rotation), (float)Math.Cos(m_Rotation));
             }
         }
         private float Alpha
@@ -82,7 +81,7 @@ namespace TankGauntlet
                 m_Owner.List.Remove(this);
             }
 
-            m_Position += ((Vector2.Normalize(Velocity) * (float)a_GameTime.ElapsedGameTime.Milliseconds / 100.0f)) * ((m_LifeCurrent + m_LifeTotal) / m_LifeTotal);
+            m_Position += ((Velocity * (float)a_GameTime.ElapsedGameTime.Milliseconds / 100.0f)) * m_Speed;
         }
 
         public void Draw(SpriteBatch a_SpriteBatch)

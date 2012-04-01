@@ -18,7 +18,12 @@ Content\Sprite\Tile_CopperWall.xnb
 Content\Sprite\Tile_CopperFloor.xnb
 Content\Sprite\Tile_RockFloor.xnb
 Content\Sprite\Tile_RockWall.xnb
+Content\Sprite\Area_Finish.xnb
+Content\Sprite\Area_Start.xnb
 Content\Font\Debug.xnb
 Content\Font\Score.xnb
 Content\Font\ScoreMain.xnb
+Content\Audio\Song.xnb
 Content\Level\1.xnb
+Content\Level\2.xnb
+Content\Audio\Song.wma

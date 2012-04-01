@@ -178,6 +178,32 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Audio\Song.mp3">
+      <Name>Song</Name>
+      <Importer>Mp3Importer</Importer>
+      <Processor>SongProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Level\2.xml">
+      <Name>2</Name>
+      <Importer>XmlImporter</Importer>
+      <Processor>PassThroughProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sprite\Area_Finish.png">
+      <Name>Area_Finish</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Sprite\Area_Start.png">
+      <Name>Area_Start</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
     <Compile Include="Level\1.xml">
       <Name>1</Name>
       <Importer>XmlImporter</Importer>

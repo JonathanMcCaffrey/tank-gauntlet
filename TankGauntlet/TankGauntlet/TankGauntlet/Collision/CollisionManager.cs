@@ -26,7 +26,7 @@ namespace TankGauntlet
                         EmitterManager.List.Add(new BaseEmitter(Color.Red, ActorList[actorLoop].Position));
 
                         ProjectileManager.List.Remove(ProjectileList[projectileLoop]);
-                        ActorMananger.List.Remove(ActorList[actorLoop]);
+                        ActorManager.List.Remove(ActorList[actorLoop]);
 
                         ProjectileList.Remove(ProjectileList[projectileLoop]);
                         ActorList.Remove(ActorList[actorLoop]);
@@ -35,8 +35,6 @@ namespace TankGauntlet
                     }
                 }
             }*/
-
-
         }
     }
 }

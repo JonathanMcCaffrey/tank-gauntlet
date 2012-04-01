@@ -38,9 +38,9 @@ namespace TankGauntlet
             {
                 if (Input.OldTouchCollection[0].State == TouchLocationState.Released && Input.CurrentTouchCollection[0].State == TouchLocationState.Pressed)
                 {
-                    ActorMananger.List.Add(new LockOnActor("Sprite/LockOn_Bullet", Input.CurrentTouchCollection[0].Position));
+                    ActorManager.List.Add(new LockOnActor("Sprite/LockOn_Bullet", Input.CurrentTouchCollection[0].Position - Camera.Position));
 
-                        Vector2 direction = Input.CurrentTouchCollection[0].Position - Parent.Position;
+                    Vector2 direction = Input.CurrentTouchCollection[0].Position - Parent.Position - Camera.Position;
                         m_Rotation = (float)Math.Atan2(direction.X, -direction.Y);
 
                         ProjectileManager.List.Add(new BaseProjectile(File.ContentManager.Load<Texture2D>("Sprite/Projectile_Bullet"), m_Parent, m_Parent.Position, m_Rotation));

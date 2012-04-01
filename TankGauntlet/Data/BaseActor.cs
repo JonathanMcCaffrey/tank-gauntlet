@@ -6,11 +6,11 @@ namespace Data
 {
     public class BaseActor
     {
-        protected string m_FilePathToModel;
-        public string FilePathToModel
+        protected string m_FilePathToTexture;
+        public string FilePathToTexture
         {
-            get { return m_FilePathToModel; }
-            set { m_FilePathToModel = value; }
+            get { return m_FilePathToTexture; }
+            set { m_FilePathToTexture = value; }
         }
 
         protected bool m_IsCollidable;
@@ -19,11 +19,24 @@ namespace Data
             get { return m_IsCollidable; }
             set { m_IsCollidable = value; }
         }
+        protected bool m_IsDestructable;
+        public bool IsDestructable
+        {
+            get { return m_IsDestructable; }
+            set { m_IsDestructable = value; }
+        }
+
         protected Vector2 m_Position;
         public virtual Vector2 Position
         {
             get { return m_Position; }
             set { m_Position = value; }
+        }
+        protected Vector2 m_OldPosition;
+        public virtual Vector2 OldPosition
+        {
+            get { return m_OldPosition; }
+            set { m_OldPosition = value; }
         }
 
         protected Vector2 m_Origin;
@@ -73,6 +86,25 @@ namespace Data
         {
             get { return m_SpriteEffects; }
             set { m_SpriteEffects = value; }
+        }
+
+        public virtual Rectangle CollisionRectangle
+        {
+            get { return new Rectangle((int)Position.X, (int)Position.Y, SourceRectangle.Width, SourceRectangle.Height); }
+        }
+
+        public BaseActor()
+        {
+            m_Position = Vector2.Zero;
+            m_IsCollidable = false;
+            m_IsDestructable = false;
+            m_Color = Color.White;
+            m_Rotation = 0;
+            m_Scale = 1.0f;
+            m_LayerDepth = 1.0f;
+            m_SpriteEffects = SpriteEffects.None;
+            m_Origin = new Vector2(32, 32);
+            m_SourceRectangle = new Rectangle(0, 0, 64, 64);
         }
     }
 }

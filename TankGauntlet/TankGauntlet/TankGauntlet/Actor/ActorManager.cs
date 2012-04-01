@@ -4,7 +4,7 @@ using Microsoft.Xna.Framework.Graphics;
 
 namespace TankGauntlet
 {
-    public static class ActorMananger
+    public static class ActorManager
     {
         public static List<BaseActor> List = new List<BaseActor>();
 
@@ -31,6 +31,10 @@ namespace TankGauntlet
                 if (List[loop].Position == a_BaseActor.Position)
                 {
                     List.Remove(List[loop]);
+                }
+                else
+                {
+                    int q = 5;
                 }
             }
 

@@ -21,6 +21,8 @@ namespace TankGauntlet
         private float m_SpeedMin = 0;
         private float m_SpeedMax = 0;
         private float m_Amount = 0;
+
+        static Random rand = new Random(randSeed++);
         #endregion
 
 
@@ -32,22 +34,22 @@ namespace TankGauntlet
             m_Position = a_Position;
             m_RotationMin = MathHelper.ToRadians(0);
             m_RotationMax = MathHelper.ToRadians(360);
-            m_Amount = 90;
+            m_Amount = 9;
             m_LifeMin = 10.8f;
             m_LifeMax = 20.6f;
             m_Tint = a_Tint;
             m_SpeedMin = 0.1f;
-            m_SpeedMax = 0.8f;
+            m_SpeedMax = 2.8f;
 
             for (int loop = 0; loop < m_Amount; loop++)
             {
-                float tempRotation = (float)(new Random(EmitterManager.List.Count + loop + randSeed++).NextDouble() * (m_RotationMax - m_RotationMin));
+                float tempRotation = (float)(rand.NextDouble() * (m_RotationMax - m_RotationMin));
                 tempRotation += m_RotationMin;
 
-                float tempLife = (float)(new Random(EmitterManager.List.Count + loop + randSeed++).NextDouble() * (m_LifeMax - m_LifeMin));
+                float tempLife = (float)(rand.NextDouble() * (m_LifeMax - m_LifeMin));
                 tempLife += m_LifeMin;
 
-                float tempSpeed = (float)(new Random(EmitterManager.List.Count + loop + randSeed++).NextDouble() * (m_SpeedMax - m_SpeedMin));
+                float tempSpeed = (float)(rand.NextDouble() * (m_SpeedMax - m_SpeedMin));
                 tempSpeed += m_SpeedMin;
 
                 Particle tempParticle = new Particle(this);

@@ -6,27 +6,33 @@ namespace TankGauntlet
 {
     public class BaseActor
     {
+        protected Rectangle ScreenDimensions = new Rectangle(0, 0, 800, 480);
+        protected Vector2 HalfDimensions = new Vector2(400, 240);
+        protected Vector2 QuarterDimensions = new Vector2(200, 120);
+        protected Vector2 EigthDimensions = new Vector2(100, 60);
+
         #region Data
 
-        protected string m_FilePathToModel;
-        public string FilePathToModel
+        protected string m_FilePathToTexture;
+        public string FilePathToTexture
         {
-            get { return m_FilePathToModel; }
-            set { m_FilePathToModel = value; }
+            get { return m_FilePathToTexture; }
+            set { m_FilePathToTexture = value; }
         }
 
-      /*  [ContentSerializerIgnore]
-        protected Texture2D m_Texture2D;
-        public virtual Texture2D Texture2D
-        {
-            get { return m_Texture2D; }
-        }*/
         protected bool m_IsCollidable;
         public bool IsCollidable
         {
             get { return m_IsCollidable; }
             set { m_IsCollidable = value; }
         }
+        protected bool m_IsDestructable;
+        public bool IsDestructable
+        {
+            get { return m_IsDestructable; }
+            set { m_IsDestructable = value; }
+        }
+
         protected Vector2 m_Position;
         public virtual Vector2 Position
         {
@@ -99,30 +105,32 @@ namespace TankGauntlet
         {
             m_Position = Vector2.Zero;
             m_IsCollidable = false;
+            m_IsDestructable = false;
             m_Color = Color.White;
             m_Rotation = 0;
             m_Scale = 1.0f;
             m_LayerDepth = 1.0f;
             m_SpriteEffects = SpriteEffects.None;
-        }
-
-        protected virtual void Initialize()
-        {
-            m_Origin = new Vector2(File.ContentManager.Load<Texture2D>(m_FilePathToModel).Width / 2.0f, File.ContentManager.Load<Texture2D>(m_FilePathToModel).Height / 2.0f);
-            m_SourceRectangle = new Rectangle(0, 0, File.ContentManager.Load<Texture2D>(m_FilePathToModel).Width, File.ContentManager.Load<Texture2D>(m_FilePathToModel).Height);
+            m_Origin = new Vector2(32, 32);
+            m_SourceRectangle = new Rectangle(0, 0, 64, 64);
         }
 
         public virtual void Update(GameTime a_GameTime)
         {
-            /* if (CollisionRectangle.Contains(new Point((int)Input.Gesture.Position.X, (int)Input.Gesture.Position.Y)))
-             {
-                 Manager.ActorList.Remove(this);
-             }*/
+#if WINDOWS
+            if (Input.MouseRightDrag)
+            {
+                if (CollisionRectangle.Contains(new Point((int)(Input.MousePosition.X - Camera.Position.X), (int)(Input.MousePosition.Y - Camera.Position.Y))))
+                {
+                    ActorManager.List.Remove(this);
+                }
+            }
+#endif
         }
 
         public virtual void Draw(SpriteBatch a_SpriteBatch)
         {
-            a_SpriteBatch.Draw(File.ContentManager.Load<Texture2D>(m_FilePathToModel), Position, SourceRectangle, Color, Rotation, Origin, Scale, SpriteEffects, LayerDepth);
+            a_SpriteBatch.Draw(File.ContentManager.Load<Texture2D>(m_FilePathToTexture), Position, SourceRectangle, Color, Rotation, Origin, Scale, SpriteEffects, LayerDepth);
         }
     }
 }

@@ -20,7 +20,7 @@ namespace TankGauntlet
 
         public static void Initiailize()
         {
-            TouchPanel.EnabledGestures = GestureType.Tap | GestureType.FreeDrag | GestureType.DragComplete;
+            TouchPanel.EnabledGestures = GestureType.Tap | GestureType.FreeDrag | GestureType.Hold;
         }
 
 #if !Windows
@@ -92,6 +92,16 @@ namespace TankGauntlet
             }
 
             CurrentTouchCollection = TouchPanel.GetState();
+
+
+                    if (CurrentTouchCollection.Count > 0)
+                    {
+                        while (TouchPanel.IsGestureAvailable)
+                        {
+                            TouchPanel.ReadGesture();
+                        }
+                    }
+
 
 #if !Windows
             m_LastKeyboardState = m_CurrentKeyboardState;
