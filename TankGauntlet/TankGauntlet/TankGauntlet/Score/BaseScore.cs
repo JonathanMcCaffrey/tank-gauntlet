@@ -32,7 +32,14 @@ namespace TankGauntlet
             m_Amount = a_Amount;
             m_Color = a_Color;
 
-            m_Text = "+" + m_Amount.ToString();
+            if (m_Amount >= 0)
+            {
+                m_Text = "+" + m_Amount.ToString();
+            }
+            else
+            {
+                m_Text = "-" + m_Amount.ToString();
+            }
         }
 
         float timer = 0;

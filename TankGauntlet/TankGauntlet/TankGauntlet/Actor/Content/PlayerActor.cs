@@ -52,7 +52,7 @@ namespace TankGauntlet
 
             if (Input.Gesture.GestureType == GestureType.FreeDrag || Input.Gesture.GestureType ==  GestureType.Hold)
             {
-                if (Distance(Input.Gesture.Position - Camera.Position, m_Position) > 100)
+                if (File.Distance(Input.Gesture.Position - Camera.Position, m_Position) > 100)
                 {
                     Vector2 velocity = Vector2.Normalize(Input.Gesture.Position - Camera.Position - m_Position) * 15.0f * elapsed;
 
@@ -80,12 +80,6 @@ namespace TankGauntlet
 
         }
 
-        public float Distance(Vector2 a_Position, Vector2 a_Desination)
-        {
-            return (float) Math.Sqrt((a_Position.X - a_Desination.X) * (a_Position.X - a_Desination.X) + 
-                    (a_Position.Y - a_Desination.Y) * (a_Position.Y - a_Desination.Y));
-
-        }
 
         public override void Draw(SpriteBatch a_SpriteBatch)
         {

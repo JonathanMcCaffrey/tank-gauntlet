@@ -18,7 +18,17 @@ Content\Sprite\Tile_CopperWall.xnb
 Content\Sprite\Tile_CopperFloor.xnb
 Content\Sprite\Tile_RockFloor.xnb
 Content\Sprite\Tile_RockWall.xnb
+Content\Sprite\Area_Finish.xnb
+Content\Sprite\Area_Start.xnb
+Content\Sprite\Turret_Base.xnb
+Content\Sprite\Turret_Gun.xnb
+Content\Sprite\Turret_Destroyed.xnb
 Content\Font\Debug.xnb
 Content\Font\Score.xnb
 Content\Font\ScoreMain.xnb
+Content\Audio\Song.xnb
+Content\Audio\Boom.xnb
+Content\Level\2.xnb
 Content\Level\1.xnb
+Content\Level\3.xnb
+Content\Audio\Song.wma

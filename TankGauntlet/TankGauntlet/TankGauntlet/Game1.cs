@@ -76,6 +76,12 @@ namespace TankGauntlet
                     ActorManager.List.Add(new BallActor(temp.Position, (int)temp.BallType));
                 }
 
+            if (tempList[loop] is Data.TurretActor)
+                    {
+                        Data.TurretActor temp = (Data.TurretActor)tempList[loop];
+                        ActorManager.List.Add(new TurretActor(temp.Position, (int)temp.TurretType));
+                    }
+
                 if (tempList[loop] is Data.AreaActor)
                 {
                     Data.AreaActor temp = (Data.AreaActor)tempList[loop];
@@ -123,6 +129,12 @@ namespace TankGauntlet
                         ActorManager.List.Add(new BallActor(temp.Position, (int)temp.BallType));
                     }
 
+                    if (tempList[loop] is Data.TurretActor)
+                    {
+                        Data.TurretActor temp = (Data.TurretActor)tempList[loop];
+                        ActorManager.List.Add(new TurretActor(temp.Position, (int)temp.TurretType));
+                    }
+
                     if (tempList[loop] is Data.AreaActor)
                     {
                         Data.AreaActor temp = (Data.AreaActor)tempList[loop];
@@ -137,6 +149,7 @@ namespace TankGauntlet
                 }
 
                 ActorManager.List.Add(File.Player);
+                CollisionManager.ActorList.Add(File.Player);
                 File.Player.Position = playerPosition;
                 File.Player.OldPosition = playerPosition;
             }
@@ -160,7 +173,7 @@ namespace TankGauntlet
                 {
                     MediaPlayer.Play(Audio.Song);
                     MediaPlayer.IsRepeating = true;
-                    MediaPlayer.Volume = 0.2f;
+                    MediaPlayer.Volume = 0.1f;
 
                     m_IsGameStarted = true;
                 }
@@ -221,6 +234,10 @@ namespace TankGauntlet
                 {
                     selectedTile = new BallActor(Input.MousePosition - Camera.Position, (int)BallType.Bomb);
                 }
+                if (Input.SingleKeyPressInput(Microsoft.Xna.Framework.Input.Keys.Y))
+                {
+                    selectedTile = new TurretActor(Input.MousePosition - Camera.Position, (int)TurretType.Standard);
+                }
 
                 if (selectedTile != null)
                 {
@@ -237,6 +254,12 @@ namespace TankGauntlet
                 {
                     ActorManager.SafeAdd(((BallActor)selectedTile).Clone());
                 }
+
+                if (selectedTile is TurretActor && Input.MouseLeftPressed)
+                {
+                    ActorManager.SafeAdd(((TurretActor)selectedTile).Clone());
+                }
+
 
                 if (selectedTile is AreaActor && Input.MouseLeftPressed)
                 {
@@ -270,6 +293,13 @@ namespace TankGauntlet
                             List.Add(temp);
                         }
 
+                        if (ActorManager.List[loop] is TurretActor)
+                        {
+                            TurretActor data = (TurretActor)ActorManager.List[loop];
+                            Data.TurretActor temp = new Data.TurretActor(data.Position, (int)data.TurretType);
+                            List.Add(temp);
+                        }
+                        
                         if (ActorManager.List[loop] is AreaActor)
                         {
                             AreaActor data = (AreaActor)ActorManager.List[loop];
@@ -312,6 +342,12 @@ namespace TankGauntlet
                         {
                             Data.BallActor temp = (Data.BallActor)tempList[loop];
                             ActorManager.List.Add(new BallActor(temp.Position, (int)temp.BallType));
+                        }
+
+                        if (tempList[loop] is Data.TurretActor)
+                        {
+                            Data.TurretActor temp = (Data.TurretActor)tempList[loop];
+                            ActorManager.List.Add(new TurretActor(temp.Position, (int)temp.TurretType));
                         }
 
                         if (tempList[loop] is Data.AreaActor)

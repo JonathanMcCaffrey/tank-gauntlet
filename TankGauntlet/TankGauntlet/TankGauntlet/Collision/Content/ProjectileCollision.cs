@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
+using Microsoft.Xna.Framework.Media;
+using Microsoft.Xna.Framework.Audio;
 
 namespace TankGauntlet
 {
@@ -55,13 +57,6 @@ namespace TankGauntlet
                     {
                         if (m_ActorList[loop].IsDestructable)
                         {
-                            if (m_Parent is PlayerActor)
-                            {
-                                if (m_ActorList[loop] is BallActor)
-                                {
-                                    ScoreManager.List.Add(new BaseScore(m_ActorList[loop].Position, 10, Color.Green));
-                                }
-                            }
 
                             EmitterManager.List.Add(new BaseEmitter(Color.Red, m_ActorList[loop].Position));
                             EmitterManager.List.Add(new BaseEmitter(Color.Red, m_Projectile.Position));
@@ -76,17 +71,40 @@ namespace TankGauntlet
                                 m_ActorList[loop].IsCollidable = false;
                                 m_ActorList[loop].IsDestructable = false;
                             }
-                            else
+                            else if (m_ActorList[loop] is TurretActor)
                             {
+                                if (m_Parent is PlayerActor)
+                                {
+                                    ScoreManager.List.Add(new BaseScore(m_ActorList[loop].Position, 45, Color.Green));
+                                    TurretActor temp = (TurretActor)m_ActorList[loop];
+                                    WeaponManager.List.Remove(temp.Weapon);
+
+                                    m_ActorList[loop].FilePathToTexture = "Sprite/Turret_Destroyed";
+                                    m_ActorList[loop].IsCollidable = false;
+                                    m_ActorList[loop].IsDestructable = false;
+                                }
+                            }
+                            else if (m_ActorList[loop] is BallActor)
+                            {
+                                ScoreManager.List.Add(new BaseScore(m_ActorList[loop].Position, 30, Color.Green));
                                 ActorManager.List.Remove(m_ActorList[loop]);
                             }
-
-                            m_ActorList.Remove(m_ActorList[loop]);
+                            else if (m_ActorList[loop] is PlayerActor)
+                            {
+                                ScoreManager.List.Add(new BaseScore(m_ActorList[loop].Position, -10, Color.Red));
+                            }
+                            else
+                            {
+                                m_ActorList.Remove(m_ActorList[loop]);
+                            }
                         }
                         else
                         {
                             EmitterManager.List.Add(new BaseEmitter(Color.Orange, m_Projectile.Position));
                         }
+
+                        /*  SoundEffect temp = File.ContentManager.Load<SoundEffect>("Audio/Boom");
+                          temp.Play(0.8f, 0, 0);*/
 
                         CollisionManager.ProjectileList.Remove(m_Projectile);
                         ProjectileManager.List.Remove(m_Projectile);

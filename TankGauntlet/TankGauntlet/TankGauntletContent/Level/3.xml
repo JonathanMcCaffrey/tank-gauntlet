@@ -1,0 +1,3349 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Generic="System.Collections.Generic">
+  <Asset Type="Generic:List[Data.BaseActor]">
+    <Item Type="Data.AreaActor">
+      <FilePathToTexture>Sprite/Area_Start</FilePathToTexture>
+      <IsCollidable>false</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>384 384</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>92 92</Origin>
+      <SourceRectangle>0 0 192 192</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+      <AreaType>Start</AreaType>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_Metal</FilePathToTexture>
+      <IsCollidable>true</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>256 320</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_Metal</FilePathToTexture>
+      <IsCollidable>true</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>256 384</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_Metal</FilePathToTexture>
+      <IsCollidable>true</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>256 448</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_Metal</FilePathToTexture>
+      <IsCollidable>true</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>256 512</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_Metal</FilePathToTexture>
+      <IsCollidable>true</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>320 512</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_Metal</FilePathToTexture>
+      <IsCollidable>true</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>384 512</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_Metal</FilePathToTexture>
+      <IsCollidable>true</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>448 512</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_Metal</FilePathToTexture>
+      <IsCollidable>true</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>512 512</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_Metal</FilePathToTexture>
+      <IsCollidable>true</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>512 448</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_Metal</FilePathToTexture>
+      <IsCollidable>true</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>512 384</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_Metal</FilePathToTexture>
+      <IsCollidable>true</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>512 320</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_Metal</FilePathToTexture>
+      <IsCollidable>true</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>512 256</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_Copper</FilePathToTexture>
+      <IsCollidable>true</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>256 256</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_Copper</FilePathToTexture>
+      <IsCollidable>true</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>256 192</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_CopperWall</FilePathToTexture>
+      <IsCollidable>true</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>256 128</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_Copper</FilePathToTexture>
+      <IsCollidable>true</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>256 64</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_Copper</FilePathToTexture>
+      <IsCollidable>true</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>256 0</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_Copper</FilePathToTexture>
+      <IsCollidable>true</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>320 0</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_Metal</FilePathToTexture>
+      <IsCollidable>true</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>512 192</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_Metal</FilePathToTexture>
+      <IsCollidable>true</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>320 -64</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_Metal</FilePathToTexture>
+      <IsCollidable>true</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>384 -64</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_Metal</FilePathToTexture>
+      <IsCollidable>true</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>448 -64</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_Metal</FilePathToTexture>
+      <IsCollidable>true</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>512 -64</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_Metal</FilePathToTexture>
+      <IsCollidable>true</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>576 -64</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_CopperFloor</FilePathToTexture>
+      <IsCollidable>false</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>384 256</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_CopperFloor</FilePathToTexture>
+      <IsCollidable>false</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>320 256</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_CopperFloor</FilePathToTexture>
+      <IsCollidable>false</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>320 192</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_CopperFloor</FilePathToTexture>
+      <IsCollidable>false</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>320 128</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_MetalFloor</FilePathToTexture>
+      <IsCollidable>false</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>448 256</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_MetalFloor</FilePathToTexture>
+      <IsCollidable>false</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>448 192</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_MetalFloor</FilePathToTexture>
+      <IsCollidable>false</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>384 128</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_MetalFloor</FilePathToTexture>
+      <IsCollidable>false</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>384 64</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_MetalFloor</FilePathToTexture>
+      <IsCollidable>false</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>320 64</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_MetalFloor</FilePathToTexture>
+      <IsCollidable>false</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>384 192</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_MetalFloor</FilePathToTexture>
+      <IsCollidable>false</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>448 128</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_MetalFloor</FilePathToTexture>
+      <IsCollidable>false</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>448 64</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_MetalFloor</FilePathToTexture>
+      <IsCollidable>false</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>384 0</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_MetalFloor</FilePathToTexture>
+      <IsCollidable>false</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>448 0</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_MetalFloor</FilePathToTexture>
+      <IsCollidable>false</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>512 64</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_MetalFloor</FilePathToTexture>
+      <IsCollidable>false</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>512 128</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_MetalFloor</FilePathToTexture>
+      <IsCollidable>false</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>576 64</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_MetalFloor</FilePathToTexture>
+      <IsCollidable>false</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>576 0</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_MetalFloor</FilePathToTexture>
+      <IsCollidable>false</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>512 0</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_MetalWall</FilePathToTexture>
+      <IsCollidable>true</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>640 -64</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_MetalWall</FilePathToTexture>
+      <IsCollidable>true</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>576 192</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_CopperFloor</FilePathToTexture>
+      <IsCollidable>false</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>576 128</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_CopperFloor</FilePathToTexture>
+      <IsCollidable>false</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>640 128</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_CopperFloor</FilePathToTexture>
+      <IsCollidable>false</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>640 64</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_CopperFloor</FilePathToTexture>
+      <IsCollidable>false</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>640 0</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_CopperWall</FilePathToTexture>
+      <IsCollidable>true</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>704 -64</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_Copper</FilePathToTexture>
+      <IsCollidable>true</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>704 0</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_Copper</FilePathToTexture>
+      <IsCollidable>true</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>768 0</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_Copper</FilePathToTexture>
+      <IsCollidable>true</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>640 192</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_Copper</FilePathToTexture>
+      <IsCollidable>true</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>640 256</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_Copper</FilePathToTexture>
+      <IsCollidable>true</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>640 320</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_Copper</FilePathToTexture>
+      <IsCollidable>true</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>704 320</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_Copper</FilePathToTexture>
+      <IsCollidable>true</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>768 320</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_CopperWall</FilePathToTexture>
+      <IsCollidable>true</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>832 320</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_MetalWall</FilePathToTexture>
+      <IsCollidable>true</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>832 0</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_CopperFloor</FilePathToTexture>
+      <IsCollidable>false</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>704 256</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_CopperFloor</FilePathToTexture>
+      <IsCollidable>false</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>704 192</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_CopperFloor</FilePathToTexture>
+      <IsCollidable>false</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>704 128</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_CopperFloor</FilePathToTexture>
+      <IsCollidable>false</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>704 64</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_CopperFloor</FilePathToTexture>
+      <IsCollidable>false</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>768 128</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_CopperFloor</FilePathToTexture>
+      <IsCollidable>false</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>832 256</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_CopperFloor</FilePathToTexture>
+      <IsCollidable>false</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>768 256</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_CopperFloor</FilePathToTexture>
+      <IsCollidable>false</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>768 192</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_CopperFloor</FilePathToTexture>
+      <IsCollidable>false</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>832 192</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_CopperFloor</FilePathToTexture>
+      <IsCollidable>false</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>896 256</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_CopperFloor</FilePathToTexture>
+      <IsCollidable>false</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>896 192</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_CopperFloor</FilePathToTexture>
+      <IsCollidable>false</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>896 64</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_CopperFloor</FilePathToTexture>
+      <IsCollidable>false</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>960 64</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_CopperFloor</FilePathToTexture>
+      <IsCollidable>false</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>960 128</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_CopperFloor</FilePathToTexture>
+      <IsCollidable>false</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>960 256</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_CopperFloor</FilePathToTexture>
+      <IsCollidable>false</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>832 64</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_CopperFloor</FilePathToTexture>
+      <IsCollidable>false</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>768 64</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_CopperFloor</FilePathToTexture>
+      <IsCollidable>false</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>832 128</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_CopperFloor</FilePathToTexture>
+      <IsCollidable>false</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>896 128</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TurretActor">
+      <FilePathToTexture>Sprite/Turret_Base</FilePathToTexture>
+      <IsCollidable>true</IsCollidable>
+      <IsDestructable>true</IsDestructable>
+      <Position>960 192</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+      <TurretType>Standard</TurretType>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_Copper</FilePathToTexture>
+      <IsCollidable>true</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>896 0</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_Copper</FilePathToTexture>
+      <IsCollidable>true</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>960 0</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_Copper</FilePathToTexture>
+      <IsCollidable>true</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>1024 0</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_Copper</FilePathToTexture>
+      <IsCollidable>true</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>1088 0</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_Copper</FilePathToTexture>
+      <IsCollidable>true</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>1088 64</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_Copper</FilePathToTexture>
+      <IsCollidable>true</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>1088 128</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_Copper</FilePathToTexture>
+      <IsCollidable>true</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>1088 192</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_Copper</FilePathToTexture>
+      <IsCollidable>true</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>1088 256</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_Copper</FilePathToTexture>
+      <IsCollidable>true</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>1088 320</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_CopperFloor</FilePathToTexture>
+      <IsCollidable>false</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>1024 64</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_CopperFloor</FilePathToTexture>
+      <IsCollidable>false</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>1024 128</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_CopperFloor</FilePathToTexture>
+      <IsCollidable>false</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>1024 192</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_CopperFloor</FilePathToTexture>
+      <IsCollidable>false</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>1024 256</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_RockWall</FilePathToTexture>
+      <IsCollidable>true</IsCollidable>
+      <IsDestructable>true</IsDestructable>
+      <Position>1024 320</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_RockWall</FilePathToTexture>
+      <IsCollidable>true</IsCollidable>
+      <IsDestructable>true</IsDestructable>
+      <Position>960 320</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_RockWall</FilePathToTexture>
+      <IsCollidable>true</IsCollidable>
+      <IsDestructable>true</IsDestructable>
+      <Position>896 320</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_Copper</FilePathToTexture>
+      <IsCollidable>true</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>1088 384</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_Copper</FilePathToTexture>
+      <IsCollidable>true</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>1088 448</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_Copper</FilePathToTexture>
+      <IsCollidable>true</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>1088 512</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_Copper</FilePathToTexture>
+      <IsCollidable>true</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>1088 576</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_Copper</FilePathToTexture>
+      <IsCollidable>true</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>640 384</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_Copper</FilePathToTexture>
+      <IsCollidable>true</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>640 448</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_Copper</FilePathToTexture>
+      <IsCollidable>true</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>640 512</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_Copper</FilePathToTexture>
+      <IsCollidable>true</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>640 576</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_Copper</FilePathToTexture>
+      <IsCollidable>true</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>640 640</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_Copper</FilePathToTexture>
+      <IsCollidable>true</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>1088 640</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_CopperFloor</FilePathToTexture>
+      <IsCollidable>false</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>704 384</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_CopperFloor</FilePathToTexture>
+      <IsCollidable>false</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>768 384</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_CopperFloor</FilePathToTexture>
+      <IsCollidable>false</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>896 448</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_CopperFloor</FilePathToTexture>
+      <IsCollidable>false</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>960 448</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_CopperFloor</FilePathToTexture>
+      <IsCollidable>false</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>1024 448</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_CopperFloor</FilePathToTexture>
+      <IsCollidable>false</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>1024 384</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_CopperFloor</FilePathToTexture>
+      <IsCollidable>false</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>960 384</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_CopperFloor</FilePathToTexture>
+      <IsCollidable>false</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>896 384</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_CopperFloor</FilePathToTexture>
+      <IsCollidable>false</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>832 384</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_CopperFloor</FilePathToTexture>
+      <IsCollidable>false</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>832 448</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_CopperFloor</FilePathToTexture>
+      <IsCollidable>false</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>768 448</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_CopperFloor</FilePathToTexture>
+      <IsCollidable>false</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>704 448</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_CopperFloor</FilePathToTexture>
+      <IsCollidable>false</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>704 512</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_CopperFloor</FilePathToTexture>
+      <IsCollidable>false</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>704 576</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_CopperFloor</FilePathToTexture>
+      <IsCollidable>false</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>704 640</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_CopperFloor</FilePathToTexture>
+      <IsCollidable>false</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>768 512</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_CopperFloor</FilePathToTexture>
+      <IsCollidable>false</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>896 512</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_CopperFloor</FilePathToTexture>
+      <IsCollidable>false</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>1024 640</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_CopperFloor</FilePathToTexture>
+      <IsCollidable>false</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>1024 576</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_CopperFloor</FilePathToTexture>
+      <IsCollidable>false</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>1024 512</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_CopperFloor</FilePathToTexture>
+      <IsCollidable>false</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>960 512</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_CopperFloor</FilePathToTexture>
+      <IsCollidable>false</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>896 576</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_CopperFloor</FilePathToTexture>
+      <IsCollidable>false</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>832 576</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_CopperFloor</FilePathToTexture>
+      <IsCollidable>false</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>768 640</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_CopperFloor</FilePathToTexture>
+      <IsCollidable>false</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>832 640</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TurretActor">
+      <FilePathToTexture>Sprite/Turret_Base</FilePathToTexture>
+      <IsCollidable>true</IsCollidable>
+      <IsDestructable>true</IsDestructable>
+      <Position>768 576</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+      <TurretType>Standard</TurretType>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_CopperFloor</FilePathToTexture>
+      <IsCollidable>false</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>832 512</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TurretActor">
+      <FilePathToTexture>Sprite/Turret_Base</FilePathToTexture>
+      <IsCollidable>true</IsCollidable>
+      <IsDestructable>true</IsDestructable>
+      <Position>960 576</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+      <TurretType>Standard</TurretType>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_CopperWall</FilePathToTexture>
+      <IsCollidable>true</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>1088 704</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_Copper</FilePathToTexture>
+      <IsCollidable>true</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>1088 768</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_Copper</FilePathToTexture>
+      <IsCollidable>true</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>640 704</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_Copper</FilePathToTexture>
+      <IsCollidable>true</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>640 768</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_Copper</FilePathToTexture>
+      <IsCollidable>true</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>704 768</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_Copper</FilePathToTexture>
+      <IsCollidable>true</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>1024 768</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.AreaActor">
+      <FilePathToTexture>Sprite/Area_Finish</FilePathToTexture>
+      <IsCollidable>false</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>384 768</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>92 92</Origin>
+      <SourceRectangle>0 0 192 192</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+      <AreaType>Finish</AreaType>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_Copper</FilePathToTexture>
+      <IsCollidable>true</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>1024 832</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_Copper</FilePathToTexture>
+      <IsCollidable>true</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>1024 896</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_CopperWall</FilePathToTexture>
+      <IsCollidable>true</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>768 768</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_Copper</FilePathToTexture>
+      <IsCollidable>true</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>768 832</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_RockWall</FilePathToTexture>
+      <IsCollidable>true</IsCollidable>
+      <IsDestructable>true</IsDestructable>
+      <Position>832 768</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_RockWall</FilePathToTexture>
+      <IsCollidable>true</IsCollidable>
+      <IsDestructable>true</IsDestructable>
+      <Position>896 768</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_RockWall</FilePathToTexture>
+      <IsCollidable>true</IsCollidable>
+      <IsDestructable>true</IsDestructable>
+      <Position>960 768</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_Copper</FilePathToTexture>
+      <IsCollidable>true</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>768 896</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_Copper</FilePathToTexture>
+      <IsCollidable>true</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>768 960</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_Copper</FilePathToTexture>
+      <IsCollidable>true</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>256 896</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_Copper</FilePathToTexture>
+      <IsCollidable>true</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>256 832</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_Copper</FilePathToTexture>
+      <IsCollidable>true</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>256 768</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_Copper</FilePathToTexture>
+      <IsCollidable>true</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>256 704</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_Copper</FilePathToTexture>
+      <IsCollidable>true</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>256 640</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_Copper</FilePathToTexture>
+      <IsCollidable>true</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>320 640</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_Copper</FilePathToTexture>
+      <IsCollidable>true</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>384 640</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_Copper</FilePathToTexture>
+      <IsCollidable>true</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>256 960</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_Copper</FilePathToTexture>
+      <IsCollidable>true</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>256 1024</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_Copper</FilePathToTexture>
+      <IsCollidable>true</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>256 1088</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_Copper</FilePathToTexture>
+      <IsCollidable>true</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>256 1152</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_Copper</FilePathToTexture>
+      <IsCollidable>true</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>320 1152</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_Copper</FilePathToTexture>
+      <IsCollidable>true</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>384 1152</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_Copper</FilePathToTexture>
+      <IsCollidable>true</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>448 1152</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_Copper</FilePathToTexture>
+      <IsCollidable>true</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>512 1152</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_Copper</FilePathToTexture>
+      <IsCollidable>true</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>576 1152</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_Copper</FilePathToTexture>
+      <IsCollidable>true</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>640 1152</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_Copper</FilePathToTexture>
+      <IsCollidable>true</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>704 1152</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_Copper</FilePathToTexture>
+      <IsCollidable>true</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>768 1152</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_Copper</FilePathToTexture>
+      <IsCollidable>true</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>832 1152</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_Copper</FilePathToTexture>
+      <IsCollidable>true</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>896 1152</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_Copper</FilePathToTexture>
+      <IsCollidable>true</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>1024 1088</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_Copper</FilePathToTexture>
+      <IsCollidable>true</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>960 1152</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_Copper</FilePathToTexture>
+      <IsCollidable>true</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>1024 1152</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_Copper</FilePathToTexture>
+      <IsCollidable>true</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>1024 960</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_Copper</FilePathToTexture>
+      <IsCollidable>true</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>1024 1024</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_RockWall</FilePathToTexture>
+      <IsCollidable>true</IsCollidable>
+      <IsDestructable>true</IsDestructable>
+      <Position>768 1024</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_RockWall</FilePathToTexture>
+      <IsCollidable>true</IsCollidable>
+      <IsDestructable>true</IsDestructable>
+      <Position>768 1088</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_Metal</FilePathToTexture>
+      <IsCollidable>true</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>704 960</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_Metal</FilePathToTexture>
+      <IsCollidable>true</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>640 960</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_Metal</FilePathToTexture>
+      <IsCollidable>true</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>576 960</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_Metal</FilePathToTexture>
+      <IsCollidable>true</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>512 960</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_Metal</FilePathToTexture>
+      <IsCollidable>true</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>512 896</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_Metal</FilePathToTexture>
+      <IsCollidable>true</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>512 832</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_MetalWall</FilePathToTexture>
+      <IsCollidable>true</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>512 768</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_MetalWall</FilePathToTexture>
+      <IsCollidable>true</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>512 704</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_MetalWall</FilePathToTexture>
+      <IsCollidable>true</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>512 640</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_MetalWall</FilePathToTexture>
+      <IsCollidable>true</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>448 640</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_MetalFloor</FilePathToTexture>
+      <IsCollidable>false</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>704 1024</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_MetalFloor</FilePathToTexture>
+      <IsCollidable>false</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>704 1088</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_MetalFloor</FilePathToTexture>
+      <IsCollidable>false</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>640 1024</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_MetalFloor</FilePathToTexture>
+      <IsCollidable>false</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>576 1024</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_MetalFloor</FilePathToTexture>
+      <IsCollidable>false</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>512 1088</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_MetalFloor</FilePathToTexture>
+      <IsCollidable>false</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>640 1088</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_MetalFloor</FilePathToTexture>
+      <IsCollidable>false</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>576 1088</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_MetalFloor</FilePathToTexture>
+      <IsCollidable>false</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>512 1024</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_MetalFloor</FilePathToTexture>
+      <IsCollidable>false</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>448 1024</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_MetalFloor</FilePathToTexture>
+      <IsCollidable>false</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>384 1024</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_MetalFloor</FilePathToTexture>
+      <IsCollidable>false</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>384 960</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_MetalFloor</FilePathToTexture>
+      <IsCollidable>false</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>448 960</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_MetalFloor</FilePathToTexture>
+      <IsCollidable>false</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>448 896</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_MetalFloor</FilePathToTexture>
+      <IsCollidable>false</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>384 896</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_CopperFloor</FilePathToTexture>
+      <IsCollidable>false</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>448 1088</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_CopperFloor</FilePathToTexture>
+      <IsCollidable>false</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>384 1088</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_CopperFloor</FilePathToTexture>
+      <IsCollidable>false</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>320 1088</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_CopperFloor</FilePathToTexture>
+      <IsCollidable>false</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>320 1024</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_CopperFloor</FilePathToTexture>
+      <IsCollidable>false</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>320 960</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_CopperFloor</FilePathToTexture>
+      <IsCollidable>false</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>320 896</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_CopperFloor</FilePathToTexture>
+      <IsCollidable>false</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>832 832</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_CopperFloor</FilePathToTexture>
+      <IsCollidable>false</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>896 832</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_CopperFloor</FilePathToTexture>
+      <IsCollidable>false</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>960 832</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_CopperFloor</FilePathToTexture>
+      <IsCollidable>false</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>960 896</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_CopperFloor</FilePathToTexture>
+      <IsCollidable>false</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>960 960</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_CopperFloor</FilePathToTexture>
+      <IsCollidable>false</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>960 1024</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_CopperFloor</FilePathToTexture>
+      <IsCollidable>false</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>960 1088</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_CopperFloor</FilePathToTexture>
+      <IsCollidable>false</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>896 1088</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_CopperFloor</FilePathToTexture>
+      <IsCollidable>false</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>896 1024</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_CopperFloor</FilePathToTexture>
+      <IsCollidable>false</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>832 896</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_CopperFloor</FilePathToTexture>
+      <IsCollidable>false</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>832 960</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_CopperFloor</FilePathToTexture>
+      <IsCollidable>false</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>832 1088</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_CopperFloor</FilePathToTexture>
+      <IsCollidable>false</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>832 1024</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_CopperFloor</FilePathToTexture>
+      <IsCollidable>false</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>896 960</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_CopperFloor</FilePathToTexture>
+      <IsCollidable>false</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>896 896</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.BallActor">
+      <FilePathToTexture>Sprite/Ball_Bomb</FilePathToTexture>
+      <IsCollidable>true</IsCollidable>
+      <IsDestructable>true</IsDestructable>
+      <Position>849 875</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+      <BallType>Bomb</BallType>
+    </Item>
+    <Item Type="Data.BallActor">
+      <FilePathToTexture>Sprite/Ball_Bomb</FilePathToTexture>
+      <IsCollidable>true</IsCollidable>
+      <IsDestructable>true</IsDestructable>
+      <Position>946 920</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+      <BallType>Bomb</BallType>
+    </Item>
+    <Item Type="Data.BallActor">
+      <FilePathToTexture>Sprite/Ball_Bomb</FilePathToTexture>
+      <IsCollidable>true</IsCollidable>
+      <IsDestructable>true</IsDestructable>
+      <Position>862 1017</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+      <BallType>Bomb</BallType>
+    </Item>
+    <Item Type="Data.BallActor">
+      <FilePathToTexture>Sprite/Ball_Bomb</FilePathToTexture>
+      <IsCollidable>true</IsCollidable>
+      <IsDestructable>true</IsDestructable>
+      <Position>943 1073</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+      <BallType>Bomb</BallType>
+    </Item>
+    <Item Type="Data.BallActor">
+      <FilePathToTexture>Sprite/Ball_Bomb</FilePathToTexture>
+      <IsCollidable>true</IsCollidable>
+      <IsDestructable>true</IsDestructable>
+      <Position>747 432</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+      <BallType>Bomb</BallType>
+    </Item>
+    <Item Type="Data.BallActor">
+      <FilePathToTexture>Sprite/Ball_Bomb</FilePathToTexture>
+      <IsCollidable>true</IsCollidable>
+      <IsDestructable>true</IsDestructable>
+      <Position>873 500</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+      <BallType>Bomb</BallType>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_CopperFloor</FilePathToTexture>
+      <IsCollidable>false</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>960 704</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_CopperFloor</FilePathToTexture>
+      <IsCollidable>false</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>1024 704</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_CopperFloor</FilePathToTexture>
+      <IsCollidable>false</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>704 704</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_CopperFloor</FilePathToTexture>
+      <IsCollidable>false</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>768 704</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_CopperFloor</FilePathToTexture>
+      <IsCollidable>false</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>832 704</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_CopperFloor</FilePathToTexture>
+      <IsCollidable>false</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>896 704</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_CopperFloor</FilePathToTexture>
+      <IsCollidable>false</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>896 640</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.TileActor">
+      <FilePathToTexture>Sprite/Tile_CopperFloor</FilePathToTexture>
+      <IsCollidable>false</IsCollidable>
+      <IsDestructable>false</IsDestructable>
+      <Position>960 640</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+    </Item>
+    <Item Type="Data.BallActor">
+      <FilePathToTexture>Sprite/Ball_Bomb</FilePathToTexture>
+      <IsCollidable>true</IsCollidable>
+      <IsDestructable>true</IsDestructable>
+      <Position>921 673</Position>
+      <OldPosition>0 0</OldPosition>
+      <Origin>32 32</Origin>
+      <SourceRectangle>0 0 64 64</SourceRectangle>
+      <Color>FFFFFFFF</Color>
+      <Rotation>0</Rotation>
+      <Scale>1</Scale>
+      <LayerDepth>1</LayerDepth>
+      <SpriteEffects>None</SpriteEffects>
+      <BallType>Bomb</BallType>
+    </Item>
+  </Asset>
+</XnaContent>

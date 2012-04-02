@@ -11,15 +11,15 @@ namespace TankGauntlet
 {
     public class BaseWeapon
     {
-        private float m_Rotation = 0;
+        protected float m_Rotation = 0;
 
-        private Texture2D m_Texture2D;
-        protected Texture2D Texture2D
+        protected Texture2D m_Texture2D;
+        public Texture2D Texture2D
         {
             get { return m_Texture2D; }
         }
-        private BaseActor m_Parent;
-        protected BaseActor Parent
+        protected BaseActor m_Parent;
+        public BaseActor Parent
         {
             get { return m_Parent; }
         }
@@ -41,10 +41,9 @@ namespace TankGauntlet
                     ActorManager.List.Add(new LockOnActor("Sprite/LockOn_Bullet", Input.CurrentTouchCollection[0].Position - Camera.Position));
 
                     Vector2 direction = Input.CurrentTouchCollection[0].Position - Parent.Position - Camera.Position;
-                        m_Rotation = (float)Math.Atan2(direction.X, -direction.Y);
+                    m_Rotation = (float)Math.Atan2(direction.X, -direction.Y);
 
-                        ProjectileManager.List.Add(new BaseProjectile(File.ContentManager.Load<Texture2D>("Sprite/Projectile_Bullet"), m_Parent, m_Parent.Position, m_Rotation));
-          
+                    ProjectileManager.List.Add(new BaseProjectile(File.ContentManager.Load<Texture2D>("Sprite/Projectile_Bullet"), m_Parent, m_Parent.Position, m_Rotation));
                 }
             }
         }

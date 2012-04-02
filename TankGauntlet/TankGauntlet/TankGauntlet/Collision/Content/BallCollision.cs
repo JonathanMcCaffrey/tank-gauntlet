@@ -14,6 +14,8 @@ namespace TankGauntlet
         public BallCollision(BallActor a_Actor)
         {
             m_Actor = a_Actor;
+            m_CheckMaxDisplacement = 25;
+            m_UpdateMaxDisplacement = 25;
             UpdateCollision();
         }
 

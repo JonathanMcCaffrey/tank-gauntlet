@@ -99,7 +99,7 @@ namespace TankGauntlet
 
             m_Color = Color.White;
             m_Rotation = 0;
-            m_Scale = 1.0f;
+            m_Scale = 0.6f;
             m_LayerDepth = 1.0f;
             m_SpriteEffects = SpriteEffects.None;
 
@@ -125,7 +125,7 @@ namespace TankGauntlet
 
         public virtual void Draw(SpriteBatch a_SpriteBatch)
         {
-            a_SpriteBatch.Draw(Texture2D, Position, SourceRectangle, Color, m_Direction, Origin, Scale, SpriteEffects, LayerDepth);
+            a_SpriteBatch.Draw(Texture2D, Position, SourceRectangle, Color, m_Direction + MathHelper.PiOver4, Origin, Scale, SpriteEffects, LayerDepth);
         }
     }
 }
