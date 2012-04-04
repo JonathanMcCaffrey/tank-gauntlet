@@ -12,20 +12,18 @@ namespace TankGauntlet
         #region Fields
         public List<Particle> List = new List<Particle>();
 
-        private Vector2 m_Position = Vector2.Zero;
-        private float m_RotationMin = 0;
-        private float m_RotationMax = 0;
-        private float m_LifeMin = 0;
-        private float m_LifeMax = 0;
-        private Color m_Tint = Color.White;
-        private float m_SpeedMin = 0;
-        private float m_SpeedMax = 0;
-        private float m_Amount = 0;
+        protected Vector2 m_Position = Vector2.Zero;
+        protected float m_RotationMin = 0;
+        protected float m_RotationMax = 0;
+        protected float m_LifeMin = 0;
+        protected float m_LifeMax = 0;
+        protected Color m_Tint = Color.White;
+        protected float m_SpeedMin = 0;
+        protected float m_SpeedMax = 0;
+        protected float m_Amount = 0;
 
         static Random rand = new Random(randSeed++);
         #endregion
-
-
 
         #region Construction
         static int randSeed = 0;
@@ -41,6 +39,13 @@ namespace TankGauntlet
             m_SpeedMin = 0.1f;
             m_SpeedMax = 2.8f;
 
+            Initialize();
+
+            EmitterManager.List.Add(this);
+        }
+
+        protected void Initialize()
+        {
             for (int loop = 0; loop < m_Amount; loop++)
             {
                 float tempRotation = (float)(rand.NextDouble() * (m_RotationMax - m_RotationMin));
@@ -57,15 +62,14 @@ namespace TankGauntlet
                 tempParticle.LifeTotal = tempLife;
                 tempParticle.Rotation = tempRotation;
                 tempParticle.Speed = tempSpeed;
-                
+
                 tempParticle.Tint = m_Tint;
-                tempParticle.Position = a_Position;
+                tempParticle.Position = m_Position;
 
                 List.Add(tempParticle);
-            }
-
-            EmitterManager.List.Add(this);
+            }  
         }
+
         #endregion
 
         #region Methods

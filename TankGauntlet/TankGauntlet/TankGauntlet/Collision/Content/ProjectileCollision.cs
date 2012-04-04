@@ -51,7 +51,7 @@ namespace TankGauntlet
         {
             for (int loop = 0; loop < m_ActorList.Count; loop++)
             {
-                if (m_ActorList[loop].CollisionRectangle.Intersects(m_Projectile.CollisionRectangle))
+                if (File.Distance(m_ActorList[loop].Position, m_Projectile.Position) < 64)
                 {
                     if (m_ActorList[loop] != m_Parent)
                     {
@@ -61,8 +61,10 @@ namespace TankGauntlet
                             EmitterManager.List.Add(new BaseEmitter(Color.Red, m_ActorList[loop].Position));
                             EmitterManager.List.Add(new BaseEmitter(Color.Red, m_Projectile.Position));
 
-                            CollisionManager.ActorList.Remove(m_ActorList[loop]);
-
+                            if (!(m_ActorList[loop] is PlayerActor))
+                            {
+                                CollisionManager.ActorList.Remove(m_ActorList[loop]);
+                            }
 
                             if (m_ActorList[loop] is TileActor)
                             {
@@ -91,7 +93,8 @@ namespace TankGauntlet
                             }
                             else if (m_ActorList[loop] is PlayerActor)
                             {
-                                ScoreManager.List.Add(new BaseScore(m_ActorList[loop].Position, -10, Color.Red));
+                                EmitterManager.List.Add(new BaseEmitter(Color.Red, m_ActorList[loop].Position));
+                                ScoreManager.List.Add(new BaseScore(m_ActorList[loop].Position, -45, Color.Red));
                             }
                             else
                             {

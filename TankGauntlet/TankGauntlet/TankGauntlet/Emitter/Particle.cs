@@ -86,8 +86,6 @@ namespace TankGauntlet
 
         public void Draw(SpriteBatch a_SpriteBatch)
         {
-            m_Tint.A = (Byte)Alpha;
-
             a_SpriteBatch.Draw(EmitterManager.Sprite, Position, m_Rectangle, Tint, 0.0f, m_Origin, 1.0f, SpriteEffects.None, 0.0f);
         }
         #endregion

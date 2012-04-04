@@ -55,7 +55,7 @@ namespace TankGauntlet
         {
             for (int loop = 0; loop < m_ActorList.Count; loop++)
             {
-                if (m_ActorList[loop].CollisionRectangle.Intersects(m_Actor.CollisionRectangle))
+                if (File.Distance(m_ActorList[loop].Position, m_Actor.Position)< 64)
                 {
                     if (m_ActorList[loop] != m_Actor)
                     {

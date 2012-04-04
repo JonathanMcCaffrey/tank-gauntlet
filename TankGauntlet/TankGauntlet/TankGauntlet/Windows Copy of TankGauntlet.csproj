@@ -95,6 +95,7 @@
     <Compile Include="Collision\Content\PlayerCollision.cs" />
     <Compile Include="Collision\Content\ProjectileCollision.cs" />
     <Compile Include="Emitter\BaseEmitter.cs" />
+    <Compile Include="Emitter\Content\ExplsionEmitter.cs" />
     <Compile Include="Emitter\EmitterManager.cs" />
     <Compile Include="Emitter\Particle.cs" />
     <Compile Include="File.cs" />

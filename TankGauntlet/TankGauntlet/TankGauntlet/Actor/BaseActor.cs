@@ -94,11 +94,6 @@ namespace TankGauntlet
             get { return m_SpriteEffects; }
             set { m_SpriteEffects = value; }
         }
-
-        public virtual Rectangle CollisionRectangle
-        {
-            get { return new Rectangle((int)Position.X, (int)Position.Y, SourceRectangle.Width, SourceRectangle.Height); }
-        }
         #endregion
 
         public BaseActor()
@@ -120,7 +115,7 @@ namespace TankGauntlet
 #if WINDOWS
             if (Input.MouseRightDrag)
             {
-                if (CollisionRectangle.Contains(new Point((int)(Input.MousePosition.X - Camera.Position.X), (int)(Input.MousePosition.Y - Camera.Position.Y))))
+                if (File.Distance((Input.MousePosition - Camera.Position), m_Position) < 64)
                 {
                     ActorManager.List.Remove(this);
                 }

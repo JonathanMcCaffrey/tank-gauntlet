@@ -10,6 +10,7 @@ namespace TankGauntlet
     public class BallCollision : BaseCollision
     {
         BallActor m_Actor;
+        static Random rand = new Random();
 
         public BallCollision(BallActor a_Actor)
         {
@@ -48,10 +49,23 @@ namespace TankGauntlet
         {
             for (int loop = 0; loop < m_ActorList.Count; loop++)
             {
-                if (m_ActorList[loop].CollisionRectangle.Intersects(m_Actor.CollisionRectangle))
+                if (File.Distance(m_ActorList[loop].Position, m_Actor.Position) < 64)
                 {
                     if (m_ActorList[loop] != m_Actor)
                     {
+                        if (m_ActorList[loop] is PlayerActor)
+                        {
+                            ScoreManager.List.Add(new BaseScore(m_ActorList[loop].Position, -105, Color.Red));
+
+                            EmitterManager.List.Add(new ExplosionEmitter(Color.Orange, m_ActorList[loop].Position));
+                            EmitterManager.List.Add(new BaseEmitter(Color.Red, m_ActorList[loop].Position));
+                            EmitterManager.List.Add(new ExplosionEmitter(Color.Black, m_ActorList[loop].Position));
+
+                            m_ActorList.Remove(m_Actor);
+                            ActorManager.List.Remove(m_Actor);
+                            CollisionManager.ActorList.Remove(m_Actor);
+                        }
+
                         return true;
                     }
                 }

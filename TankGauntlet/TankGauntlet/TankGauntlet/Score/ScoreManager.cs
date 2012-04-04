@@ -22,6 +22,8 @@ namespace TankGauntlet
             {
                 List[loop].Update(a_GameTime);
             }
+
+       
         }
 
         public static void Draw(SpriteBatch a_SpriteBatch)
@@ -31,7 +33,15 @@ namespace TankGauntlet
                 List[loop].Draw(a_SpriteBatch);
             }
 
-            a_SpriteBatch.DrawString(SpriteFont, "Score: " + Score.ToString(), Position - Camera.Position, Color.Green);
+            if (Score >= 0)
+            {
+                a_SpriteBatch.DrawString(SpriteFont, "Score: " + Score.ToString(), Position - Camera.Position, Color.Green);
+            }
+            else
+            {
+                a_SpriteBatch.DrawString(SpriteFont, "Score: " + Score.ToString(), Position - Camera.Position, Color.Red);
+            }
+           
         }
     }
 }
